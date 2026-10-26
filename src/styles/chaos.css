@@ -1,0 +1,28 @@
+/*
+ * --chaos (0..1) menaikkan "kekacauan" layout per babak.
+ * Semua turunan hanya memakai transform agar tetap di compositor.
+ */
+@layer components {
+  .chaos-panel {
+    --tilt: 1;
+    transform: rotate(calc(var(--chaos) * var(--tilt) * -2.4deg))
+      translate3d(calc(var(--chaos) * var(--tilt) * 6px), 0, 0);
+    transition: transform 0.6s var(--ease-out);
+  }
+
+  .chaos-panel:nth-child(2n) {
+    --tilt: -1.2;
+  }
+
+  .chaos-panel:nth-child(3n) {
+    --tilt: 0.7;
+  }
+
+  .chaos-offset {
+    transform: translate3d(calc(var(--chaos) * -18px), calc(var(--chaos) * 12px), 0);
+  }
+
+  .chaos-border {
+    border-width: calc(var(--border-ink) + var(--chaos) * 2px);
+  }
+}

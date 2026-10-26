@@ -1,0 +1,53 @@
+/*
+ * Design tokens. Satu sumber kebenaran untuk warna, tipografi, jarak, dan easing.
+ * Aturan warna (lihat docs/DESIGN.md):
+ *  - --paper / --ink   : dasar seluruh situs.
+ *  - --blood           : HANYA regenerasi Yugeru & ledakan emosi Shikaku.
+ *  - --crt / --crt-blue: HANYA Babak 5 (tema "tv").
+ */
+:root {
+  --paper-rgb: 239 232 218;
+  --paper-deep-rgb: 226 216 196;
+  --ink-rgb: 20 18 16;
+  --ink-soft-rgb: 74 68 61;
+  --blood-rgb: 179 18 27;
+  --crt-rgb: 92 255 176;
+  --crt-blue-rgb: 127 216 255;
+
+  --paper: rgb(var(--paper-rgb));
+  --paper-deep: rgb(var(--paper-deep-rgb));
+  --ink: rgb(var(--ink-rgb));
+  --ink-soft: rgb(var(--ink-soft-rgb));
+  --blood: rgb(var(--blood-rgb));
+  --crt: rgb(var(--crt-rgb));
+  --crt-blue: rgb(var(--crt-blue-rgb));
+
+  --font-yugeru: 'Cormorant Garamond', 'Playfair Display', Georgia, serif;
+  --font-shikaku: 'Permanent Marker', 'Comic Sans MS', cursive;
+  --font-scrawl: 'Reenie Beanie', 'Permanent Marker', cursive;
+  --font-jp: 'Zen Antique', 'Hiragino Mincho ProN', 'Yu Mincho', serif;
+  --font-jp-heavy: 'Dela Gothic One', 'Hiragino Kaku Gothic ProN', sans-serif;
+  --font-mono: 'IBM Plex Mono', ui-monospace, Consolas, monospace;
+
+  --gutter: clamp(1rem, 3vw, 2.5rem);
+  --panel-gap: clamp(0.5rem, 1.2vw, 1rem);
+  --border-ink: 3px;
+  --nav-h: 4rem;
+
+  --ease-ink: cubic-bezier(0.7, 0, 0.2, 1);
+  --ease-snap: cubic-bezier(0.2, 1.4, 0.3, 1);
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+
+  /* 0 = grid hening yang rapi, 1 = panel miring bertumpuk keluar bingkai */
+  --chaos: 0;
+  /* intensitas emosi 0..1 untuk peta emosi */
+  --mood: 0;
+}
+
+/* Tema "layar TV": hanya diaktifkan saat Babak 5 berada di layar. */
+[data-theme='tv'] {
+  --paper-rgb: 6 12 10;
+  --paper-deep-rgb: 10 22 18;
+  --ink-rgb: 196 255 226;
+  --ink-soft-rgb: 120 190 160;
+}

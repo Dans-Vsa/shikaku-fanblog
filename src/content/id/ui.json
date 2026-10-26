@@ -1,0 +1,91 @@
+{
+  "skip": "Lewati ke konten utama",
+  "brand": "SHIKAKU",
+  "brandSub": "arsip penggemar",
+  "nav": {
+    "home": "Beranda",
+    "read": "Baca",
+    "wiki": "Wiki",
+    "characters": "Karakter",
+    "synopsis": "Sinopsis",
+    "themes": "Tema",
+    "kanji": "Kanji",
+    "production": "Produksi",
+    "glossary": "Glosarium",
+    "anime": "Anime",
+    "fujimoto": "Fujimoto",
+    "community": "Komunitas",
+    "official": "Baca & Tonton Resmi",
+    "credits": "Kredit",
+    "menu": "Menu",
+    "close": "Tutup",
+    "main": "Navigasi utama",
+    "settings": "Pengaturan tampilan"
+  },
+  "toggle": {
+    "lang": "Bahasa",
+    "langSwitch": "Ganti bahasa ke {{lang}}",
+    "spoiler": "Spoiler",
+    "spoilerHidden": "Spoiler disensor",
+    "spoilerShown": "Spoiler terbuka",
+    "spoilerAction": "Sapu tinta sensor: tampilkan atau sembunyikan spoiler di seluruh situs",
+    "sound": "Suara",
+    "soundOn": "Suara aktif",
+    "soundOff": "Suara mati",
+    "soundAction": "Nyalakan atau matikan suara",
+    "motion": "Gerak",
+    "motionFull": "Gerak penuh",
+    "motionReduced": "Gerak dikurangi",
+    "motionAction": "Kurangi animasi berat",
+    "quality": "Kualitas efek"
+  },
+  "tag": {
+    "fact": "FAKTA",
+    "fan": "ANALISIS FANS",
+    "theory": "TEORI FANS",
+    "opinion": "OPINI",
+    "dramatized": "DRAMATISASI",
+    "factHint": "Diverifikasi dari sumber resmi atau kredibel.",
+    "fanHint": "Tafsiran penggemar, bukan pernyataan resmi.",
+    "theoryHint": "Spekulasi penggemar yang belum bisa diverifikasi.",
+    "opinionHint": "Pendapat penulis situs ini.",
+    "dramatizedHint": "Adegan diparafrasekan dan didramatisasi, bukan kutipan."
+  },
+  "spoiler": {
+    "label": "SPOILER",
+    "reveal": "Sapu tinta untuk membaca",
+    "revealAria": "Tampilkan spoiler: {{label}}",
+    "hide": "Tutup lagi",
+    "gateTitle": "Bagian ini membuka akhir cerita",
+    "gateBody": "Mode aman spoiler sedang aktif. Kamu bisa membuka bagian ini saja, atau mematikan sensor di navigasi."
+  },
+  "common": {
+    "readMore": "Selengkapnya",
+    "back": "Kembali",
+    "next": "Lanjut",
+    "prev": "Sebelumnya",
+    "loading": "Menyiapkan tinta…",
+    "sources": "Sumber",
+    "external": "(tautan eksternal)",
+    "copied": "Tersalin",
+    "download": "Unduh",
+    "share": "Bagikan",
+    "close": "Tutup",
+    "flip": "Balik kartu",
+    "scrollHint": "Gulir",
+    "toTop": "Kembali ke atas"
+  },
+  "footer": {
+    "disclaimer": "Situs penggemar non-komersial. Shikaku © Tatsuki Fujimoto / Shueisha. Tidak berafiliasi dengan Shueisha, VIZ Media, Avex Pictures, atau Amazon. Semua ilustrasi di situs ini dibuat sendiri; tidak ada scan panel atau tangkapan layar anime.",
+    "support": "Dukung karya aslinya lewat jalur resmi.",
+    "made": "Dibangun dengan tinta, sinyal TV, dan rasa hormat."
+  },
+  "notFound": {
+    "title": "Target tidak ditemukan",
+    "body": "Halaman ini kabur seperti Shikaku di babak tiga. Mungkin tautannya patah.",
+    "cta": "Kembali ke beranda"
+  },
+  "perf": {
+    "lowered": "Mode performa: efek diturunkan ke {{q}} agar tetap mulus."
+  }
+}

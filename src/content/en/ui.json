@@ -1,0 +1,91 @@
+{
+  "skip": "Skip to main content",
+  "brand": "SHIKAKU",
+  "brandSub": "fan archive",
+  "nav": {
+    "home": "Home",
+    "read": "Read",
+    "wiki": "Wiki",
+    "characters": "Characters",
+    "synopsis": "Synopsis",
+    "themes": "Themes",
+    "kanji": "Kanji",
+    "production": "Production",
+    "glossary": "Glossary",
+    "anime": "Anime",
+    "fujimoto": "Fujimoto",
+    "community": "Community",
+    "official": "Read & Watch Officially",
+    "credits": "Credits",
+    "menu": "Menu",
+    "close": "Close",
+    "main": "Main navigation",
+    "settings": "Display settings"
+  },
+  "toggle": {
+    "lang": "Language",
+    "langSwitch": "Switch language to {{lang}}",
+    "spoiler": "Spoilers",
+    "spoilerHidden": "Spoilers censored",
+    "spoilerShown": "Spoilers visible",
+    "spoilerAction": "Sweep the censor ink: show or hide spoilers across the whole site",
+    "sound": "Sound",
+    "soundOn": "Sound on",
+    "soundOff": "Sound off",
+    "soundAction": "Turn sound on or off",
+    "motion": "Motion",
+    "motionFull": "Full motion",
+    "motionReduced": "Reduced motion",
+    "motionAction": "Reduce heavy animation",
+    "quality": "Effect quality"
+  },
+  "tag": {
+    "fact": "FACT",
+    "fan": "FAN ANALYSIS",
+    "theory": "FAN THEORY",
+    "opinion": "OPINION",
+    "dramatized": "DRAMATIZED",
+    "factHint": "Verified against official or credible sources.",
+    "fanHint": "A fan reading, not an official statement.",
+    "theoryHint": "Fan speculation that cannot be verified.",
+    "opinionHint": "The site author's own opinion.",
+    "dramatizedHint": "Scene paraphrased and dramatized, not quoted."
+  },
+  "spoiler": {
+    "label": "SPOILER",
+    "reveal": "Sweep the ink to read",
+    "revealAria": "Reveal spoiler: {{label}}",
+    "hide": "Cover again",
+    "gateTitle": "This part reveals the ending",
+    "gateBody": "Spoiler-safe mode is on. You can open just this part, or turn the censor off in the navigation."
+  },
+  "common": {
+    "readMore": "Read more",
+    "back": "Back",
+    "next": "Next",
+    "prev": "Previous",
+    "loading": "Mixing the ink…",
+    "sources": "Sources",
+    "external": "(external link)",
+    "copied": "Copied",
+    "download": "Download",
+    "share": "Share",
+    "close": "Close",
+    "flip": "Flip card",
+    "scrollHint": "Scroll",
+    "toTop": "Back to top"
+  },
+  "footer": {
+    "disclaimer": "Non-commercial fan site. Shikaku © Tatsuki Fujimoto / Shueisha. Not affiliated with Shueisha, VIZ Media, Avex Pictures, or Amazon. Every illustration here is original; no panel scans or anime screenshots are used.",
+    "support": "Support the original work through official channels.",
+    "made": "Built with ink, TV static, and respect."
+  },
+  "notFound": {
+    "title": "Target not found",
+    "body": "This page ran away like Shikaku in act three. The link may be broken.",
+    "cta": "Back to home"
+  },
+  "perf": {
+    "lowered": "Performance mode: effects lowered to {{q}} to stay smooth."
+  }
+}

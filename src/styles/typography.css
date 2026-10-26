@@ -1,0 +1,89 @@
+@layer base {
+  html {
+    font-family: var(--font-yugeru);
+    font-weight: 500;
+    line-height: 1.6;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  body {
+    font-size: clamp(1.08rem, 0.4vw + 1rem, 1.25rem);
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: var(--font-yugeru);
+    font-weight: 700;
+    line-height: 1.05;
+    letter-spacing: -0.01em;
+    text-wrap: balance;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  :lang(ja),
+  .jp {
+    font-family: var(--font-jp);
+    font-weight: 400;
+  }
+}
+
+@layer components {
+  .t-yugeru {
+    font-family: var(--font-yugeru);
+    font-style: italic;
+    letter-spacing: 0.01em;
+  }
+
+  .t-shikaku {
+    font-family: var(--font-shikaku);
+    letter-spacing: 0.02em;
+    line-height: 1.15;
+    font-weight: 400;
+  }
+
+  .t-scrawl {
+    font-family: var(--font-scrawl);
+    line-height: 1.1;
+    font-weight: 400;
+  }
+
+  .t-label {
+    font-family: var(--font-mono);
+    font-size: 0.72rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    font-weight: 500;
+    line-height: 1.4;
+  }
+
+  .t-display {
+    font-size: clamp(2.6rem, 7vw, 6.5rem);
+    line-height: 0.92;
+  }
+
+  .prose-ink > * + * {
+    margin-top: 1em;
+  }
+
+  .prose-ink h2 {
+    font-size: clamp(1.7rem, 3vw, 2.4rem);
+    margin-top: 1.6em;
+  }
+
+  .prose-ink h3 {
+    font-size: 1.35rem;
+    margin-top: 1.4em;
+  }
+
+  .prose-ink a {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 3px;
+  }
+}
