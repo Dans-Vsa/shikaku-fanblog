@@ -1,0 +1,74 @@
+.flip-card {
+  perspective: 1600px;
+}
+
+.flip-inner {
+  display: grid;
+  transform-style: preserve-3d;
+  transition: transform 0.9s var(--ease-ink);
+}
+
+.flip-card.is-flipped .flip-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-face {
+  grid-area: 1 / 1;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+.flip-back {
+  transform: rotateY(180deg);
+}
+
+/* Reduced motion: tanpa rotasi 3D, cukup tukar sisi. */
+html[data-motion='reduced'] .flip-inner {
+  transition: none;
+  transform: none !important;
+}
+
+html[data-motion='reduced'] .flip-face {
+  backface-visibility: visible;
+}
+
+html[data-motion='reduced'] .flip-back {
+  transform: none;
+  visibility: hidden;
+}
+
+html[data-motion='reduced'] .flip-card.is-flipped .flip-back {
+  visibility: visible;
+}
+
+html[data-motion='reduced'] .flip-card.is-flipped .flip-front {
+  visibility: hidden;
+}
+
+/* --- gaya dokumen --- */
+.doc-contract {
+  background:
+    linear-gradient(rgb(var(--ink-rgb) / 0.06) 1px, transparent 1px) 0 0 / 100% 2.1rem,
+    var(--paper);
+}
+
+.doc-wanted {
+  background:
+    radial-gradient(rgb(var(--ink-rgb) / 0.12) 1px, transparent 1.4px) 0 0 / 8px 8px,
+    var(--paper-deep);
+  clip-path: polygon(
+    0% 2%,
+    4% 0%,
+    30% 1.2%,
+    62% 0%,
+    96% 1%,
+    100% 4%,
+    99.2% 40%,
+    100% 78%,
+    98.6% 100%,
+    60% 98.8%,
+    22% 100%,
+    1% 98%,
+    0.6% 60%
+  );
+}

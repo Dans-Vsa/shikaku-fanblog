@@ -1,0 +1,69 @@
+{
+  "kicker": "Wiki · Themes",
+  "title": "What it is really about",
+  "lede": "Behind the bullets and explosions, Shikaku asks something very simple: who deserves to be loved, and by whom.",
+  "intro": [
+    "The themes below are our reading of the story. Each is labeled so it is clear what comes from the text, what is fan interpretation, and what is this site author's opinion.",
+    "While spoiler-safe mode is on, sections that touch the ending are covered in ink."
+  ],
+  "themes": [
+    {
+      "id": "immortality",
+      "jp": "不死",
+      "kind": "fan",
+      "title": "Immortality vs love",
+      "spoiler": false,
+      "body": [
+        "Yugeru does not suffer because he is tormented; he suffers because there is nothing left to feel. {{g:fushi|Immortality}} here is not a grand gothic curse but a long meeting that never ends.",
+        "Love enters the story not as a sweet cure but as a disruption. Shikaku is the one thing Yugeru cannot predict. For a creature who has seen everything, the unexpected itself already feels like love."
+      ]
+    },
+    {
+      "id": "qualification",
+      "jp": "資格",
+      "kind": "fan",
+      "title": "The qualification to love",
+      "spoiler": true,
+      "body": [
+        "Shikaku measures herself by one thing: whether she finishes the job. When she fails to kill Yugeru, she concludes she has no {{g:shikaku-qualification|資格}} at all, neither as a killer nor as someone allowed to love.",
+        "Yugeru's answer rejects that logic. He does not judge Shikaku by success but by presence. The story quietly says love needs no certificate, only the willingness to stay.",
+        "That is why the title's wordplay fits so well: Shikaku's profession (刺客) and her sense of unworthiness (資格) are pronounced exactly the same."
+      ]
+    },
+    {
+      "id": "absurd",
+      "jp": "笑",
+      "kind": "opinion",
+      "title": "Absurd comedy + tragedy",
+      "spoiler": false,
+      "body": [
+        "Fujimoto treats extreme violence casually. A shattered body is a visual gag; a complaint about torn clothes is the punchline. Readers laugh precisely because the scale of the reaction is wrong.",
+        "Then he flips the tone at the least expected moment. Empty space, silent panels, a single crying face. The earlier laughter makes that pause far heavier. This comedy-that-turns-into-a-wound pattern keeps returning in his later work."
+      ]
+    },
+    {
+      "id": "attention",
+      "jp": "視線",
+      "kind": "fan",
+      "title": "Attention as a love language",
+      "spoiler": false,
+      "body": [
+        "What changes Yugeru is not sweet words but consistency. Shikaku comes back, again and again. Every murder attempt is proof that someone keeps thinking about him.",
+        "This reading makes the story feel very modern: in a world of half-present people, someone fully focused on you, even in the wrong way, can feel like a miracle."
+      ]
+    },
+    {
+      "id": "public",
+      "jp": "放送",
+      "kind": "opinion",
+      "title": "The most private thing in the most public place",
+      "spoiler": true,
+      "body": [
+        "The climax is not a duel or an explosion but a TV broadcast. Shikaku takes the most intimate moment, a {{g:kokuhaku|confession of love}}, and forces it in front of the whole country.",
+        "That contrast is the core of this site's aesthetic: quiet manga paper colliding with a noisy TV screen. It is why Act 5 on the Read page turns completely into a hijacked monitor."
+      ]
+    }
+  ],
+  "closingTitle": "One sentence",
+  "closing": "Shikaku is a story about two people who cannot finish each other, and finally decide that is not a problem."
+}

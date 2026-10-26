@@ -1,0 +1,134 @@
+{
+  "kicker": "Wiki · Glossary",
+  "title": "A small dictionary before you sink",
+  "lede": "Japanese terms and fan terms used across the site. Any dotted-underlined word on any page can be hovered or focused to open its definition.",
+  "intro": [
+    "Shikaku is a dense short story: almost every term in it carries two meanings at once. This glossary exists so readers new to Japanese can still catch the wordplay behind the title without opening a dictionary in another tab.",
+    "Definitions are written in our own words and kept short. When a term belongs to fan culture rather than the story itself, we say so clearly."
+  ],
+  "search": "Search terms",
+  "empty": "No matching terms.",
+  "placeholder": "shikaku, 刺客, vampire…",
+  "terms": [
+    {
+      "id": "shikaku-assassin",
+      "term": "Shikaku (刺客)",
+      "jp": "刺客",
+      "romaji": "shikaku",
+      "short": "An assassin; a killer sent to eliminate a specific target.",
+      "long": "A somewhat classical word for a hired killer. 刺 means to stab, 客 means guest or person. It is both the protagonist's profession and her name."
+    },
+    {
+      "id": "shikaku-qualification",
+      "term": "Shikaku (資格)",
+      "jp": "資格",
+      "romaji": "shikaku",
+      "short": "Qualification, right, eligibility to do or be something.",
+      "long": "Pronounced exactly like 刺客. Used in phrases like 'having no right to…'. On this site, this second meaning is the climax of Act 5."
+    },
+    {
+      "id": "shikaku-square",
+      "term": "Shikaku (四角)",
+      "jp": "四角",
+      "romaji": "shikaku",
+      "short": "Square; a four-cornered shape.",
+      "long": "Another homophone. Fans often link it to the frame of a manga panel, and this site's logo uses a tilted square as a nod to that [FAN ANALYSIS]."
+    },
+    {
+      "id": "shikaku-sight",
+      "term": "Shikaku (視覚)",
+      "jp": "視覚",
+      "romaji": "shikaku",
+      "short": "The sense of sight; visual perception.",
+      "long": "A homophone that fits a medium as visual as manga. There is no official sign this meaning is intended."
+    },
+    {
+      "id": "shikaku-blindspot",
+      "term": "Shikaku (死角)",
+      "jp": "死角",
+      "romaji": "shikaku",
+      "short": "Blind spot; an angle that cannot be seen.",
+      "long": "Literally 'dead angle'. Some fans read it as the emotional blind spot both leads share [FAN ANALYSIS]."
+    },
+    {
+      "id": "katakana",
+      "term": "Katakana (シカク)",
+      "jp": "カタカナ",
+      "romaji": "katakana",
+      "short": "A phonetic Japanese script, often used for loanwords or emphasis.",
+      "long": "The official title is written シカク in katakana, not kanji. Because katakana records only sound, the title keeps every meaning of 'shikaku' open."
+    },
+    {
+      "id": "kyuuketsuki",
+      "term": "Kyūketsuki (吸血鬼)",
+      "jp": "吸血鬼",
+      "romaji": "kyūketsuki",
+      "short": "Vampire; literally 'blood-sucking demon'.",
+      "long": "Yugeru is a kyūketsuki who cannot die. The story uses the vampire not for horror but to talk about the boredom and loneliness of forever."
+    },
+    {
+      "id": "koroshiya",
+      "term": "Koroshiya (殺し屋)",
+      "jp": "殺し屋",
+      "romaji": "koroshiya",
+      "short": "A hitman (everyday word).",
+      "long": "More casual than 刺客. The official anime site introduces Shikaku as a girl famous as a koroshiya."
+    },
+    {
+      "id": "fushi",
+      "term": "Fushi (不死)",
+      "jp": "不死",
+      "romaji": "fushi",
+      "short": "Undying; immortality.",
+      "long": "Yugeru's condition. The story frames immortality not as a gift but as a dull sentence."
+    },
+    {
+      "id": "yomikiri",
+      "term": "Yomikiri (読み切り)",
+      "jp": "読み切り",
+      "romaji": "yomikiri",
+      "short": "A one-shot; a manga story complete in a single issue.",
+      "long": "Shikaku is a yomikiri. The format forces the author to compress character, conflict, and resolution into one chapter."
+    },
+    {
+      "id": "jump-sq",
+      "term": "Jump SQ.19",
+      "jp": "ジャンプSQ.19",
+      "romaji": "janpu esu kyū",
+      "short": "The Shueisha manga magazine that ran Shikaku in 2014.",
+      "long": "A companion edition of Jump SQ. Many young manga artists published early one-shots there."
+    },
+    {
+      "id": "seiyuu",
+      "term": "Seiyū (声優)",
+      "jp": "声優",
+      "romaji": "seiyū",
+      "short": "Anime voice actor.",
+      "long": "In the 2025 anime adaptation, Shikaku is voiced by Kana Hanazawa and Yugeru by Tomokazu Sugita."
+    },
+    {
+      "id": "kokuhaku",
+      "term": "Kokuhaku (告白)",
+      "jp": "告白",
+      "romaji": "kokuhaku",
+      "short": "A confession of love.",
+      "long": "A key beat in Japanese romance. Shikaku takes her kokuhaku to the least private place imaginable: live television."
+    },
+    {
+      "id": "yandere",
+      "term": "Yandere (ヤンデレ)",
+      "jp": "ヤンデレ",
+      "romaji": "yandere",
+      "short": "Fan term: a character whose love is obsessive to the point of danger.",
+      "long": "A community label, not one the story uses. Shikaku is often called one, though she reads better as a child nobody taught how to love [FAN ANALYSIS]."
+    },
+    {
+      "id": "mangaka",
+      "term": "Mangaka (漫画家)",
+      "jp": "漫画家",
+      "romaji": "mangaka",
+      "short": "A manga author and artist.",
+      "long": "Tatsuki Fujimoto is the mangaka later known for Fire Punch, Chainsaw Man, and Look Back."
+    }
+  ]
+}

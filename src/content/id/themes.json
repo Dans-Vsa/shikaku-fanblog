@@ -1,0 +1,69 @@
+{
+  "kicker": "Wiki · Tema",
+  "title": "Apa yang sebenarnya dibicarakan",
+  "lede": "Di balik peluru dan ledakan, Shikaku bertanya tentang hal yang sangat sederhana: siapa yang pantas dicintai, dan oleh siapa.",
+  "intro": [
+    "Tema-tema di bawah ini adalah bacaan kami terhadap cerita. Semuanya diberi label agar jelas mana yang berangkat dari teks, mana yang tafsiran penggemar, dan mana yang opini penulis situs ini.",
+    "Bila mode aman spoiler aktif, bagian yang menyinggung akhir cerita akan tertutup tinta."
+  ],
+  "themes": [
+    {
+      "id": "immortality",
+      "jp": "不死",
+      "kind": "fan",
+      "title": "Keabadian vs cinta",
+      "spoiler": false,
+      "body": [
+        "Yugeru tidak menderita karena tersiksa, ia menderita karena tidak ada yang tersisa untuk dirasakan. {{g:fushi|Keabadian}} di sini bukan kutukan gotik yang megah, melainkan rapat panjang yang tidak pernah selesai.",
+        "Cinta masuk ke cerita bukan sebagai obat yang manis, tetapi sebagai gangguan. Shikaku adalah satu-satunya hal yang tidak bisa Yugeru prediksi. Bagi makhluk yang sudah melihat semuanya, hal yang tidak terduga itu sendiri sudah terasa seperti cinta."
+      ]
+    },
+    {
+      "id": "qualification",
+      "jp": "資格",
+      "kind": "fan",
+      "title": "Kualifikasi untuk mencintai",
+      "spoiler": true,
+      "body": [
+        "Shikaku mengukur dirinya lewat satu hal: apakah ia berhasil menyelesaikan pekerjaannya. Saat ia gagal membunuh Yugeru, ia menyimpulkan dirinya tidak punya {{g:shikaku-qualification|資格}} apa pun, baik sebagai pembunuh maupun sebagai seseorang yang boleh mencintai.",
+        "Jawaban Yugeru menolak logika itu. Ia tidak menilai Shikaku dari keberhasilan, tetapi dari kehadiran. Cerita ini diam-diam bilang bahwa cinta tidak butuh sertifikat, cukup kesediaan untuk tinggal.",
+        "Inilah alasan permainan kata judulnya terasa begitu pas: profesi Shikaku (刺客) dan rasa tidak layaknya (資格) dibaca dengan bunyi yang persis sama."
+      ]
+    },
+    {
+      "id": "absurd",
+      "jp": "笑",
+      "kind": "opinion",
+      "title": "Komedi absurd + tragedi",
+      "spoiler": false,
+      "body": [
+        "Fujimoto memperlakukan kekerasan ekstrem dengan nada santai. Tubuh hancur adalah lelucon visual, keluhan soal baju robek adalah punchline. Pembaca tertawa justru karena skala reaksinya salah.",
+        "Lalu ia membalik nada itu di momen yang paling tidak terduga. Ruang kosong, panel sunyi, satu wajah yang menangis. Tawa sebelumnya membuat jeda itu terasa jauh lebih berat. Pola komedi-yang-berbelok-jadi-luka ini akan terus muncul di karya-karyanya kemudian."
+      ]
+    },
+    {
+      "id": "attention",
+      "jp": "視線",
+      "kind": "fan",
+      "title": "Perhatian sebagai bahasa cinta",
+      "spoiler": false,
+      "body": [
+        "Yang membuat Yugeru berubah bukan kata-kata manis, melainkan konsistensi. Shikaku datang lagi, lagi, dan lagi. Setiap percobaan pembunuhan adalah bukti bahwa ada yang terus memikirkannya.",
+        "Bacaan ini membuat kisahnya terasa sangat modern: di dunia yang penuh orang yang setengah hadir, sosok yang benar-benar fokus padamu, bahkan dengan cara yang salah, bisa terasa seperti keajaiban."
+      ]
+    },
+    {
+      "id": "public",
+      "jp": "放送",
+      "kind": "opinion",
+      "title": "Hal paling pribadi di tempat paling publik",
+      "spoiler": true,
+      "body": [
+        "Klimaksnya bukan duel atau ledakan, tetapi siaran televisi. Shikaku mengambil momen paling intim, {{g:kokuhaku|pengakuan cinta}}, dan memaksanya tampil di depan seluruh negeri.",
+        "Kontras ini adalah inti estetika situs ini: kertas manga yang sunyi bertabrakan dengan layar TV yang berisik. Itulah alasan Babak 5 di halaman Baca berubah total menjadi monitor yang dibajak."
+      ]
+    }
+  ],
+  "closingTitle": "Satu kalimat",
+  "closing": "Shikaku adalah kisah tentang dua orang yang tidak bisa menyelesaikan satu sama lain, dan akhirnya memutuskan itu bukan masalah."
+}

@@ -1,0 +1,76 @@
+{
+  "kicker": "Wiki · Synopsis",
+  "title": "The story, told twice",
+  "lede": "Once without spoilers for those who have not read it. Once more in full, act by act, for those who have.",
+  "tabs": { "safe": "Spoiler-free", "full": "Full spoilers" },
+  "safe": {
+    "title": "Premise",
+    "body": [
+      "Shikaku is a girl famous as a {{g:koroshiya|hitwoman}}. Her latest client is unusual: Yugeru, a {{g:kyuuketsuki|vampire}} who has lived for about 3,500 years and is bored to death of immortality. He wants to die, and he hires Shikaku to make it happen {{tag:fact}}.",
+      "The problem: Yugeru cannot die. Whatever Shikaku does, his body comes back. What follows is half absurd comedy, half strange romance, and entirely young Tatsuki Fujimoto.",
+      "The story is a {{g:yomikiri|one-shot}} published in 2014 and now officially available in the collection *Tatsuki Fujimoto Before Chainsaw Man: 17-21*. If you have not read it, stop here and read it through official channels first. It is short, and its surprises deserve to land on their own."
+    ],
+    "facts": [
+      { "k": "Format", "v": "One-shot (yomikiri)" },
+      { "k": "Published", "v": "Jump SQ.19, 2014" },
+      { "k": "Collection", "v": "17-21 (story no. 4)" },
+      { "k": "Genre", "v": "Action comedy, romance, absurd" }
+    ]
+  },
+  "full": {
+    "title": "Full spoilers, act by act",
+    "note": "Summaries are paraphrased in our own words, not quoted dialogue. Minor scene order and numbers that cannot be verified are kept general.",
+    "acts": [
+      {
+        "n": 1,
+        "title": "The murder contract",
+        "jp": "刺客",
+        "body": [
+          "Yugeru, a jaded immortal vampire, hires Shikaku to kill him for an enormous fee. Shikaku takes the job like any other: calm, efficient, and grinning.",
+          "The first attempt goes by the book. The result does not. Yugeru recovers without a scratch, and all he complains about is his clothes."
+        ]
+      },
+      {
+        "n": 2,
+        "title": "A futile massacre",
+        "jp": "日々",
+        "body": [
+          "Days pass and Shikaku keeps trying, each method more creative and more brutal. Every failure only fixes her attention more firmly on Yugeru. Professional obsession turns into something personal.",
+          "Meanwhile Yugeru finds something long lost: someone who pays him relentless attention. Their bond grows between bullets and rubble, including the strange moment when Yugeru offers a piece of his own body to Shikaku, a gesture that in this story's logic feels almost like a date {{tag:dramatized}}."
+        ]
+      },
+      {
+        "n": 3,
+        "title": "Heartbreak",
+        "jp": "空白",
+        "body": [
+          "Shikaku finally accepts the truth: she will never be able to kill Yugeru. Failed as an assassin, and feeling unworthy to stay beside him, she leaves.",
+          "For the first time, Yugeru feels something other than boredom: loss. The rooms that used to be full of explosions go quiet."
+        ]
+      },
+      {
+        "n": 4,
+        "title": "Behind the panels",
+        "jp": "解剖",
+        "body": [
+          "This act is not in the manga. On the Read page we use it as a curated pause to dissect Fujimoto's DNA: unhinged heroines, the curse of immortality, and the visual evolution from the 2014 manga to the 2025 anime {{tag:fan}}."
+        ]
+      },
+      {
+        "n": 5,
+        "title": "The broadcast hijack",
+        "jp": "資格",
+        "body": [
+          "Shikaku returns in the most spectacular way: hijacking a TV broadcast to cry and confess her feelings to Yugeru in front of everyone. A confession that is usually the most private thing becomes national viewing.",
+          "Here the title turns. Shikaku the {{g:shikaku-assassin|刺客}} (assassin) feels she has no {{g:shikaku-qualification|資格}} (qualification) to love, because she failed even as a killer.",
+          "Yugeru's answer flips everything: instead of rejecting her, he asks Shikaku to stay with him for a very long time to come. The man who ordered his death now offers an eternity for two."
+        ]
+      }
+    ]
+  },
+  "afterTitle": "Why the ending feels right",
+  "after": [
+    "Shikaku's ending works because it answers the premise in an unexpected but logical way. Yugeru wanted to die because nothing made life worth living. Shikaku could not give him death, but she gave him a reason to live {{tag:opinion}}.",
+    "Fujimoto also lets the ending stay strange. There is no tidy moral, only two odd people deciding their oddness fits."
+  ]
+}

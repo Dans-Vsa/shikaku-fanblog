@@ -1,0 +1,134 @@
+{
+  "kicker": "Wiki · Glosarium",
+  "title": "Kamus kecil sebelum tenggelam",
+  "lede": "Istilah Jepang dan istilah penggemar yang muncul di seluruh situs. Setiap kata bergaris titik di halaman mana pun bisa disorot untuk membuka definisinya.",
+  "intro": [
+    "Shikaku adalah cerita pendek yang padat: hampir setiap istilahnya membawa dua makna sekaligus. Glosarium ini disusun supaya pembaca yang belum akrab dengan bahasa Jepang tetap bisa menangkap permainan kata di balik judulnya, tanpa harus membuka kamus di tab lain.",
+    "Definisi ditulis sendiri dan sengaja singkat. Bila sebuah istilah adalah istilah komunitas penggemar dan bukan istilah resmi, kami menandainya dengan jelas."
+  ],
+  "search": "Cari istilah",
+  "empty": "Tidak ada istilah yang cocok.",
+  "placeholder": "shikaku, 刺客, vampir…",
+  "terms": [
+    {
+      "id": "shikaku-assassin",
+      "term": "Shikaku (刺客)",
+      "jp": "刺客",
+      "romaji": "shikaku",
+      "short": "Pembunuh bayaran; pembunuh yang dikirim untuk menghabisi target tertentu.",
+      "long": "Kata bernuansa klasik untuk pembunuh suruhan. Kanji 刺 berarti menusuk, 客 berarti tamu atau orang. Ini profesi sekaligus nama sang tokoh utama."
+    },
+    {
+      "id": "shikaku-qualification",
+      "term": "Shikaku (資格)",
+      "jp": "資格",
+      "romaji": "shikaku",
+      "short": "Kualifikasi, hak, kelayakan untuk melakukan atau menjadi sesuatu.",
+      "long": "Dibaca persis sama dengan 刺客. Dipakai dalam frasa seperti 'tidak punya hak untuk…'. Di situs ini, inilah makna kedua yang menjadi puncak Babak 5."
+    },
+    {
+      "id": "shikaku-square",
+      "term": "Shikaku (四角)",
+      "jp": "四角",
+      "romaji": "shikaku",
+      "short": "Persegi, bentuk segi empat.",
+      "long": "Homofon lain. Penggemar sering mengaitkannya dengan bingkai panel manga, dan logo situs ini memakai persegi miring sebagai penghormatan [ANALISIS FANS]."
+    },
+    {
+      "id": "shikaku-sight",
+      "term": "Shikaku (視覚)",
+      "jp": "視覚",
+      "romaji": "shikaku",
+      "short": "Indra penglihatan, persepsi visual.",
+      "long": "Homofon yang relevan untuk medium manga yang serba visual. Tidak ada indikasi resmi bahwa makna ini disengaja."
+    },
+    {
+      "id": "shikaku-blindspot",
+      "term": "Shikaku (死角)",
+      "jp": "死角",
+      "romaji": "shikaku",
+      "short": "Titik buta; sudut yang tidak terlihat.",
+      "long": "Secara harfiah 'sudut mati'. Sebagian penggemar membacanya sebagai titik buta emosional kedua tokoh [ANALISIS FANS]."
+    },
+    {
+      "id": "katakana",
+      "term": "Katakana (シカク)",
+      "jp": "カタカナ",
+      "romaji": "katakana",
+      "short": "Aksara Jepang fonetis, sering dipakai untuk kata serapan atau penekanan.",
+      "long": "Judul resmi ditulis シカク dalam katakana, bukan kanji. Karena katakana hanya mencatat bunyi, judul itu membiarkan semua makna 'shikaku' tetap terbuka."
+    },
+    {
+      "id": "kyuuketsuki",
+      "term": "Kyūketsuki (吸血鬼)",
+      "jp": "吸血鬼",
+      "romaji": "kyūketsuki",
+      "short": "Vampir; secara harfiah 'iblis penghisap darah'.",
+      "long": "Yugeru adalah kyūketsuki yang tidak bisa mati. Kisah ini memakai vampir bukan untuk horor, tetapi untuk membicarakan kebosanan dan kesepian keabadian."
+    },
+    {
+      "id": "koroshiya",
+      "term": "Koroshiya (殺し屋)",
+      "jp": "殺し屋",
+      "romaji": "koroshiya",
+      "short": "Pembunuh bayaran (sebutan sehari-hari).",
+      "long": "Sebutan yang lebih kasual dibanding 刺客. Situs resmi anime memperkenalkan Shikaku sebagai gadis yang terkenal sebagai koroshiya."
+    },
+    {
+      "id": "fushi",
+      "term": "Fushi (不死)",
+      "jp": "不死",
+      "romaji": "fushi",
+      "short": "Tidak bisa mati; keabadian.",
+      "long": "Kondisi Yugeru. Dalam cerita, keabadian digambarkan bukan sebagai anugerah, melainkan sebagai hukuman yang membosankan."
+    },
+    {
+      "id": "yomikiri",
+      "term": "Yomikiri (読み切り)",
+      "jp": "読み切り",
+      "romaji": "yomikiri",
+      "short": "One-shot; cerita manga yang selesai dalam satu terbitan.",
+      "long": "Shikaku adalah yomikiri. Formatnya memaksa pengarang memadatkan tokoh, konflik, dan resolusi ke dalam satu bab."
+    },
+    {
+      "id": "jump-sq",
+      "term": "Jump SQ.19",
+      "jp": "ジャンプSQ.19",
+      "romaji": "janpu esu kyū",
+      "short": "Majalah manga terbitan Shueisha yang memuat Shikaku pada 2014.",
+      "long": "Edisi pendamping majalah Jump SQ. Banyak mangaka muda menerbitkan one-shot awal mereka di sana."
+    },
+    {
+      "id": "seiyuu",
+      "term": "Seiyū (声優)",
+      "jp": "声優",
+      "romaji": "seiyū",
+      "short": "Pengisi suara anime.",
+      "long": "Dalam adaptasi anime 2025, Shikaku diisi oleh Kana Hanazawa dan Yugeru oleh Tomokazu Sugita."
+    },
+    {
+      "id": "kokuhaku",
+      "term": "Kokuhaku (告白)",
+      "jp": "告白",
+      "romaji": "kokuhaku",
+      "short": "Pengakuan cinta.",
+      "long": "Momen penting dalam kisah romansa Jepang. Shikaku membawa kokuhaku ke tempat paling tidak pribadi yang bisa dibayangkan: siaran televisi."
+    },
+    {
+      "id": "yandere",
+      "term": "Yandere (ヤンデレ)",
+      "jp": "ヤンデレ",
+      "romaji": "yandere",
+      "short": "Istilah penggemar: tokoh yang cintanya obsesif sampai berbahaya.",
+      "long": "Istilah komunitas, bukan label resmi cerita. Shikaku sering disebut begitu, walaupun ia lebih tepat dibaca sebagai anak yang tidak pernah diajari cara mencintai [ANALISIS FANS]."
+    },
+    {
+      "id": "mangaka",
+      "term": "Mangaka (漫画家)",
+      "jp": "漫画家",
+      "romaji": "mangaka",
+      "short": "Pengarang dan penggambar manga.",
+      "long": "Tatsuki Fujimoto adalah mangaka yang kemudian dikenal lewat Fire Punch, Chainsaw Man, dan Look Back."
+    }
+  ]
+}

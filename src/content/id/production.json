@@ -1,0 +1,95 @@
+{
+  "kicker": "Wiki · Produksi",
+  "title": "Dari one-shot 2014 ke layar 2025",
+  "lede": "Fakta rilis, konteks kumpulan 17-21, dan trivia. Setiap butir diberi label: yang terverifikasi ditandai [FAKTA], yang belum bisa dipastikan ditandai [TEORI FANS].",
+  "factsTitle": "Kartu fakta",
+  "facts": [
+    { "k": "Judul", "v": "シカク (Shikaku)" },
+    { "k": "Pengarang", "v": "Tatsuki Fujimoto" },
+    { "k": "Format", "v": "One-shot (yomikiri)" },
+    { "k": "Terbit perdana", "v": "Jump SQ.19, 2014 (Shueisha)" },
+    { "k": "Kumpulan Jepang", "v": "藤本タツキ短編集「17-21」, Jump Comics+, 4 Oktober 2021" },
+    {
+      "k": "Edisi Inggris",
+      "v": "Tatsuki Fujimoto Before Chainsaw Man: 17-21, VIZ Media, 17 Januari 2023"
+    },
+    { "k": "Posisi", "v": "Cerita ke-4 dari 4 dalam 17-21" },
+    { "k": "Anime", "v": "Episode 4 Tatsuki Fujimoto 17-26 (GRAPH77), Prime Video, November 2025" }
+  ],
+  "sections": [
+    {
+      "kind": "fact",
+      "title": "Apa itu 17-21?",
+      "body": [
+        "Pada 2021, Shueisha merilis dua buku kumpulan cerita pendek Fujimoto yang diberi judul sesuai usia sang pengarang saat menggambarnya: 17-21 dan 22-26. Shikaku masuk ke volume pertama sebagai cerita penutup, setelah *A Couple Clucking Chickens Were Still Kickin' in the Schoolyard* (2011), *Sasaki Stopped a Bullet* (2013), dan *Love is Blind* (2013).",
+        "VIZ Media menerbitkan terjemahan Inggrisnya dengan judul *Tatsuki Fujimoto Before Chainsaw Man*. Volume 17-21 terbit pada Januari 2023, disusul 22-26 pada April 2023."
+      ]
+    },
+    {
+      "kind": "fact",
+      "title": "Adaptasi anime",
+      "body": [
+        "Delapan cerita dari kedua kumpulan diadaptasi menjadi antologi anime *Tatsuki Fujimoto 17-26*. Antologi ini sempat diputar terbatas di bioskop Jepang mulai 17 Oktober 2025, lalu tayang global eksklusif di Prime Video mulai awal November 2025.",
+        "Shikaku menjadi episode keempat dan dianimasikan oleh studio GRAPH77. Shikaku diisi suaranya oleh Kana Hanazawa, Yugeru oleh Tomokazu Sugita. Avex Pictures merilis trailer terpisah untuk setiap cerita, termasuk Shikaku."
+      ]
+    },
+    {
+      "kind": "fan",
+      "title": "Posisi Shikaku dalam karier Fujimoto",
+      "body": [
+        "Membaca 17-21 secara berurutan terasa seperti menonton seseorang menemukan suaranya. Shikaku, sebagai cerita paling akhir di volume itu, sudah memuat banyak hal yang kelak menjadi ciri khasnya: kekerasan yang diperlakukan santai, tokoh perempuan yang tak terkendali, dan akhir yang mendadak lembut.",
+        "Dua tahun kemudian, Fujimoto memulai serial panjang pertamanya, *Fire Punch* (2016), yang kembali bermain dengan tubuh yang terus beregenerasi dan penderitaan yang tidak bisa berakhir."
+      ]
+    }
+  ],
+  "triviaTitle": "Trivia",
+  "trivia": [
+    {
+      "kind": "fact",
+      "text": "Judul resmi ditulis dalam katakana シカク, sehingga bunyinya membawa beberapa makna kanji sekaligus."
+    },
+    {
+      "kind": "fact",
+      "text": "Situs resmi anime menyebut Yugeru bosan setelah sekitar 3.500 tahun hidup abadi."
+    },
+    {
+      "kind": "fan",
+      "text": "Shikaku adalah satu-satunya cerita di 17-21 yang sepenuhnya berpusat pada romansa antara manusia dan makhluk abadi."
+    },
+    {
+      "kind": "theory",
+      "text": "Sebagian penggemar menganggap Shikaku sebagai debut resmi Fujimoto. Sumber berbeda pendapat soal urutan debutnya, jadi kami tidak menyatakannya sebagai fakta."
+    },
+    {
+      "kind": "theory",
+      "text": "Ada teori bahwa sosok Shikaku adalah 'prototipe' Power atau Reze di Chainsaw Man. Kemiripannya nyata, tetapi tidak ada pernyataan resmi soal itu."
+    },
+    {
+      "kind": "theory",
+      "text": "Jumlah hari atau jumlah percobaan pembunuhan yang tepat sering dikutip berbeda-beda di internet. Kami sengaja tidak menuliskan angka pasti."
+    }
+  ],
+  "sourcesTitle": "Sumber",
+  "sources": [
+    {
+      "label": "Situs resmi anime Tatsuki Fujimoto 17-26 (halaman Shikaku)",
+      "url": "https://fujimototatsuki17-26.com/story/shikaku/"
+    },
+    {
+      "label": "VIZ Media — Tatsuki Fujimoto Before Chainsaw Man: 17-21",
+      "url": "https://www.viz.com/read/manga/tatsuki-fujimoto-before-chainsaw-man/product/7330"
+    },
+    {
+      "label": "Wikipedia — Tatsuki Fujimoto Before Chainsaw Man",
+      "url": "https://en.wikipedia.org/wiki/Tatsuki_Fujimoto_Before_Chainsaw_Man"
+    },
+    {
+      "label": "Amazon MGM Studios Press — pengumuman Prime Video",
+      "url": "https://press.amazonmgmstudios.com/us/en/press-release/prime-video-to-exclusively-premiere-a-japanese-ant"
+    },
+    {
+      "label": "Kanal YouTube avex pictures (trailer per cerita)",
+      "url": "https://www.youtube.com/@avexpictures"
+    }
+  ]
+}

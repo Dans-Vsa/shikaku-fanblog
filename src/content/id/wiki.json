@@ -1,0 +1,49 @@
+{
+  "kicker": "Wiki",
+  "title": "Arsip lengkap Shikaku",
+  "lede": "Enam ruang arsip untuk penggemar yang ingin lebih dalam dari sekadar ringkasan.",
+  "intro": [
+    "Wiki ini disusun seperti lemari berkas: setiap laci membuka satu sisi cerita. Mulai dari karakter bila kamu baru mengenal dunianya, atau langsung ke kanji bila kamu datang karena penasaran pada judulnya.",
+    "Semua halaman tersedia dalam Bahasa Indonesia dan Inggris, memakai label [FAKTA], [ANALISIS FANS], [TEORI FANS], dan [OPINI], dan menghormati mode aman spoiler."
+  ],
+  "cards": [
+    {
+      "to": "/wiki/karakter",
+      "jp": "人物",
+      "title": "Karakter",
+      "body": "Kartu arsip kontrak Yugeru dan poster buronan Shikaku, bisa dibalik."
+    },
+    {
+      "to": "/wiki/sinopsis",
+      "jp": "物語",
+      "title": "Sinopsis",
+      "body": "Versi aman spoiler dan versi lengkap per babak."
+    },
+    {
+      "to": "/wiki/tema",
+      "jp": "主題",
+      "title": "Tema",
+      "body": "Keabadian, kualifikasi untuk mencintai, dan komedi yang berbelok jadi luka."
+    },
+    {
+      "to": "/wiki/kanji",
+      "jp": "漢字",
+      "title": "Kanji",
+      "body": "刺客 berubah jadi 資格. Permainan kata di balik judul."
+    },
+    {
+      "to": "/wiki/produksi",
+      "jp": "制作",
+      "title": "Produksi",
+      "body": "Tanggal rilis, konteks 17-21, trivia, dan sumber."
+    },
+    {
+      "to": "/wiki/glosarium",
+      "jp": "用語",
+      "title": "Glosarium",
+      "body": "Istilah Jepang dan istilah penggemar, dengan tooltip di seluruh situs."
+    }
+  ],
+  "fanTitle": "Untuk fans: mulai dari mana?",
+  "fan": "Kalau kamu sudah membaca ceritanya, matikan sensor spoiler di navigasi lalu buka Tema. Di sana kami membedah kenapa satu kata bisa memuat seluruh perjalanan tokohnya."
+}

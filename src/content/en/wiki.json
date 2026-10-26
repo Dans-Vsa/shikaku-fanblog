@@ -1,0 +1,49 @@
+{
+  "kicker": "Wiki",
+  "title": "The complete Shikaku archive",
+  "lede": "Six archive rooms for fans who want to go deeper than a summary.",
+  "intro": [
+    "This wiki is arranged like a filing cabinet: each drawer opens one side of the story. Start with the characters if the world is new to you, or go straight to the kanji if you came because the title made you curious.",
+    "Every page is available in Indonesian and English, uses the labels [FACT], [FAN ANALYSIS], [FAN THEORY], and [OPINION], and respects spoiler-safe mode."
+  ],
+  "cards": [
+    {
+      "to": "/wiki/karakter",
+      "jp": "人物",
+      "title": "Characters",
+      "body": "Yugeru's contract file and Shikaku's wanted poster, both flippable."
+    },
+    {
+      "to": "/wiki/sinopsis",
+      "jp": "物語",
+      "title": "Synopsis",
+      "body": "A spoiler-safe version and a full act-by-act version."
+    },
+    {
+      "to": "/wiki/tema",
+      "jp": "主題",
+      "title": "Themes",
+      "body": "Immortality, the qualification to love, and comedy that turns into a wound."
+    },
+    {
+      "to": "/wiki/kanji",
+      "jp": "漢字",
+      "title": "Kanji",
+      "body": "刺客 becomes 資格. The wordplay behind the title."
+    },
+    {
+      "to": "/wiki/produksi",
+      "jp": "制作",
+      "title": "Production",
+      "body": "Release dates, the 17-21 context, trivia, and sources."
+    },
+    {
+      "to": "/wiki/glosarium",
+      "jp": "用語",
+      "title": "Glossary",
+      "body": "Japanese and fan terms, with tooltips across the whole site."
+    }
+  ],
+  "fanTitle": "For fans: where to start?",
+  "fan": "If you have read the story, switch off the spoiler censor in the navigation and open Themes. There we unpack how a single word can hold the heroine's entire journey."
+}

@@ -1,0 +1,111 @@
+.spoiler-ink {
+  --ink-edge: polygon(
+    0% 6%,
+    8% 0%,
+    22% 4%,
+    40% 0%,
+    61% 5%,
+    78% 0%,
+    93% 3%,
+    100% 0%,
+    99% 40%,
+    100% 92%,
+    86% 100%,
+    66% 95%,
+    48% 100%,
+    27% 96%,
+    10% 100%,
+    0% 94%,
+    1% 50%
+  );
+}
+
+.spoiler-ink .spoiler-content {
+  transition: filter 0.5s var(--ease-out);
+}
+
+.spoiler-ink.is-covered .spoiler-content {
+  filter: blur(6px);
+  user-select: none;
+}
+
+.spoiler-ink.inline {
+  position: relative;
+}
+
+.spoiler-cover {
+  position: absolute;
+  inset: -2px -4px;
+  background: var(--ink);
+  color: var(--paper);
+  clip-path: var(--ink-edge);
+  border: 0;
+  padding: 0;
+  animation: ink-in 0.5s var(--ease-ink) both;
+}
+
+.spoiler-cover--block {
+  inset: -6px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  padding: 1.5rem;
+  text-align: center;
+  min-height: 9rem;
+  background-image:
+    radial-gradient(rgb(var(--paper-rgb) / 0.08) 1px, transparent 1.3px),
+    linear-gradient(var(--ink), var(--ink));
+  background-size:
+    7px 7px,
+    100% 100%;
+  transition: transform 0.25s var(--ease-snap);
+}
+
+.spoiler-cover--block:hover {
+  transform: rotate(-0.4deg) scale(1.005);
+}
+
+.spoiler-ink:not(.is-covered) .spoiler-content {
+  animation: ink-sweep 0.7s var(--ease-ink) both;
+}
+
+@keyframes ink-in {
+  from {
+    clip-path: polygon(
+      0% 6%,
+      0% 0%,
+      0% 4%,
+      0% 0%,
+      0% 5%,
+      0% 0%,
+      0% 3%,
+      0% 0%,
+      0% 40%,
+      0% 92%,
+      0% 100%,
+      0% 95%,
+      0% 100%,
+      0% 96%,
+      0% 100%,
+      0% 94%,
+      0% 50%
+    );
+  }
+}
+
+/* konten muncul seolah tinta disapu dari kiri ke kanan */
+@keyframes ink-sweep {
+  from {
+    clip-path: inset(0 100% 0 0);
+  }
+  to {
+    clip-path: inset(0 0 0 0);
+  }
+}
+
+html[data-motion='reduced'] .spoiler-ink .spoiler-content,
+html[data-motion='reduced'] .spoiler-cover {
+  animation: none;
+}

@@ -1,0 +1,59 @@
+{
+  "kicker": "Wiki · Kanji",
+  "title": "Satu bunyi, dua nasib",
+  "lede": "刺客 dan 資格 dibaca sama persis: shikaku. Geser penggeser di bawah untuk melihat satu kata berubah menjadi yang lain, persis seperti yang terjadi pada sang tokoh.",
+  "morphLabel": "Morph 刺客 ke 資格",
+  "morphHint": "Geser, pakai panah kiri/kanan, atau tekan putar.",
+  "play": "Putar morph",
+  "pause": "Jeda",
+  "pairs": [
+    {
+      "word": "刺客",
+      "reading": "shi · kaku",
+      "meaning": "pembunuh bayaran",
+      "chars": [
+        { "c": "刺", "r": "shi", "m": "menusuk, menikam; juga duri" },
+        { "c": "客", "r": "kaku / kyaku", "m": "tamu, pengunjung, orang" }
+      ],
+      "note": "Secara harfiah 'orang yang datang untuk menusuk'. Kata bernuansa klasik untuk pembunuh suruhan, lebih puitis daripada {{g:koroshiya|殺し屋}}."
+    },
+    {
+      "word": "資格",
+      "reading": "shi · kaku",
+      "meaning": "kualifikasi, hak, kelayakan",
+      "chars": [
+        { "c": "資", "r": "shi", "m": "modal, sumber daya, bekal" },
+        { "c": "格", "r": "kaku", "m": "status, standar, tingkatan" }
+      ],
+      "note": "Bekal yang memenuhi standar. Dipakai dalam ungkapan 'tidak punya hak untuk…'. Inilah perasaan Shikaku di puncak cerita."
+    }
+  ],
+  "wordplayTitle": "Kenapa permainan kata ini penting",
+  "wordplay": [
+    "Judul resminya ditulis {{g:katakana|シカク}}, bukan kanji. Katakana hanya mencatat bunyi, sehingga pembaca Jepang mendengar 'shikaku' tanpa diberi tahu kanji mana yang dimaksud. Nama sang tokoh dan pertanyaan besar cerita jadi satu kata yang sama {{tag:fact}}.",
+    "Di awal, ia adalah 刺客: profesional yang datang untuk menusuk. Di akhir, yang ia pertanyakan adalah 資格: apakah ia berhak mencintai. Perjalanan tokohnya adalah perjalanan dari kanji pertama ke kanji kedua {{tag:fan}}.",
+    "Bahasa Indonesia dan Inggris tidak punya padanan yang menyimpan dua makna itu sekaligus. Karena itu terjemahan resmi mempertahankan nama 'Shikaku', dan permainan katanya hanya bisa dijelaskan, tidak diterjemahkan."
+  ],
+  "homophonesTitle": "Shikaku lain yang ikut bergema",
+  "homophonesNote": "Bahasa Jepang punya banyak homofon. Yang di bawah ini tidak dinyatakan resmi sebagai bagian dari judul; ini bacaan penggemar.",
+  "homophones": [
+    {
+      "word": "四角",
+      "id": "shikaku-square",
+      "meaning": "persegi",
+      "note": "Bingkai panel manga, kotak televisi, dan kotak yang memenjarakan Yugeru dalam rutinitas abadi."
+    },
+    {
+      "word": "視覚",
+      "id": "shikaku-sight",
+      "meaning": "penglihatan",
+      "note": "Cerita yang sangat visual, dengan klimaks yang harus ditonton seluruh negeri."
+    },
+    {
+      "word": "死角",
+      "id": "shikaku-blindspot",
+      "meaning": "titik buta",
+      "note": "Yugeru tidak pernah melihat cinta datang dari arah peluru."
+    }
+  ]
+}

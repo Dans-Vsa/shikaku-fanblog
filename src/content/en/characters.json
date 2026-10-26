@@ -1,0 +1,80 @@
+{
+  "kicker": "Wiki · Characters",
+  "title": "Two files, one contract",
+  "lede": "Yugeru is filed neatly in a contract archive. Shikaku is scribbled across a wanted poster. Flip the cards to see who they are when they stop posing.",
+  "intro": [
+    "All of Shikaku runs on two characters who are opposites even in silhouette. One is calm, polite, and has lived far too long. The other is impulsive, childish, and lives as if there were no tomorrow. Fujimoto collides them in a single contract that can never be fulfilled.",
+    "The cards below imitate two kinds of documents: an aristocratic contract file for the {{g:kyuuketsuki|vampire}} who orders his own death, and a scribbled wanted poster for the girl who takes the job. The front is their public image. The back is the real self, which reveals part of the plot and is censored while spoiler-safe mode is on."
+  ],
+  "flipHint": "Click, press Enter, or tap a card to flip it.",
+  "front": "Public image",
+  "back": "True self",
+  "characters": [
+    {
+      "id": "yugeru",
+      "style": "contract",
+      "name": "Yugeru",
+      "jp": "ユゲル",
+      "docTitle": "Contract Archive · Client",
+      "stamp": "ARCHIVED",
+      "fields": [
+        { "k": "Species", "v": "{{g:kyuuketsuki|Vampire}}" },
+        { "k": "Age", "v": "± 3,500 years {{tag:fact}}" },
+        { "k": "Status", "v": "{{g:fushi|Cannot die}}" },
+        { "k": "Order", "v": "His own death" },
+        { "k": "Reward", "v": "100 million dollars {{tag:fact}}" },
+        { "k": "Seiyū (anime)", "v": "Tomokazu Sugita {{tag:fact}}" }
+      ],
+      "frontBody": [
+        "A courteous noble of the night, impeccably dressed, speaking like someone who has watched far too many sunsets. He does not hire a killer out of grudge against anyone. The target is himself.",
+        "In public he is calm and faintly bored. Each time his body is destroyed, what he regrets most is the ruined clothing."
+      ],
+      "backTitle": "What the contract leaves out",
+      "backBody": [
+        "Thousands of years of immortality have left Yugeru with no reason to feel anything. Asking to die is not melodrama; it is the logical conclusion of endless boredom.",
+        "What he did not expect: the girl who fails to kill him becomes the only thing in the world that pays him real attention. Repeated murder attempts start to feel like care, and that care slowly makes him want to live again {{tag:fan}}.",
+        "In the end, the man who ordered his own death becomes the one offering Shikaku a very long future."
+      ],
+      "quirks": [
+        "Complains about torn clothes, not wounds",
+        "Polite even while dismembered",
+        "Boredom as a factory setting"
+      ]
+    },
+    {
+      "id": "shikaku",
+      "style": "wanted",
+      "name": "Shikaku",
+      "jp": "シカク",
+      "docTitle": "WANTED · Assassin",
+      "stamp": "EXTREMELY DANGEROUS",
+      "fields": [
+        { "k": "Profession", "v": "{{g:koroshiya|Hitwoman}} {{tag:fact}}" },
+        { "k": "Marks", "v": "Black sailor uniform, twin pistols" },
+        { "k": "Style", "v": "Slaughters with a smile" },
+        { "k": "Record", "v": "Never failed… until now" },
+        { "k": "Seiyū (anime)", "v": "Kana Hanazawa {{tag:fact}}" }
+      ],
+      "frontBody": [
+        "A girl assassin whose name is famous in the underworld. Technical, precise, and not visibly bothered by her work. She cuts through security smiling like a child at play.",
+        "She speaks bluntly, sometimes too innocently, and treats a contract like a pinky promise."
+      ],
+      "backTitle": "What got scratched off the poster",
+      "backBody": [
+        "For the first time, Shikaku takes a target she cannot finish. Repeated failure shifts her professional obsession onto Yugeru himself, and then into a possessive, childish love.",
+        "She has no vocabulary for feelings, so she uses the only language she knows: persistence. When she finally accepts that she will never kill Yugeru, she feels she has lost the {{g:shikaku-qualification|right}} to stay near him, and leaves.",
+        "Shikaku returns in the least sensible way possible: hijacking a TV broadcast to confess in front of everyone. That is where the second meaning of her name appears."
+      ],
+      "quirks": [
+        "Shoots first, asks later",
+        "First love = first failed target",
+        "Cries loudest at the most public moment"
+      ]
+    }
+  ],
+  "dynamicsTitle": "Why this pairing works",
+  "dynamics": [
+    "Yugeru and Shikaku are two shapes of emptiness. One has too much time; the other has no way to fill time except violence. Both only feel alive when they meet the one person they cannot 'finish' {{tag:fan}}.",
+    "The comedy comes from a mismatch of scale: brutal murder is treated like office business, while matters of the heart are treated like the apocalypse. Fujimoto makes blood the punchline and a confession of love the most suspenseful moment."
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "kicker": "Wiki · Sinopsis",
+  "title": "Ceritanya, dua kali",
+  "lede": "Sekali tanpa spoiler untuk yang belum membaca. Sekali lagi lengkap, babak demi babak, untuk yang sudah.",
+  "tabs": { "safe": "Tanpa spoiler", "full": "Spoiler penuh" },
+  "safe": {
+    "title": "Premis",
+    "body": [
+      "Shikaku adalah gadis yang terkenal sebagai {{g:koroshiya|pembunuh bayaran}}. Kliennya kali ini tidak biasa: Yugeru, {{g:kyuuketsuki|vampir}} yang sudah hidup sekitar 3.500 tahun dan bosan setengah mati dengan keabadiannya. Ia ingin mati, dan ia menyewa Shikaku untuk melakukannya {{tag:fact}}.",
+      "Masalahnya, Yugeru tidak bisa mati. Apa pun yang dilakukan Shikaku, tubuhnya pulih kembali. Dari situ lahir kisah yang separuh komedi absurd, separuh romansa ganjil, dan sepenuhnya khas Tatsuki Fujimoto muda.",
+      "Cerita ini adalah {{g:yomikiri|one-shot}} yang terbit pada 2014 dan kini bisa dibaca resmi dalam kumpulan *Tatsuki Fujimoto Before Chainsaw Man: 17-21*. Kalau kamu belum membacanya, berhenti di sini dan baca dulu lewat jalur resmi. Ceritanya pendek, dan kejutannya layak dirasakan langsung."
+    ],
+    "facts": [
+      { "k": "Format", "v": "One-shot (yomikiri)" },
+      { "k": "Terbit", "v": "Jump SQ.19, 2014" },
+      { "k": "Kumpulan", "v": "17-21 (cerita ke-4)" },
+      { "k": "Genre", "v": "Komedi aksi, romansa, absurd" }
+    ]
+  },
+  "full": {
+    "title": "Spoiler penuh, per babak",
+    "note": "Ringkasan diparafrasekan dengan kata-kata kami sendiri, bukan kutipan dialog. Urutan adegan kecil dan detail angka yang tidak bisa diverifikasi ditulis secara umum.",
+    "acts": [
+      {
+        "n": 1,
+        "title": "Kontrak pembunuhan",
+        "jp": "刺客",
+        "body": [
+          "Yugeru, vampir abadi yang jemu, menyewa Shikaku untuk membunuhnya dengan bayaran besar. Shikaku menerima pekerjaan itu seperti pekerjaan lain: dengan tenang, efisien, dan senyum lebar.",
+          "Percobaan pertama berjalan sesuai prosedur. Hasilnya tidak. Yugeru pulih tanpa luka dan yang ia keluhkan hanya bajunya."
+        ]
+      },
+      {
+        "n": 2,
+        "title": "Pembantaian yang sia-sia",
+        "jp": "日々",
+        "body": [
+          "Hari berganti dan Shikaku terus mencoba dengan cara yang makin kreatif dan makin brutal. Setiap kegagalan justru membuatnya makin terpaku pada Yugeru. Obsesi profesional berubah menjadi sesuatu yang lebih pribadi.",
+          "Di sisi lain, Yugeru menemukan hal yang lama hilang: seseorang yang gigih memperhatikannya. Hubungan mereka tumbuh di antara peluru dan puing, termasuk momen ganjil ketika Yugeru menawarkan bagian tubuhnya sendiri kepada Shikaku, sebuah gestur yang dalam logika cerita ini terasa hampir seperti kencan {{tag:dramatized}}."
+        ]
+      },
+      {
+        "n": 3,
+        "title": "Patah hati",
+        "jp": "空白",
+        "body": [
+          "Shikaku akhirnya menerima kenyataan: ia tidak akan pernah bisa membunuh Yugeru. Gagal sebagai pembunuh, dan merasa tidak pantas berada di sisinya, ia pergi.",
+          "Untuk pertama kalinya, Yugeru merasakan sesuatu yang bukan bosan: kehilangan. Ruangan yang dulu penuh ledakan kini sunyi."
+        ]
+      },
+      {
+        "n": 4,
+        "title": "Di balik panel",
+        "jp": "解剖",
+        "body": [
+          "Babak ini tidak ada di manga. Di halaman Baca, kami memakainya sebagai jeda kurasi untuk membedah DNA Fujimoto: tokoh perempuan yang tidak terkendali, kutukan keabadian, dan evolusi visual dari manga 2014 ke anime 2025 {{tag:fan}}."
+        ]
+      },
+      {
+        "n": 5,
+        "title": "Pembajakan siaran",
+        "jp": "資格",
+        "body": [
+          "Shikaku kembali dengan cara paling spektakuler: membajak siaran televisi untuk menangis dan menyatakan perasaannya kepada Yugeru di depan semua orang. Pengakuan cinta yang biasanya paling pribadi menjadi tontonan nasional.",
+          "Di sini judulnya berputar. Shikaku sebagai {{g:shikaku-assassin|刺客}} (pembunuh bayaran) merasa tidak punya {{g:shikaku-qualification|資格}} (kualifikasi) untuk mencintai, karena ia bahkan gagal sebagai pembunuh.",
+          "Jawaban Yugeru membalik semuanya: alih-alih menolak, ia mengajak Shikaku menemaninya untuk waktu yang sangat panjang ke depan. Orang yang dulu memesan kematian kini menawarkan keabadian berdua."
+        ]
+      }
+    ]
+  },
+  "afterTitle": "Kenapa akhirnya terasa benar",
+  "after": [
+    "Akhir Shikaku bekerja karena ia menjawab premis dengan cara yang tidak terduga tapi logis. Yugeru ingin mati karena tidak ada yang membuat hidup layak dijalani. Shikaku tidak bisa memberinya kematian, tetapi ia memberi alasan untuk hidup {{tag:opinion}}.",
+    "Fujimoto juga membiarkan ending tetap ganjil. Tidak ada pelajaran moral yang rapi, hanya dua orang aneh yang memutuskan bahwa keanehan mereka cocok satu sama lain."
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "kicker": "Wiki · Kanji",
+  "title": "One sound, two fates",
+  "lede": "刺客 and 資格 are pronounced exactly the same: shikaku. Drag the slider below to watch one word turn into the other, just as the heroine does.",
+  "morphLabel": "Morph 刺客 into 資格",
+  "morphHint": "Drag, use left/right arrows, or press play.",
+  "play": "Play morph",
+  "pause": "Pause",
+  "pairs": [
+    {
+      "word": "刺客",
+      "reading": "shi · kaku",
+      "meaning": "assassin",
+      "chars": [
+        { "c": "刺", "r": "shi", "m": "to stab, pierce; also a thorn" },
+        { "c": "客", "r": "kaku / kyaku", "m": "guest, visitor, person" }
+      ],
+      "note": "Literally 'a person who comes to stab'. A classical-sounding word for a hired killer, more poetic than {{g:koroshiya|殺し屋}}."
+    },
+    {
+      "word": "資格",
+      "reading": "shi · kaku",
+      "meaning": "qualification, right, eligibility",
+      "chars": [
+        { "c": "資", "r": "shi", "m": "capital, resources, provisions" },
+        { "c": "格", "r": "kaku", "m": "status, standard, rank" }
+      ],
+      "note": "Resources that meet a standard. Used in phrases like 'having no right to…'. This is Shikaku's feeling at the climax."
+    }
+  ],
+  "wordplayTitle": "Why this wordplay matters",
+  "wordplay": [
+    "The official title is written in {{g:katakana|シカク}}, not kanji. Katakana records only sound, so Japanese readers hear 'shikaku' without being told which kanji is meant. The heroine's name and the story's big question become the same word {{tag:fact}}.",
+    "At the start she is 刺客: a professional who comes to stab. At the end, what she questions is 資格: whether she has the right to love. Her arc is the journey from the first kanji to the second {{tag:fan}}.",
+    "Neither English nor Indonesian has a word that holds both meanings at once. That is why the official translation keeps the name 'Shikaku': the wordplay can be explained, but not translated."
+  ],
+  "homophonesTitle": "Other shikaku that echo",
+  "homophonesNote": "Japanese has many homophones. Those below are not officially part of the title; they are a fan reading.",
+  "homophones": [
+    {
+      "word": "四角",
+      "id": "shikaku-square",
+      "meaning": "square",
+      "note": "The manga panel frame, the TV box, and the box of eternal routine that traps Yugeru."
+    },
+    {
+      "word": "視覚",
+      "id": "shikaku-sight",
+      "meaning": "sight",
+      "note": "A deeply visual story whose climax must be watched by an entire nation."
+    },
+    {
+      "word": "死角",
+      "id": "shikaku-blindspot",
+      "meaning": "blind spot",
+      "note": "Yugeru never saw love coming from the direction of the bullets."
+    }
+  ]
+}

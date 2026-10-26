@@ -1,0 +1,80 @@
+{
+  "kicker": "Wiki · Karakter",
+  "title": "Dua berkas, satu kontrak",
+  "lede": "Yugeru tersimpan rapi di arsip kontrak. Shikaku tercoret-coret di papan buronan. Balik kartunya untuk melihat siapa mereka saat tidak sedang berpose.",
+  "intro": [
+    "Seluruh kisah Shikaku digerakkan oleh dua tokoh yang secara bentuk saja sudah bertolak belakang. Yang satu tenang, sopan, dan hidup terlalu lama. Yang lain impulsif, kekanak-kanakan, dan hidup seolah tidak punya hari esok. Fujimoto menabrakkan keduanya dalam satu kontrak yang mustahil dipenuhi.",
+    "Kartu di bawah meniru dua jenis dokumen: berkas kontrak bangsawan untuk {{g:kyuuketsuki|vampir}} yang memesan kematiannya sendiri, dan poster buronan penuh coretan untuk gadis yang menerima pesanan itu. Sisi depan adalah citra publik mereka. Sisi belakang adalah sisi asli, yang membuka sebagian alur cerita sehingga disensor bila mode aman spoiler aktif."
+  ],
+  "flipHint": "Klik, tekan Enter, atau ketuk kartu untuk membaliknya.",
+  "front": "Citra publik",
+  "back": "Sisi asli",
+  "characters": [
+    {
+      "id": "yugeru",
+      "style": "contract",
+      "name": "Yugeru",
+      "jp": "ユゲル",
+      "docTitle": "Arsip Kontrak · Klien",
+      "stamp": "DIARSIPKAN",
+      "fields": [
+        { "k": "Spesies", "v": "{{g:kyuuketsuki|Vampir}}" },
+        { "k": "Usia", "v": "± 3.500 tahun {{tag:fact}}" },
+        { "k": "Status", "v": "{{g:fushi|Tidak bisa mati}}" },
+        { "k": "Pesanan", "v": "Kematiannya sendiri" },
+        { "k": "Imbalan", "v": "100 juta dolar {{tag:fact}}" },
+        { "k": "Seiyū (anime)", "v": "Tomokazu Sugita {{tag:fact}}" }
+      ],
+      "frontBody": [
+        "Bangsawan malam yang sopan, berpakaian rapi, dan bicara dengan nada orang yang sudah terlalu sering melihat matahari terbenam. Ia tidak menyewa pembunuh karena dendam pada siapa pun. Targetnya adalah dirinya sendiri.",
+        "Di depan umum ia tampak tenang dan agak jemu. Setiap kali tubuhnya dihancurkan, yang paling ia sesali justru pakaiannya yang rusak."
+      ],
+      "backTitle": "Yang tidak tertulis di kontrak",
+      "backBody": [
+        "Ribuan tahun keabadian membuat Yugeru kehilangan alasan untuk merasakan apa pun. Permintaan mati bukan drama, melainkan kesimpulan logis dari kebosanan yang tidak berujung.",
+        "Yang tidak ia duga: gadis yang gagal membunuhnya justru menjadi satu-satunya hal di dunia yang memperhatikannya dengan sungguh-sungguh. Percobaan pembunuhan yang terus diulang terasa seperti perhatian, dan perhatian itu pelan-pelan membuatnya ingin hidup lagi {{tag:fan}}.",
+        "Pada akhirnya, Yugeru yang semula memesan kematian menjadi orang yang menawarkan masa depan panjang kepada Shikaku."
+      ],
+      "quirks": [
+        "Mengeluhkan baju robek, bukan luka",
+        "Sopan bahkan saat dimutilasi",
+        "Bosan sebagai kondisi bawaan"
+      ]
+    },
+    {
+      "id": "shikaku",
+      "style": "wanted",
+      "name": "Shikaku",
+      "jp": "シカク",
+      "docTitle": "DICARI · Pembunuh Bayaran",
+      "stamp": "SANGAT BERBAHAYA",
+      "fields": [
+        { "k": "Profesi", "v": "{{g:koroshiya|Pembunuh bayaran}} {{tag:fact}}" },
+        { "k": "Ciri", "v": "Seragam pelaut hitam, dua pistol" },
+        { "k": "Gaya", "v": "Membantai sambil tersenyum" },
+        { "k": "Rekor", "v": "Tidak pernah gagal… sampai sekarang" },
+        { "k": "Seiyū (anime)", "v": "Kana Hanazawa {{tag:fact}}" }
+      ],
+      "frontBody": [
+        "Gadis pembunuh bayaran yang namanya terkenal di dunia bawah tanah. Teknis, presisi, dan sama sekali tidak tampak terganggu oleh pekerjaannya. Ia bisa menembus penjagaan sambil tersenyum seperti anak yang sedang bermain.",
+        "Ia bicara terus terang, terkadang terlalu polos, dan memperlakukan kontrak seperti janji kelingking."
+      ],
+      "backTitle": "Yang dicoret dari poster",
+      "backBody": [
+        "Untuk pertama kalinya, Shikaku menerima target yang tidak bisa diselesaikan. Kegagalan berulang itu menggeser obsesi profesionalnya menjadi obsesi pada sosok Yugeru sendiri, lalu menjadi cinta yang posesif dan kekanak-kanakan.",
+        "Ia tidak punya kosakata untuk perasaan, jadi ia memakai satu-satunya bahasa yang ia kuasai: kegigihan. Ketika akhirnya ia yakin tidak akan pernah berhasil membunuh Yugeru, ia merasa kehilangan {{g:shikaku-qualification|hak}} untuk berada di dekatnya, lalu pergi.",
+        "Shikaku kembali dengan cara paling tidak masuk akal: membajak siaran televisi untuk menyatakan perasaannya di depan semua orang. Di sanalah makna kedua namanya muncul."
+      ],
+      "quirks": [
+        "Menembak dulu, bertanya belakangan",
+        "Cinta pertama = target pertama yang gagal",
+        "Menangis paling keras di saat paling publik"
+      ]
+    }
+  ],
+  "dynamicsTitle": "Kenapa pasangan ini bekerja",
+  "dynamics": [
+    "Yugeru dan Shikaku adalah dua bentuk kehampaan. Yang satu kebanyakan waktu, yang lain kekurangan cara untuk mengisi waktu selain dengan kekerasan. Keduanya baru merasa hidup saat bertemu satu-satunya orang yang tidak bisa mereka 'selesaikan' {{tag:fan}}.",
+    "Komedinya lahir dari kontras skala: pembunuhan brutal diperlakukan seperti urusan kantor, sementara urusan hati diperlakukan seperti kiamat. Fujimoto menempatkan darah sebagai lelucon dan pengakuan cinta sebagai momen paling menegangkan."
+  ]
+}
