@@ -128,6 +128,32 @@
   .link-ink:hover {
     background-size: 100% 45%;
   }
+
+  .link-ink-light {
+    background-image: linear-gradient(var(--paper), var(--paper));
+    background-size: 0% 2px;
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 0.35s var(--ease-out);
+  }
+
+  .link-ink-light:hover,
+  .link-ink-light:focus-visible {
+    background-size: 100% 2px;
+  }
+
+  /* ganti bahasa: konten memudar sesaat (I18nProvider) */
+  #main {
+    transition:
+      opacity 0.16s var(--ease-out),
+      filter 0.16s var(--ease-out);
+  }
+
+  html.lang-out #main,
+  html.lang-out header nav {
+    opacity: 0;
+    filter: blur(3px);
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {

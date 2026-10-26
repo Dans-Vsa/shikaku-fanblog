@@ -1,0 +1,125 @@
+.cursor-dot,
+.cursor-ring {
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: translate(-50%, -50%) scale(var(--s, 1)) rotate(var(--r, 0deg));
+  transition:
+    transform 0.28s var(--ease-snap),
+    width 0.28s var(--ease-out),
+    height 0.28s var(--ease-out),
+    border-radius 0.28s var(--ease-out),
+    background-color 0.2s,
+    opacity 0.2s;
+  will-change: transform;
+}
+
+.cursor-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 999px;
+  background: #fff;
+  mix-blend-mode: difference;
+}
+
+.cursor-ring {
+  width: 36px;
+  height: 36px;
+  border-radius: 999px;
+  border: 2px solid #fff;
+  mix-blend-mode: difference;
+  display: grid;
+  place-items: center;
+}
+
+.cursor-label {
+  opacity: 0;
+  font-size: 0.6rem;
+  color: var(--paper);
+  white-space: nowrap;
+  transition: opacity 0.2s;
+}
+
+.cursor-label > span {
+  display: none;
+}
+
+.cursor-root.is-down .cursor-ring {
+  --s: 0.78;
+}
+
+.cursor-root.is-down .cursor-dot {
+  --s: 1.6;
+}
+
+/* tautan & tombol */
+.cursor-root[data-state='link'] .cursor-ring {
+  --s: 1.55;
+}
+.cursor-root[data-state='link'] .cursor-dot {
+  --s: 0.4;
+}
+
+/* kartu: bingkai panel miring + label "balik" */
+.cursor-root[data-state='card'] .cursor-ring {
+  width: 74px;
+  height: 74px;
+  border-radius: 2px;
+  --r: -6deg;
+  mix-blend-mode: normal;
+  background: var(--ink);
+  border-color: var(--ink);
+}
+.cursor-root[data-state='card'] .cursor-label,
+.cursor-root[data-state='card'] .label-card {
+  opacity: 1;
+  display: inline;
+}
+.cursor-root[data-state='card'] .cursor-dot {
+  opacity: 0;
+}
+
+/* spoiler: gumpalan tinta */
+.cursor-root[data-state='spoiler'] .cursor-ring {
+  width: 84px;
+  height: 84px;
+  border-radius: 46% 54% 42% 58% / 55% 40% 60% 45%;
+  mix-blend-mode: normal;
+  background: var(--ink);
+  border-color: var(--ink);
+}
+.cursor-root[data-state='spoiler'] .cursor-label,
+.cursor-root[data-state='spoiler'] .label-spoiler {
+  opacity: 1;
+  display: inline;
+}
+.cursor-root[data-state='spoiler'] .cursor-dot {
+  opacity: 0;
+}
+
+/* teks: garis vertikal */
+.cursor-root[data-state='text'] .cursor-ring {
+  opacity: 0;
+}
+.cursor-root[data-state='text'] .cursor-dot {
+  width: 3px;
+  height: 24px;
+  border-radius: 1px;
+}
+
+/* slider before/after */
+.cursor-root[data-state='drag'] .cursor-ring {
+  width: 64px;
+  height: 30px;
+}
+
+/* area yang menggambar kursornya sendiri (simulasi eksekusi, shader) */
+.cursor-root[data-state='none'] .cursor-ring,
+.cursor-root[data-state='none'] .cursor-dot {
+  opacity: 0;
+}
+
+html[data-motion='reduced'] .cursor-dot,
+html[data-motion='reduced'] .cursor-ring {
+  transition: none;
+}
