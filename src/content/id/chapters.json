@@ -1,0 +1,202 @@
+{
+  "kicker": "Baca · scrollytelling",
+  "title": "Shikaku dalam lima babak",
+  "lede": "Gulir pelan. Ritme halaman ini sengaja berubah: dingin, kacau, sunyi, rapi, lalu meledak di layar televisi.",
+  "spoilerNote": "Babak 3 dan 5 membuka akhir cerita. Dalam mode aman spoiler, kalimat kuncinya tersensor tinta; klik tinta untuk membaca, atau matikan sensor di navigasi.",
+  "dramatizedNote": "Semua adegan diparafrasekan dan didramatisasi dengan kata-kata kami sendiri. Tidak ada dialog yang dikutip dari manga.",
+  "emotionMap": "Peta emosi",
+  "toc": ["Kontrak", "365 Hari", "Kosong", "Arsip", "Siaran"],
+  "act1": {
+    "label": "Babak 1",
+    "title": "Kontrak pembunuhan",
+    "jp": "刺客",
+    "lines": [
+      "Sebuah kastil. Lilin yang tidak pernah habis. Seorang klien yang tidak pernah mati.",
+      "Ia sudah hidup sekitar tiga ribu lima ratus tahun. Ia sudah membaca semua buku, mencicipi semua anggur, menyaksikan semua kerajaan runtuh.",
+      "Yang tersisa hanya satu keinginan: berhenti."
+    ],
+    "contract": {
+      "title": "Surat Perintah Kerja · Rahasia",
+      "fields": [
+        {
+          "k": "Klien",
+          "v": "Yugeru"
+        },
+        {
+          "k": "Target",
+          "v": "Yugeru"
+        },
+        {
+          "k": "Metode",
+          "v": "Bebas"
+        },
+        {
+          "k": "Imbalan",
+          "v": "100.000.000 USD"
+        },
+        {
+          "k": "Tenggat",
+          "v": "Selamanya, bila perlu"
+        }
+      ],
+      "clause": "Pasal 1: Pihak kedua wajib membunuh pihak pertama. Pasal 2: Pihak pertama mohon maaf sebelumnya bila hal itu mustahil."
+    },
+    "contrast": {
+      "yugeru": {
+        "name": "Yugeru",
+        "lines": ["Tenang.", "Sopan.", "Jemu.", "Ingin mati."]
+      },
+      "shikaku": {
+        "name": "Shikaku",
+        "lines": [
+          "Riang.",
+          "Presisi.",
+          "Seragam pelaut hitam.",
+          "Membantai penjaga sambil tersenyum."
+        ]
+      }
+    },
+    "kanji": {
+      "word": "刺客",
+      "reading": "shikaku",
+      "meaning": "pembunuh bayaran",
+      "note": "Namanya sekaligus profesinya. Orang yang datang untuk menusuk."
+    },
+    "simIntro": "Kontraknya sudah ditandatangani. Sekarang giliranmu menjadi Shikaku.",
+    "simOutro": "Setiap kali ia hancur, ia kembali. Dan setiap kali ia kembali, yang ia keluhkan hanya bajunya."
+  },
+  "act2": {
+    "label": "Babak 2",
+    "title": "365 hari pembantaian sia-sia",
+    "jp": "日々",
+    "numberNote": "Angka 365 di sini simbolis: montase tentang hari-hari yang berulang, bukan hitungan resmi.",
+    "dayLabel": "HARI",
+    "intro": "Hari berganti. Peluru berganti. Hasilnya tidak.",
+    "shikakuSide": "Shikaku",
+    "yugeruSide": "Yugeru",
+    "shikaku": [
+      "Hari ini: tembak kepala. Gagal.",
+      "Racun di teh. Ia minta tambah gula.",
+      "Tebas jadi dua. Ia menyambung sendiri.",
+      "BESOK PASTI MATI!!",
+      "Kenapa aku menunggu besok?",
+      "Rambutnya bagus kalau terkena cahaya bulan. (CORET)",
+      "Dia milikku. Targetku. Milikku.",
+      "Aku tidak mau orang lain yang membunuhnya."
+    ],
+    "yugeru": [
+      "Ia datang lagi pagi ini. Tepat waktu.",
+      "Gaya menembaknya sedikit membaik.",
+      "Aku menyiapkan dua cangkir teh. Tanpa sadar.",
+      "Ribuan tahun tak ada yang benar-benar menatapku.",
+      "Ia menatapku. Melalui teropong, tapi tetap saja.",
+      "Hari tanpa kedatangannya terasa sangat panjang.",
+      "Aku mulai berharap ia gagal lagi.",
+      "Mungkin bosan itu sudah mencair."
+    ],
+    "merge": {
+      "title": "Hidangan",
+      "body": "Ketika Shikaku kelaparan, Yugeru menawarkan sepotong dirinya sendiri. Bagian yang hilang tumbuh kembali sebelum piringnya kosong. Dalam logika cerita ini, itu hampir terasa seperti kencan pertama.",
+      "caption": "Adegan disimbolkan, bukan digambarkan."
+    }
+  },
+  "act3": {
+    "label": "Babak 3",
+    "title": "Patah hati",
+    "jp": "空白",
+    "lines": [
+      "Lalu suatu hari, ia berhenti datang.",
+      "{{s:Shikaku sadar ia tidak akan pernah bisa membunuh Yugeru.}}",
+      "{{s:Gagal sebagai pembunuh. Tidak pantas sebagai apa pun.}}",
+      "Kastil itu kembali sunyi.",
+      "{{s:Untuk pertama kalinya dalam ribuan tahun, Yugeru merindukan sesuatu.}}",
+      "Dua cangkir teh. Satu dingin."
+    ]
+  },
+  "act4": {
+    "label": "Babak 4",
+    "title": "Ruang arsip: bedah DNA Fujimoto",
+    "jp": "解剖",
+    "intro": "Jeda dari cerita. Sebelum babak terakhir, mari berdiri sejenak di ruang pamer dan melihat Shikaku sebagai bagian dari karya yang lebih besar.",
+    "panels": [
+      {
+        "id": "unhinged",
+        "kind": "fan",
+        "title": "Cetak biru tokoh yang tak terkendali",
+        "body": [
+          "Shikaku adalah salah satu versi awal tipe tokoh yang kelak menjadi tanda tangan Fujimoto: perempuan yang tidak bisa ditebak, berbahaya, kekanak-kanakan, dan anehnya tulus.",
+          "Penggemar sering menarik garis dari Shikaku ke Togata di Fire Punch, lalu ke Power dan Reze di Chainsaw Man. Kekerasan mereka tidak pernah membuat mereka sekadar villain; kekerasan adalah bahasa mereka untuk mendekat."
+        ],
+        "chain": [
+          "Shikaku · 2014",
+          "Togata · Fire Punch",
+          "Power · Chainsaw Man",
+          "Reze · Chainsaw Man"
+        ]
+      },
+      {
+        "id": "immortal",
+        "kind": "fan",
+        "title": "Kutukan keabadian: Yugeru dan Agni",
+        "body": [
+          "Dua tahun setelah Shikaku, Fire Punch memperkenalkan Agni, tokoh yang terus terbakar dan terus beregenerasi. Tubuh yang tidak bisa mati muncul lagi, kali ini sebagai tragedi panjang.",
+          "Yugeru adalah versi komedinya: regenerasi sebagai lelucon tentang baju robek. Agni adalah versi luka: regenerasi sebagai penderitaan tanpa ujung. Keduanya bertanya hal yang sama: apa arti hidup kalau tidak bisa berakhir?"
+        ]
+      },
+      {
+        "id": "evolution",
+        "kind": "opinion",
+        "title": "Evolusi visual: manga 2014 vs anime 2025",
+        "body": [
+          "Manga Shikaku bertumpu pada garis tinta yang kasar, blok hitam pekat, dan panel kosong yang berani. Adaptasi anime 2025 di Prime Video punya bahasa sendiri: gerak, warna, dan suara.",
+          "Ilustrasi di samping adalah tafsir kami sendiri, bukan tangkapan layar: kiri gaya arsir manga, kanan gaya blok warna datar ala animasi. Geser untuk membandingkan."
+        ]
+      }
+    ]
+  },
+  "act5": {
+    "label": "Babak 5",
+    "title": "Pembajakan siaran",
+    "jp": "資格",
+    "intro": "Kertasnya terbakar. Layar menyala.",
+    "lowerThird": "SIARAN LANGSUNG · DIINTERUPSI",
+    "channel": "CH 05",
+    "signalLost": "SINYAL HILANG",
+    "hijack": "SIARAN INI DIAMBIL ALIH",
+    "confession": [
+      "{{s:Seorang gadis berseragam pelaut hitam menangis di depan kamera.}}",
+      "{{s:Ia bilang ia gagal. Ia bilang ia tidak pantas.}}",
+      "{{s:Lalu, di depan seluruh negeri, ia bilang ia mencintainya.}}"
+    ],
+    "morphCaption": "刺客 → 資格",
+    "morphNote": "Pembunuh bayaran yang merasa tidak punya hak untuk mencintai.",
+    "answer": [
+      "{{s:Jawaban Yugeru tidak datang dalam bentuk penolakan.}}",
+      "{{s:Ia memintanya tinggal. Menemaninya, kira-kira tiga ribu tahun ke depan.}}"
+    ],
+    "screenConfession": ["AKU GAGAL.", "AKU TIDAK PUNYA HAK…", "TAPI AKU MENCINTAIMU."],
+    "screenAnswer": ["TEMANI AKU", "3.000 TAHUN LAGI."],
+    "screenCensored": "████ DISENSOR ████",
+    "censoredHint": "Mode aman spoiler aktif: isi siaran disensor.",
+    "revealCta": "Buka sensor & tonton siarannya",
+    "ending": "Pembunuh bayaran yang tidak bisa membunuh. Vampir yang tidak bisa mati. Ternyata itu kualifikasi yang cukup.",
+    "ctaTitle": "Siaran selesai. Lanjut ke mana?",
+    "ctas": [
+      {
+        "to": "/wiki",
+        "label": "Wiki",
+        "body": "Karakter, tema, kanji, produksi."
+      },
+      {
+        "to": "/anime",
+        "label": "Anime",
+        "body": "Episode 4 dan trailer resmi."
+      },
+      {
+        "to": "/baca-resmi",
+        "label": "Baca resmi",
+        "body": "Dukung karya aslinya."
+      }
+    ]
+  }
+}

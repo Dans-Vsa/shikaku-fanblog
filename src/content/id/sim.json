@@ -1,0 +1,50 @@
+{
+  "title": "Simulasi Eksekusi Target",
+  "aria": "Simulasi eksekusi: tembak, tebas, atau ledakkan Yugeru. Ia akan selalu pulih.",
+  "target": "Target: Yugeru · 3.500 th · tidak bisa mati",
+  "attempts": "Percobaan",
+  "boredom": "Kebosanan",
+  "weapons": {
+    "shoot": "Tembak",
+    "slash": "Tebas",
+    "explode": "Ledakkan"
+  },
+  "keys": {
+    "shoot": "1 · klik / ketuk",
+    "slash": "2 · seret / tahan / klik kanan",
+    "explode": "3 · E / dua jari"
+  },
+  "locked": "Terkunci",
+  "unlocked": {
+    "slash": "Senjata baru: TEBASAN. Seret melintasi tubuhnya, tahan, atau klik kanan.",
+    "explode": "Senjata baru: LEDAKAN GEDUNG. Tekan 3 / E, atau ketuk dengan dua jari."
+  },
+  "intro": "Klik untuk menembak. Pistol kembar, dua tangan, nol keraguan.",
+  "keyboardHint": "Keyboard: 1/2/3 pilih senjata, Spasi untuk menyerang.",
+  "ready": "Sudahlah. Ia tidak akan mati. Mungkin… ini bukan cerita tentang membunuh.",
+  "readyCta": "Lanjut ke cerita",
+  "reset": "Ulangi kontrak",
+  "complaints": [
+    [
+      "Ini sutra dari abad keempat belas.",
+      "Kerahnya. Kau merusak kerahnya.",
+      "Bisakah kau membidik ke arah yang tidak berjahit?",
+      "Tolong catat: jubah ini lebih tua dari negaramu.",
+      "Lubang lagi. Penjahitku sudah wafat dua ratus tahun lalu."
+    ],
+    [
+      "Hm. Sudah selesai?",
+      "Aku sudah pernah mati dengan cara yang lebih kreatif.",
+      "Ini bab yang sama, hanya dengan tinta lebih banyak.",
+      "Kau tahu aku membayar untuk hasil, bukan untuk kebisingan.",
+      "Membosankan. Tapi kau datang lagi. Itu… menarik."
+    ],
+    [
+      "Kau tidak menyerah, ya.",
+      "Tiga ribu lima ratus tahun, dan baru kau yang selalu kembali.",
+      "Kalau besok kau datang lagi, aku akan memakai baju yang lebih murah.",
+      "Anehnya, aku mulai menunggu jam kau datang.",
+      "Jangan berhenti. Maksudku… lanjutkan pekerjaanmu."
+    ]
+  ]
+}

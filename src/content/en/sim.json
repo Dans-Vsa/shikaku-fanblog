@@ -1,0 +1,50 @@
+{
+  "title": "Target Execution Simulation",
+  "aria": "Execution simulation: shoot, slash, or blow up Yugeru. He will always come back.",
+  "target": "Target: Yugeru · 3,500 yrs · cannot die",
+  "attempts": "Attempts",
+  "boredom": "Boredom",
+  "weapons": {
+    "shoot": "Shoot",
+    "slash": "Slash",
+    "explode": "Detonate"
+  },
+  "keys": {
+    "shoot": "1 · click / tap",
+    "slash": "2 · drag / hold / right-click",
+    "explode": "3 · E / two fingers"
+  },
+  "locked": "Locked",
+  "unlocked": {
+    "slash": "New weapon: SLASH. Drag across his body, hold, or right-click.",
+    "explode": "New weapon: BUILDING DEMOLITION. Press 3 / E, or tap with two fingers."
+  },
+  "intro": "Click to shoot. Twin pistols, two hands, zero hesitation.",
+  "keyboardHint": "Keyboard: 1/2/3 choose a weapon, Space to attack.",
+  "ready": "Give it up. He won't die. Maybe… this isn't a story about killing.",
+  "readyCta": "Continue to the story",
+  "reset": "Restart the contract",
+  "complaints": [
+    [
+      "This is fourteenth-century silk.",
+      "The collar. You ruined the collar.",
+      "Could you aim somewhere without seams?",
+      "For the record: this cape is older than your country.",
+      "Another hole. My tailor died two hundred years ago."
+    ],
+    [
+      "Hm. Are we done?",
+      "I have died more creatively than this.",
+      "Same chapter, just more ink.",
+      "I'm paying for results, not for noise.",
+      "Boring. But you came back. That's… interesting."
+    ],
+    [
+      "You don't give up, do you.",
+      "Three and a half thousand years, and you're the only one who keeps coming back.",
+      "If you come again tomorrow, I'll wear something cheaper.",
+      "Strangely, I've started waiting for the hour you arrive.",
+      "Don't stop. I mean… carry on with your work."
+    ]
+  ]
+}

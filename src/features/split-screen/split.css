@@ -1,0 +1,41 @@
+.split-panel {
+  border: 3px solid var(--ink);
+  background: var(--paper);
+  padding: 0.9rem 1.1rem;
+  line-height: 1.25;
+}
+
+.split-panel--shikaku {
+  font-family: var(--font-shikaku);
+  font-size: clamp(1.05rem, 2.2vw, 1.7rem);
+  transform: rotate(var(--r, -2deg));
+  box-shadow: 5px 5px 0 var(--ink);
+  background-image: radial-gradient(rgb(var(--ink-rgb) / 0.18) 1px, transparent 1.3px);
+  background-size: 6px 6px;
+}
+
+.split-panel--shikaku:nth-child(4n) {
+  background: var(--ink);
+  color: var(--paper);
+  font-size: clamp(1.4rem, 3vw, 2.4rem);
+}
+
+.split-panel--yugeru {
+  font-family: var(--font-yugeru);
+  font-style: italic;
+  font-size: clamp(1.05rem, 1.8vw, 1.45rem);
+  border-width: 0 0 2px 0;
+  background: transparent;
+}
+
+/* panel memudar saat lewat di bawah judul kolom */
+.split-col > div {
+  mask-image: linear-gradient(to bottom, transparent 0, transparent 9rem, #000 15rem, #000 100%);
+  -webkit-mask-image: linear-gradient(
+    to bottom,
+    transparent 0,
+    transparent 9rem,
+    #000 15rem,
+    #000 100%
+  );
+}

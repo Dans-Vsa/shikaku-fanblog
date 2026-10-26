@@ -1,0 +1,48 @@
+{
+  "kicker": "Fanblog & wiki · one-shot Tatsuki Fujimoto · 2014",
+  "hookA": "Dia disewa untuk membunuh.",
+  "hookB": "Dia tidak bisa mati.",
+  "lede": "Shikaku adalah gadis pembunuh bayaran. Yugeru adalah vampir berusia 3.500 tahun yang bosan hidup. Kontraknya sederhana. Hasilnya tidak.",
+  "simTitle": "Kontrak No. 01 — Eksekusi Target",
+  "simLede": "Rasakan dulu frustrasinya. Tembak. Tebas. Ledakkan gedungnya. Lihat apa yang terjadi.",
+  "pathsTitle": "Pilih pintu masukmu",
+  "paths": {
+    "new": {
+      "label": "Aku belum baca",
+      "body": "Mode aman spoiler aktif. Mulai dari cerita interaktif lima babak, akhir cerita tetap tersensor sampai kamu memilih membukanya.",
+      "cta": "Mulai membaca"
+    },
+    "fan": {
+      "label": "Aku fans",
+      "body": "Sensor tinta dilepas. Langsung ke wiki dalam: tema, permainan kata 刺客 / 資格, dan DNA Fujimoto.",
+      "cta": "Buka arsip"
+    }
+  },
+  "whyTitle": "Kenapa satu cerita pendek layak punya situs sendiri?",
+  "why": [
+    "Karena dalam beberapa puluh halaman, Tatsuki Fujimoto muda sudah menunjukkan hampir semua yang kelak membuat Chainsaw Man meledak: kekerasan yang diperlakukan seperti lelucon, tokoh perempuan yang tidak bisa ditebak, dan jeda sunyi yang menikam tepat setelah tawa {{tag:opinion}}.",
+    "Dan karena judulnya adalah permainan kata yang indah: {{g:shikaku-assassin|刺客}} dan {{g:shikaku-qualification|資格}} dibaca sama, *shikaku*. Pembunuh bayaran, dan hak untuk mencintai."
+  ],
+  "teasers": [
+    {
+      "to": "/baca",
+      "jp": "読",
+      "title": "Baca: lima babak",
+      "body": "Scrollytelling dari arsip kontrak yang dingin sampai siaran TV yang dibajak."
+    },
+    {
+      "to": "/anime",
+      "jp": "映",
+      "title": "Anime 2025",
+      "body": "Episode 4 Tatsuki Fujimoto 17-26, trailer resmi, dan perbandingan gaya."
+    },
+    {
+      "to": "/fujimoto",
+      "jp": "藤",
+      "title": "Jejak Fujimoto",
+      "body": "Dari 17-21 ke Fire Punch, Chainsaw Man, Look Back."
+    }
+  ],
+  "legal": "Situs ini adalah ruang penggemar. Untuk membaca dan menonton karyanya, gunakan jalur resmi.",
+  "legalCta": "Baca & tonton resmi"
+}

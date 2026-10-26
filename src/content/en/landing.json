@@ -1,0 +1,48 @@
+{
+  "kicker": "Fanblog & wiki · a Tatsuki Fujimoto one-shot · 2014",
+  "hookA": "She was hired to kill.",
+  "hookB": "He cannot die.",
+  "lede": "Shikaku is a girl assassin. Yugeru is a 3,500-year-old vampire bored of living. The contract is simple. The result is not.",
+  "simTitle": "Contract No. 01 — Target Execution",
+  "simLede": "Feel the frustration first. Shoot. Slash. Blow up the building. See what happens.",
+  "pathsTitle": "Choose your way in",
+  "paths": {
+    "new": {
+      "label": "I haven't read it",
+      "body": "Spoiler-safe mode on. Start with the five-act interactive story; the ending stays censored until you choose to reveal it.",
+      "cta": "Start reading"
+    },
+    "fan": {
+      "label": "I'm a fan",
+      "body": "Censor ink removed. Go straight to the deep wiki: themes, the 刺客 / 資格 wordplay, and Fujimoto's DNA.",
+      "cta": "Open the archive"
+    }
+  },
+  "whyTitle": "Why does one short story deserve its own site?",
+  "why": [
+    "Because in a few dozen pages, a young Tatsuki Fujimoto already shows almost everything that would later make Chainsaw Man explode: violence played as a joke, a heroine nobody can predict, and a silent pause that stabs right after the laugh {{tag:opinion}}.",
+    "And because its title is a beautiful pun: {{g:shikaku-assassin|刺客}} and {{g:shikaku-qualification|資格}} are pronounced the same, *shikaku*. An assassin, and the right to love."
+  ],
+  "teasers": [
+    {
+      "to": "/baca",
+      "jp": "読",
+      "title": "Read: five acts",
+      "body": "Scrollytelling from a cold contract archive to a hijacked TV broadcast."
+    },
+    {
+      "to": "/anime",
+      "jp": "映",
+      "title": "The 2025 anime",
+      "body": "Episode 4 of Tatsuki Fujimoto 17-26, the official trailer, and a style comparison."
+    },
+    {
+      "to": "/fujimoto",
+      "jp": "藤",
+      "title": "Fujimoto's trail",
+      "body": "From 17-21 to Fire Punch, Chainsaw Man, Look Back."
+    }
+  ],
+  "legal": "This site is a fan space. To read and watch the work itself, use official channels.",
+  "legalCta": "Read & watch officially"
+}

@@ -1,0 +1,202 @@
+{
+  "kicker": "Read · scrollytelling",
+  "title": "Shikaku in five acts",
+  "lede": "Scroll slowly. The rhythm of this page changes on purpose: cold, chaotic, silent, orderly, then exploding on a television screen.",
+  "spoilerNote": "Acts 3 and 5 reveal the ending. In spoiler-safe mode their key lines are censored in ink; click the ink to read, or turn the censor off in the navigation.",
+  "dramatizedNote": "Every scene is paraphrased and dramatized in our own words. No dialogue is quoted from the manga.",
+  "emotionMap": "Emotion map",
+  "toc": ["Contract", "365 Days", "Empty", "Archive", "Broadcast"],
+  "act1": {
+    "label": "Act 1",
+    "title": "The murder contract",
+    "jp": "刺客",
+    "lines": [
+      "A castle. Candles that never burn out. A client who never dies.",
+      "He has lived for about three and a half thousand years. He has read every book, tasted every wine, watched every kingdom fall.",
+      "Only one wish is left: to stop."
+    ],
+    "contract": {
+      "title": "Work Order · Confidential",
+      "fields": [
+        {
+          "k": "Client",
+          "v": "Yugeru"
+        },
+        {
+          "k": "Target",
+          "v": "Yugeru"
+        },
+        {
+          "k": "Method",
+          "v": "Any"
+        },
+        {
+          "k": "Reward",
+          "v": "USD 100,000,000"
+        },
+        {
+          "k": "Deadline",
+          "v": "Forever, if needed"
+        }
+      ],
+      "clause": "Clause 1: The second party shall kill the first party. Clause 2: The first party apologizes in advance should this prove impossible."
+    },
+    "contrast": {
+      "yugeru": {
+        "name": "Yugeru",
+        "lines": ["Calm.", "Polite.", "Bored.", "Wants to die."]
+      },
+      "shikaku": {
+        "name": "Shikaku",
+        "lines": [
+          "Cheerful.",
+          "Precise.",
+          "Black sailor uniform.",
+          "Mows down the guards, smiling."
+        ]
+      }
+    },
+    "kanji": {
+      "word": "刺客",
+      "reading": "shikaku",
+      "meaning": "assassin",
+      "note": "Her name and her job at once. A person who comes to stab."
+    },
+    "simIntro": "The contract is signed. Now it's your turn to be Shikaku.",
+    "simOutro": "Every time he breaks, he comes back. And every time he comes back, all he complains about is his clothes."
+  },
+  "act2": {
+    "label": "Act 2",
+    "title": "365 days of futile slaughter",
+    "jp": "日々",
+    "numberNote": "The 365 here is symbolic: a montage of repeating days, not an official count.",
+    "dayLabel": "DAY",
+    "intro": "Days change. Bullets change. The result does not.",
+    "shikakuSide": "Shikaku",
+    "yugeruSide": "Yugeru",
+    "shikaku": [
+      "Today: headshot. Failed.",
+      "Poison in the tea. He asked for more sugar.",
+      "Cut him in two. He stitched himself back.",
+      "HE DIES TOMORROW FOR SURE!!",
+      "Why am I looking forward to tomorrow?",
+      "His hair looks nice in moonlight. (SCRIBBLED OUT)",
+      "He's mine. My target. Mine.",
+      "I don't want anyone else to kill him."
+    ],
+    "yugeru": [
+      "She came again this morning. On time.",
+      "Her shooting has improved a little.",
+      "I set out two cups of tea. Without thinking.",
+      "For thousands of years no one truly looked at me.",
+      "She looks at me. Through a scope, but still.",
+      "Days without her visit feel very long.",
+      "I've started hoping she fails again.",
+      "Perhaps the boredom has thawed."
+    ],
+    "merge": {
+      "title": "The meal",
+      "body": "When Shikaku is starving, Yugeru offers her a piece of himself. The missing part grows back before the plate is empty. In this story's logic, it almost feels like a first date.",
+      "caption": "The scene is symbolized, not depicted."
+    }
+  },
+  "act3": {
+    "label": "Act 3",
+    "title": "Heartbreak",
+    "jp": "空白",
+    "lines": [
+      "Then one day, she stops coming.",
+      "{{s:Shikaku realizes she will never be able to kill Yugeru.}}",
+      "{{s:Failed as a killer. Unworthy as anything else.}}",
+      "The castle goes quiet again.",
+      "{{s:For the first time in thousands of years, Yugeru misses something.}}",
+      "Two cups of tea. One gone cold."
+    ]
+  },
+  "act4": {
+    "label": "Act 4",
+    "title": "The archive room: dissecting Fujimoto's DNA",
+    "jp": "解剖",
+    "intro": "A pause from the story. Before the final act, let's stand in the gallery for a moment and see Shikaku as part of a larger body of work.",
+    "panels": [
+      {
+        "id": "unhinged",
+        "kind": "fan",
+        "title": "Blueprint of the uncontrollable character",
+        "body": [
+          "Shikaku is one of the earliest versions of a character type that would become Fujimoto's signature: unpredictable, dangerous, childish, and strangely sincere.",
+          "Fans often draw a line from Shikaku to Togata in Fire Punch, then to Power and Reze in Chainsaw Man. Their violence never makes them mere villains; violence is their language for getting close."
+        ],
+        "chain": [
+          "Shikaku · 2014",
+          "Togata · Fire Punch",
+          "Power · Chainsaw Man",
+          "Reze · Chainsaw Man"
+        ]
+      },
+      {
+        "id": "immortal",
+        "kind": "fan",
+        "title": "The curse of immortality: Yugeru and Agni",
+        "body": [
+          "Two years after Shikaku, Fire Punch introduced Agni, who keeps burning and keeps regenerating. The body that cannot die returns, this time as a long tragedy.",
+          "Yugeru is the comic version: regeneration as a joke about torn clothes. Agni is the wounded version: regeneration as endless suffering. Both ask the same question: what does life mean if it cannot end?"
+        ]
+      },
+      {
+        "id": "evolution",
+        "kind": "opinion",
+        "title": "Visual evolution: 2014 manga vs 2025 anime",
+        "body": [
+          "The Shikaku manga leans on rough ink lines, solid black blocks, and bold empty panels. The 2025 anime adaptation on Prime Video speaks its own language: motion, color, and sound.",
+          "The illustration beside this is our own interpretation, not a screenshot: left in manga hatching style, right in flat animation-style color blocks. Drag to compare."
+        ]
+      }
+    ]
+  },
+  "act5": {
+    "label": "Act 5",
+    "title": "The broadcast hijack",
+    "jp": "資格",
+    "intro": "The paper burns. The screen switches on.",
+    "lowerThird": "LIVE BROADCAST · INTERRUPTED",
+    "channel": "CH 05",
+    "signalLost": "SIGNAL LOST",
+    "hijack": "THIS BROADCAST HAS BEEN TAKEN OVER",
+    "confession": [
+      "{{s:A girl in a black sailor uniform cries in front of the camera.}}",
+      "{{s:She says she failed. She says she has no right.}}",
+      "{{s:Then, in front of the whole country, she says she loves him.}}"
+    ],
+    "morphCaption": "刺客 → 資格",
+    "morphNote": "An assassin who feels she has no right to love.",
+    "answer": [
+      "{{s:Yugeru's answer does not come as a rejection.}}",
+      "{{s:He asks her to stay. To keep him company for, oh, the next three thousand years.}}"
+    ],
+    "screenConfession": ["I FAILED.", "I HAVE NO RIGHT…", "BUT I LOVE YOU."],
+    "screenAnswer": ["STAY WITH ME", "3,000 MORE YEARS."],
+    "screenCensored": "████ CENSORED ████",
+    "censoredHint": "Spoiler-safe mode is on: the broadcast is censored.",
+    "revealCta": "Remove the censor & watch the broadcast",
+    "ending": "An assassin who cannot kill. A vampire who cannot die. It turns out that is qualification enough.",
+    "ctaTitle": "Broadcast over. Where next?",
+    "ctas": [
+      {
+        "to": "/wiki",
+        "label": "Wiki",
+        "body": "Characters, themes, kanji, production."
+      },
+      {
+        "to": "/anime",
+        "label": "Anime",
+        "body": "Episode 4 and the official trailer."
+      },
+      {
+        "to": "/baca-resmi",
+        "label": "Read officially",
+        "body": "Support the original work."
+      }
+    ]
+  }
+}
