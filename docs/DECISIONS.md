@@ -20,3 +20,25 @@ Format: **keputusan** — alasan. Ditulis saat keputusan diambil, per fase.
 - Situs resmi anime menulis Yugeru bosan setelah **3.500 tahun** hidup abadi. Pengisi suara: Kana Hanazawa (Shikaku), Tomokazu Sugita (Yugeru). Studio: GRAPH77.
 - **Staf episode (sutradara, musik, dll.) sengaja tidak dicantumkan**, sesuai instruksi brief, walaupun situs resmi sudah mencantumkannya.
 - Prime Video: rilis global 7 November 2025 (8 November JST). Ditulis "awal November 2025".
+
+## Fase 1–5
+
+- **Transisi halaman = tirai tinta dua lembar** yang menutup *sebelum* `navigate()` (lewat `TransitionLink`) lalu membuka setelah halaman baru ter-render. Chunk route dimuat di balik tirai, jadi tidak pernah ada layar kosong. Back/forward: tirai tertutup instan sebelum paint lalu terbuka.
+- **Tema "layar TV" bukan toggle pengguna**, melainkan perubahan medium otomatis saat Babak 5 aktif — brief membatasi warna CRT hanya untuk Babak 5, jadi dark mode bebas akan melanggar aturan warna.
+- **Simulasi muncul dua kali**: sebagai pintu masuk di landing dan di akhir Babak 1, karena brief meminta keduanya.
+- **Kontrol simulasi**: tembak sejak awal; tebasan terbuka setelah 4 percobaan; ledakan setelah 2 tebasan atau 10 percobaan; isyarat "lanjut" setelah ≥12 percobaan + 1 ledakan (atau 18 percobaan). Keyboard: 1/2/3, Spasi, E. Sentuh: ketuk = tembak, tahan/geser = tebas, dua jari = ledakan.
+- **Darah (`--blood`) hanya di tiga tempat**: partikel regenerasi di simulasi, satu tetes di ilustrasi hidangan (bagian yang beregenerasi), kalimat terakhir pengakuan Shikaku di siaran (ledakan emosi). Logo memakai titik tinta.
+- **"365 hari" dan "3.000 tahun"** dipakai sesuai brief tetapi diberi label dramatisasi/catatan simbolis; angka resmi yang terverifikasi hanya "±3.500 tahun" (usia Yugeru).
+- **Trailer facade tanpa thumbnail resmi**: poster dibuat sendiri, sehingga tidak ada request ke YouTube dan tidak ada gambar berhak cipta sampai pengguna menekan putar.
+- **Kanal & ID trailer diverifikasi via oEmbed YouTube** (author `avex pictures`). Fallback kartu tautan ke `fujimototatsuki17-26.com/movie/` tetap ditampilkan.
+- **Analisis anime ditulis sebagai kerangka perbandingan medium** [OPINI], tanpa mengklaim isi adegan spesifik episode yang belum diverifikasi.
+- **Tokoh di luar Shikaku (Togata, dst.) dirujuk netral** ("tokoh"), bukan "karakter wanita" seperti di brief, untuk menghindari salah gender.
+- **Canvas WebGL dibuat baru per mount**: memakai ulang elemen canvas setelah `loseContext()` (StrictMode menjalankan efek dua kali) membuat context baru rusak; bug ini ditemukan saat verifikasi browser.
+- **Komunitas = localStorage via `CommunityStore`**; contoh posting bawaan diberi label "contoh dari tim situs" agar tidak terkesan seperti posting pengguna sungguhan.
+- **Kuis**: 7 pertanyaan dua sumbu (Shikaku/Yugeru); selisih ≤2 menghasilkan hasil ketiga "Shikaku × Yugeru" (資格). Kartu hasil 1080×1350 digambar canvas, dibagikan via Web Share API (file) → share URL → salin teks.
+
+## Fase 6
+
+- **Lighthouse via Chrome DevTools MCP**: Accessibility 96 → 100 setelah perbaikan nama aksesibel; Best Practices 100; SEO 100. Kategori Performance tidak tersedia di alat itu, jadi diukur lewat trace Core Web Vitals (lihat ARCHITECTURE.md).
+- **`public/llms.txt`** ditambahkan agar audit "agentic browsing" mendapat peta situs ringkas.
+- **Konten CRT diperbesar di layar potret** (unit skala memakai lebar ×1.45) agar teks siaran terbaca di HP.

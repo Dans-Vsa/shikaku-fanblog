@@ -1,3 +1,4 @@
+import { useId } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useSpoiler } from '@/hooks/useSpoiler';
 import { playSfx } from '@/lib/audio-bridge';
@@ -14,12 +15,14 @@ const GONE =
 export function SpoilerToggle() {
   const { t } = useTranslation();
   const { hidden, toggle } = useSpoiler();
+  const descId = useId();
   return (
     <button
       type="button"
       role="switch"
       aria-checked={!hidden}
-      aria-label={t('toggle.spoilerAction')}
+      aria-label={t('spoiler.label')}
+      aria-describedby={descId}
       title={hidden ? t('toggle.spoilerHidden') : t('toggle.spoilerShown')}
       data-cursor="spoiler"
       onClick={() => {
@@ -36,8 +39,8 @@ export function SpoilerToggle() {
       >
         {t('spoiler.label')}
       </span>
-      <span className="sr-only">
-        {hidden ? t('toggle.spoilerHidden') : t('toggle.spoilerShown')}
+      <span id={descId} hidden>
+        {t('toggle.spoilerAction')}
       </span>
     </button>
   );

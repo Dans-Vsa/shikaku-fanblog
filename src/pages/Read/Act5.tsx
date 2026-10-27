@@ -82,7 +82,7 @@ export const Act5 = forwardRef<HTMLElement, { c: ReadContent['act5'] }>(function
         <div className="sticky top-0 h-[100svh] w-full overflow-hidden">
           <CrtScreen progress={progress} text={text} censored={hidden} />
           {hidden && (
-            <div className="absolute inset-x-0 top-20 z-10 flex flex-col items-center gap-2 px-4 text-center">
+            <div className="absolute inset-x-0 bottom-6 z-10 flex flex-col items-center gap-2 px-4 text-center">
               <p className="t-label bg-black/70 px-2 py-1 text-crt">{c.censoredHint}</p>
               <button
                 type="button"

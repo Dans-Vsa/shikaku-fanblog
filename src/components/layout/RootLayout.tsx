@@ -4,6 +4,7 @@ import { useTranslation } from 'react-i18next';
 import { CustomCursor } from '@/features/custom-cursor/CustomCursor';
 import { PageTransition } from '@/features/page-transition/PageTransition';
 import { useReducedMotion } from '@/hooks/useReducedMotion';
+import { ScrollTrigger } from '@/lib/gsap-setup';
 import { startLenis, stopLenis } from '@/lib/lenis-setup';
 import { PaperBackground } from '../manga/PaperBackground';
 import { FpsOverlay } from './FpsOverlay';
@@ -24,6 +25,11 @@ export default function RootLayout() {
     startLenis();
     return () => stopLenis();
   }, [reduced]);
+
+  // Posisi ScrollTrigger dihitung ulang setelah font selesai dimuat (tinggi teks berubah).
+  useEffect(() => {
+    void document.fonts?.ready.then(() => ScrollTrigger.refresh());
+  }, []);
 
   return (
     <>

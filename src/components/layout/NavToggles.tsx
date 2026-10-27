@@ -28,7 +28,7 @@ function LangToggle() {
           type="button"
           lang={l}
           aria-pressed={l === lang}
-          aria-label={t('toggle.langSwitch', { lang: l === 'id' ? 'Bahasa Indonesia' : 'English' })}
+          aria-label={`${l.toUpperCase()} — ${t('toggle.langSwitch', { lang: l === 'id' ? 'Bahasa Indonesia' : 'English' })}`}
           onClick={() => {
             playSfx('tick');
             setLang(l);

@@ -49,7 +49,8 @@ export class BroadcastCanvas {
     morph: KanjiParticles | null,
   ) {
     const { ctx, W, H } = this;
-    const u = Math.min(W, H * 1.6) / 100; // unit relatif
+    // unit relatif; layar potret (HP) diberi skala lebih besar agar teks tetap terbaca
+    const u = Math.min(W * 1.45, H * 1.6) / 100;
     ctx.fillStyle = BG;
     ctx.fillRect(0, 0, W, H);
     ctx.textAlign = 'center';
@@ -72,7 +73,7 @@ export class BroadcastCanvas {
 
     // Wajah Shikaku + pengakuan
     if (s.face > 0.001) {
-      this.face(W / 2, H * 0.33, Math.min(u * 12, H * 0.17), s.face, time, s.confession);
+      this.face(W / 2, H * 0.33, Math.min(u * 12, W * 0.32, H * 0.17), s.face, time, s.confession);
     }
     if (s.confession > 0 && s.face > 0.05) {
       const lines = censored ? [text.censored] : text.confession;

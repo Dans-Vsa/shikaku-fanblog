@@ -79,11 +79,7 @@ export function Navbar() {
     >
       <div className="border-b-[3px] border-ink bg-paper/95 backdrop-blur-[2px]">
         <div className="container-ink flex h-16 items-center justify-between gap-4">
-          <TransitionLink
-            to="/"
-            className="flex shrink-0 items-center gap-3"
-            aria-label={`${t('brand')} — ${t('nav.home')}`}
-          >
+          <TransitionLink to="/" className="flex shrink-0 items-center gap-3">
             <LogoMark />
             <span className="flex flex-col leading-none">
               <span className="t-shikaku text-xl tracking-wider">{t('brand')}</span>
@@ -92,6 +88,7 @@ export function Navbar() {
                   シカク
                 </span>{' '}
                 · {t('brandSub')}
+                <span className="sr-only"> — {t('nav.home')}</span>
               </span>
             </span>
           </TransitionLink>

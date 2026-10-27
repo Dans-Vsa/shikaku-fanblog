@@ -123,8 +123,8 @@ export function ExecutionSim({
         <canvas ref={canvas} className="absolute inset-0 h-full w-full touch-none" />
 
         {/* HUD atas: label target + meter */}
-        <div className="pointer-events-none absolute inset-x-3 top-3 flex items-start justify-between gap-3">
-          <p className="t-label bg-paper/90 px-2 py-1">{c.target}</p>
+        <div className="pointer-events-none absolute inset-x-3 top-3 flex items-start justify-end sm:justify-between gap-3">
+          <p className="t-label hidden bg-paper/90 px-2 py-1 sm:block">{c.target}</p>
           <dl className="t-label flex gap-3 bg-paper/90 px-2 py-1">
             <div className="flex gap-1">
               <dt>{c.attempts}</dt>
@@ -132,10 +132,8 @@ export function ExecutionSim({
             </div>
             <div className="flex items-center gap-1">
               <dt>{c.boredom}</dt>
-              <dd
-                className="relative h-2 w-14 border border-ink"
-                aria-label={`${Math.round(progress.boredom * 100)}%`}
-              >
+              <dd className="relative h-2 w-14 border border-ink">
+                <span className="sr-only">{Math.round(progress.boredom * 100)}%</span>
                 <span
                   className="absolute inset-0 origin-left bg-ink transition-transform duration-500"
                   style={{ transform: `scaleX(${progress.boredom})` }}
