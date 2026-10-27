@@ -14,6 +14,8 @@
   --crt-rgb: 92 255 176;
   --crt-blue-rgb: 127 216 255;
 
+  /* warna kertas cetak yang TIDAK berubah di tema TV (untuk transisi kertas terbakar) */
+  --paper-print: rgb(239 232 218);
   --paper: rgb(var(--paper-rgb));
   --paper-deep: rgb(var(--paper-deep-rgb));
   --ink: rgb(var(--ink-rgb));

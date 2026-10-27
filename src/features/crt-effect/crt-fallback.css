@@ -1,0 +1,85 @@
+/*
+ * Fallback non-WebGL. Canvas konten yang sama, efek CRT dipalsukan dengan CSS:
+ * scanline, vignette, flicker, aberasi kromatik (drop-shadow merah/biru),
+ * transisi kertas tertarik ke atas + tabung menyala/padam (transform saja).
+ */
+.crt-fallback {
+  --crt-i: 0.2;
+  --crt-burn: 0;
+  --crt-power: 0.004;
+  --crt-off-v: 1;
+  --crt-off-h: 1;
+  --crt-flash: 0;
+  background: #000;
+}
+
+.crt-fallback-canvas {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 3.5% / 5%;
+  transform: scaleX(var(--crt-off-h)) scaleY(calc(var(--crt-power) * var(--crt-off-v)));
+  filter: drop-shadow(calc(1px + var(--crt-i) * 4px) 0 0 rgb(255 40 60 / 0.55))
+    drop-shadow(calc(-1px - var(--crt-i) * 4px) 0 0 rgb(40 200 255 / 0.55)) sepia(0.4)
+    hue-rotate(80deg) saturate(1.6) brightness(1.08);
+  animation: crtFallbackFlicker 2.6s steps(1) infinite;
+}
+
+.crt-fallback-fx {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background:
+    radial-gradient(ellipse at center, transparent 55%, rgb(0 0 0 / 0.75) 100%),
+    repeating-linear-gradient(0deg, rgb(0 0 0 / 0.28) 0 1px, transparent 1px 3px);
+  border-radius: 3.5% / 5%;
+  transform: scaleX(var(--crt-off-h)) scaleY(calc(var(--crt-power) * var(--crt-off-v)));
+}
+
+.crt-fallback-paper {
+  position: absolute;
+  inset: -2% 0 0;
+  background: var(--paper-print) url('/textures/paper.svg');
+  transform: translateY(calc(var(--crt-burn) * -105%)) rotate(calc(var(--crt-burn) * -2deg));
+  clip-path: polygon(
+    0 0,
+    100% 0,
+    100% 94%,
+    88% 97%,
+    74% 93%,
+    60% 98%,
+    45% 94%,
+    30% 99%,
+    16% 94%,
+    0 97%
+  );
+}
+
+.crt-fallback-flash {
+  position: absolute;
+  inset: 0;
+  background: #fff;
+  opacity: var(--crt-flash);
+  pointer-events: none;
+}
+
+.crt-fallback.is-reduced .crt-fallback-canvas {
+  animation: none;
+}
+
+@keyframes crtFallbackFlicker {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  48% {
+    opacity: 0.93;
+  }
+  50% {
+    opacity: 0.86;
+  }
+  52% {
+    opacity: 0.97;
+  }
+}

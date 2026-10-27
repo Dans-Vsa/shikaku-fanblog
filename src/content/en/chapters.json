@@ -152,7 +152,9 @@
           "The illustration beside this is our own interpretation, not a screenshot: left in manga hatching style, right in flat animation-style color blocks. Drag to compare."
         ]
       }
-    ]
+    ],
+    "sliderBefore": "MANGA 2014",
+    "sliderAfter": "ANIME 2025"
   },
   "act5": {
     "label": "Act 5",

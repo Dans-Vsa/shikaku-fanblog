@@ -13,6 +13,8 @@ import type { AmbienceName } from '@/lib/audio-manager';
 import { Act1 } from './Act1';
 import { Act2 } from './Act2';
 import { Act3 } from './Act3';
+import { Act4 } from './Act4';
+import { Act5 } from './Act5';
 
 /** Arah emosi per babak: --chaos, --mood, dan suasana audio. */
 const DIRECTION: { chaos: number; mood: number; ambience: AmbienceName }[] = [
@@ -100,6 +102,8 @@ export default function Read() {
       <Act1 ref={a1} c={c.act1} />
       <Act2 ref={a2} c={c.act2} dayLabel={c.act2.dayLabel} />
       <Act3 ref={a3} c={c.act3} />
+      <Act4 ref={a4} c={c.act4} />
+      <Act5 ref={a5} c={c.act5} />
 
       <EmotionMap sections={sections} moods={moods} labels={c.toc} title={c.emotionMap} />
     </main>
