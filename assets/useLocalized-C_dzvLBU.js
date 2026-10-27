@@ -1,0 +1,1 @@
+import{a as e}from"./useScrollChaos-C0GU1YbM.js";function t(t){let{lang:n}=e();return t[n]}export{t};

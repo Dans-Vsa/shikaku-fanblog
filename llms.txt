@@ -1,0 +1,18 @@
+# SHIKAKU シカク — fanblog & wiki
+
+> Situs penggemar non-komersial (ID/EN) tentang one-shot "Shikaku" karya Tatsuki Fujimoto (2014).
+
+## Halaman
+
+- [Baca: scrollytelling 5 babak](./baca)
+- [Wiki](./wiki)
+- [Anime](./anime)
+- [Fujimoto](./fujimoto)
+- [Komunitas](./komunitas)
+- [Baca & tonton resmi](./baca-resmi)
+- [Kredit](./kredit)
+
+## Jaringan
+
+- [Fujimoto Archive](https://dans-vsa.github.io/fujimoto-archive/)
+- [Before Chainsaw Man 17-21 & 22-26](https://dans-vsa.github.io/before-chainsaw-man-fanblog/)
