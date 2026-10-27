@@ -37,7 +37,16 @@ npm run fonts      # subset ulang Zen Antique & Dela Gothic One ke glyph yang di
 
 ## Deploy
 
-Situs statis (SPA). Semua route harus jatuh ke `index.html`.
+**Live:** https://dans-vsa.github.io/shikaku-fanblog/ — bagian dari
+[Fujimoto Archive](https://dans-vsa.github.io/fujimoto-archive/) dan hub
+[Before Chainsaw Man 17-21 & 22-26](https://dans-vsa.github.io/before-chainsaw-man-fanblog/17-21/#shikaku).
+
+- **GitHub Pages (utama)**: `npm run deploy` — build dengan base `/shikaku-fanblog/`, salin
+  `index.html` → `404.html` (deep link SPA), lalu force-push `dist/` ke branch `gh-pages`
+  sebagai satu commit atas nama identitas git lokal.
+
+Situs statis (SPA). Semua route harus jatuh ke `index.html`. Untuk hosting di root domain,
+build dengan `VITE_BASE=/ npm run build`.
 
 - **Vercel**: `vercel.json` sudah berisi rewrite + cache header aset. Build command `npm run build`, output `dist`.
 - **Netlify**: `public/_redirects` sudah ada (`/* /index.html 200`). Build `npm run build`, publish `dist`.

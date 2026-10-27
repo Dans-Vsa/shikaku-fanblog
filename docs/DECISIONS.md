@@ -42,3 +42,9 @@ Format: **keputusan** — alasan. Ditulis saat keputusan diambil, per fase.
 - **Lighthouse via Chrome DevTools MCP**: Accessibility 96 → 100 setelah perbaikan nama aksesibel; Best Practices 100; SEO 100. Kategori Performance tidak tersedia di alat itu, jadi diukur lewat trace Core Web Vitals (lihat ARCHITECTURE.md).
 - **`public/llms.txt`** ditambahkan agar audit "agentic browsing" mendapat peta situs ringkas.
 - **Konten CRT diperbesar di layar potret** (unit skala memakai lebar ×1.45) agar teks siaran terbaca di HP.
+
+## Publikasi
+
+- **Repo `Dans-Vsa/shikaku-fanblog`**, nama mengikuti pola `sasaki-fanblog`; disajikan GitHub Pages dari branch `gh-pages` di `/shikaku-fanblog/` (base Vite + `basename` router; `404.html` = salinan `index.html` untuk deep link).
+- **Deploy lewat `tools/deploy.mjs`** (meniru hub 17-26), bukan GitHub Actions: commit `gh-pages` dibuat dengan identitas git lokal sehingga satu-satunya kontributor tetap pemilik repo (tanpa `github-actions[bot]`).
+- **Tautan jaringan**: footer + halaman /fujimoto menaut ke Fujimoto Archive dan `before-chainsaw-man-fanblog/17-21/#shikaku`; kedua hub itu menaut balik lewat field `blog` / `site` masing-masing.

@@ -1,5 +1,8 @@
 import { useEffect, useRef } from 'react';
+import { useTranslation } from 'react-i18next';
 import { PageHeader } from '@/components/layout/PageHeader';
+import { ExternalButton } from '@/components/ui/Button';
+import { network } from '@/config/site';
 import { Paragraphs } from '@/components/ui/RichText';
 import { Tag } from '@/components/ui/Tag';
 import en from '@/content/en/fujimoto.json';
@@ -47,6 +50,7 @@ function EventCard({ e, index, kind }: { e: Event; index: number; kind: string }
  * horizontal mengikuti scroll (transform saja). Mobile/reduced motion: daftar vertikal.
  */
 export default function Fujimoto() {
+  const { t } = useTranslation();
   const c = useLocalized({ id, en });
   const reduced = useReducedMotion();
   const wide = useMediaQuery('(min-width: 768px)');
@@ -144,6 +148,20 @@ export default function Fujimoto() {
             </li>
           ))}
         </ul>
+      </section>
+      <section className="container-ink mt-24" aria-labelledby="network-title">
+        <div className="panel flex flex-col gap-5 p-6 md:p-10">
+          <h2 id="network-title" className="text-4xl">
+            {c.networkTitle}
+          </h2>
+          <p className="max-w-prose text-lg">{c.networkBody}</p>
+          <div className="flex flex-wrap gap-4">
+            <ExternalButton href={network.archive} variant="ink">
+              {t('footer.archive')}
+            </ExternalButton>
+            <ExternalButton href={network.hub}>{t('footer.hub')}</ExternalButton>
+          </div>
+        </div>
       </section>
     </main>
   );

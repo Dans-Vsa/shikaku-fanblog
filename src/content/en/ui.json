@@ -78,7 +78,10 @@
   "footer": {
     "disclaimer": "Non-commercial fan site. Shikaku © Tatsuki Fujimoto / Shueisha. Not affiliated with Shueisha, VIZ Media, Avex Pictures, or Amazon. Every illustration here is original; no panel scans or anime screenshots are used.",
     "support": "Support the original work through official channels.",
-    "made": "Built with ink, TV static, and respect."
+    "made": "Built with ink, TV static, and respect.",
+    "network": "Part of the Fujimoto Archive",
+    "archive": "Fujimoto Archive — a shelf of every Fujimoto work",
+    "hub": "Before Chainsaw Man · the 17-21 & 22-26 collections"
   },
   "notFound": {
     "title": "Target not found",

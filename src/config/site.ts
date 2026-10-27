@@ -26,6 +26,12 @@ export const footerNav: NavItem[] = [
   { to: '/kredit', key: 'nav.credits' },
 ];
 
+/** Jaringan blog penggemar Fujimoto (repo GitHub Pages milik pengguna yang sama). */
+export const network = {
+  archive: 'https://dans-vsa.github.io/fujimoto-archive/',
+  hub: 'https://dans-vsa.github.io/before-chainsaw-man-fanblog/17-21/#shikaku',
+} as const;
+
 export const site = {
   name: 'SHIKAKU',
   kana: 'シカク',

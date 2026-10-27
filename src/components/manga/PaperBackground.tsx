@@ -7,7 +7,10 @@ export function PaperBackground() {
     <div aria-hidden="true" className="paper-bg pointer-events-none fixed inset-0 -z-10">
       <div
         className="absolute inset-0 opacity-[0.07] mix-blend-multiply"
-        style={{ backgroundImage: "url('/textures/noise.svg')", backgroundSize: '200px 200px' }}
+        style={{
+          backgroundImage: `url('${import.meta.env.BASE_URL}textures/noise.svg')`,
+          backgroundSize: '200px 200px',
+        }}
       />
       <div
         className="absolute inset-0"

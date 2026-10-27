@@ -10,7 +10,8 @@
     "lint": "eslint .",
     "format": "prettier --write \"src/**/*.{ts,tsx,css,json}\"",
     "typecheck": "tsc -b",
-    "fonts": "python scripts/subset-fonts.py"
+    "fonts": "python scripts/subset-fonts.py",
+    "deploy": "node tools/deploy.mjs"
   },
   "dependencies": {
     "@fontsource/cormorant-garamond": "^5.3.0",

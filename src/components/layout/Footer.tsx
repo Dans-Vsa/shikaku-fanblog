@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next';
-import { footerNav, mainNav } from '@/config/site';
+import { footerNav, mainNav, network } from '@/config/site';
 import { TransitionLink } from '@/features/page-transition/TransitionLink';
 import { LogoMark } from '../ui/icons';
 
@@ -40,6 +40,21 @@ export function Footer() {
               </li>
             ))}
           </ul>
+          <div className="mt-2 border-t border-paper/30 pt-4">
+            <p className="t-label mb-2 text-paper/70">{t('footer.network')}</p>
+            <ul className="flex flex-col gap-1 text-base">
+              <li>
+                <a href={network.archive} className="link-ink-light">
+                  {t('footer.archive')} ↗
+                </a>
+              </li>
+              <li>
+                <a href={network.hub} className="link-ink-light">
+                  {t('footer.hub')} ↗
+                </a>
+              </li>
+            </ul>
+          </div>
           <p className="t-scrawl mt-auto text-2xl text-paper/80">{t('footer.made')}</p>
         </div>
       </div>
