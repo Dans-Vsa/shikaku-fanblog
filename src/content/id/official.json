@@ -1,0 +1,62 @@
+{
+  "kicker": "Baca & tonton resmi",
+  "title": "Dukung karya aslinya",
+  "lede": "Situs ini ada karena Shikaku layak dibaca. Cara terbaik menghargainya adalah membaca dan menonton lewat jalur resmi.",
+  "why": [
+    "Setiap pembacaan dan tontonan resmi memberi sinyal kepada penerbit dan studio bahwa cerita pendek seperti ini punya penonton. Itulah yang membuat antologi seperti Tatsuki Fujimoto 17-26 bisa terwujud.",
+    "Situs penggemar ini tidak menyediakan scan, tautan bajakan, atau unduhan video. Semua tautan di bawah mengarah ke penerbit, platform, dan pemegang hak resmi."
+  ],
+  "groups": [
+    {
+      "title": "Baca manga",
+      "items": [
+        {
+          "label": "VIZ Media — Tatsuki Fujimoto Before Chainsaw Man: 17-21",
+          "note": "Edisi bahasa Inggris (cetak & digital). Shikaku adalah cerita ke-4.",
+          "url": "https://www.viz.com/read/manga/tatsuki-fujimoto-before-chainsaw-man/product/7330"
+        },
+        {
+          "label": "VIZ — Halaman seri Before Chainsaw Man",
+          "note": "Volume 17-21 dan 22-26.",
+          "url": "https://www.viz.com/tatsuki-fujimoto-before-chainsaw-man"
+        },
+        {
+          "label": "Shonen Jump (VIZ) — bab per cerita",
+          "note": "Baca per bab lewat layanan langganan Shonen Jump.",
+          "url": "https://www.viz.com/shonenjump/chapters/tatsuki-fujimoto-before-chainsaw-man"
+        },
+        {
+          "label": "MANGA Plus by SHUEISHA",
+          "note": "Platform global resmi Shueisha untuk karya-karya Fujimoto lainnya.",
+          "url": "https://mangaplus.shueisha.co.jp/"
+        }
+      ]
+    },
+    {
+      "title": "Tonton anime",
+      "items": [
+        {
+          "label": "Prime Video — Tatsuki Fujimoto 17-26",
+          "note": "Streaming eksklusif global. Shikaku = episode 4.",
+          "url": "https://www.amazon.com/dp/B0FGHMF69K"
+        },
+        {
+          "label": "Prime Video Jepang",
+          "note": "Halaman judul untuk wilayah Jepang.",
+          "url": "https://www.amazon.co.jp/dp/B0FGHFLJ5M"
+        },
+        {
+          "label": "Situs resmi anime",
+          "note": "Berita, cerita, dan info Blu-ray.",
+          "url": "https://fujimototatsuki17-26.com/"
+        },
+        {
+          "label": "Kanal YouTube avex pictures",
+          "note": "Trailer resmi per cerita, termasuk Shikaku.",
+          "url": "https://www.youtube.com/@avexpictures"
+        }
+      ]
+    }
+  ],
+  "regionNote": "Ketersediaan bisa berbeda per negara. Bila tautan tidak tersedia di wilayahmu, cari judul resminya di toko buku atau platform legal setempat."
+}

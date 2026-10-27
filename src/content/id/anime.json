@@ -1,0 +1,55 @@
+{
+  "kicker": "Anime · Tatsuki Fujimoto 17-26 · Episode 4",
+  "title": "Satu cerita, dua napas",
+  "lede": "Pada 2025, Shikaku bergerak dan bersuara. Inilah yang sudah pasti tentang adaptasinya, dan cara kami membandingkannya dengan halaman manga 2014.",
+  "trailerTitle": "Trailer resmi",
+  "trailerNote": "Video dimuat dari youtube-nocookie.com hanya setelah kamu menekan putar. Situs ini tidak mengunduh atau menyimpan video apa pun.",
+  "play": "Putar trailer resmi Shikaku",
+  "trailerFallback": "Tidak bisa memutar di sini? Tonton di halaman resmi",
+  "trailerYoutube": "Buka di YouTube (kanal avex pictures)",
+  "facadeLabel": "SPECIAL PV · シカク",
+  "infoTitle": "Kartu info",
+  "info": [
+    { "k": "Antologi", "v": "Tatsuki Fujimoto 17-26 (8 episode)" },
+    { "k": "Episode", "v": "4 · Shikaku" },
+    { "k": "Studio animasi", "v": "GRAPH77" },
+    { "k": "Shikaku", "v": "Kana Hanazawa" },
+    { "k": "Yugeru", "v": "Tomokazu Sugita" },
+    { "k": "Platform", "v": "Prime Video (global), mulai awal November 2025" },
+    { "k": "Trailer", "v": "Avex Pictures merilis trailer terpisah untuk tiap cerita" }
+  ],
+  "primeCta": "Tonton di Prime Video",
+  "primeJp": "Prime Video Jepang",
+  "officialSite": "Situs resmi anime",
+  "factsNote": "Semua butir di kartu ini berlabel [FAKTA] dan diverifikasi dari situs resmi anime serta pengumuman Prime Video. Staf episode sengaja tidak kami cantumkan di sini.",
+  "sliderTitle": "Goresan manga vs arah visual anime",
+  "sliderBody": "Geser untuk membandingkan dua tafsir visual yang kami gambar sendiri: kiri meniru tinta, arsir, dan halftone cetakan manga; kanan meniru blok warna datar dan bayangan lembut khas animasi. Ini bukan tangkapan layar anime.",
+  "sliderBefore": "GORESAN MANGA",
+  "sliderAfter": "ARAH ANIME",
+  "compareTitle": "Apa yang berubah saat halaman menjadi gerak",
+  "compare": [
+    {
+      "title": "Ritme",
+      "body": [
+        "Di manga, pembaca mengatur waktunya sendiri. Jeda sunyi khas Fujimoto bekerja karena kita bisa berlama-lama di satu panel kosong sebelum membalik halaman.",
+        "Animasi mengambil alih kendali waktu. Jeda harus diukur dalam detik, sehingga momen hening bisa terasa lebih panjang, atau justru lebih tergesa, tergantung keputusan penyutradaraan. Ini salah satu hal paling menarik untuk diperhatikan saat menonton."
+      ]
+    },
+    {
+      "title": "Musik dan suara",
+      "body": [
+        "Manga tidak bersuara, sehingga ledakan dan tembakan hanya hidup di onomatope dan garis kecepatan. Adaptasi memberi semuanya bunyi, termasuk suara Shikaku sendiri lewat Kana Hanazawa.",
+        "Bagi kami, tantangan terbesarnya justru di arah sebaliknya: bagaimana anime menjaga keheningan. Satu adegan tanpa musik bisa sama kuatnya dengan satu halaman kosong."
+      ]
+    },
+    {
+      "title": "Pilihan adegan",
+      "body": [
+        "Sebuah one-shot harus muat dalam satu episode antologi. Itu berarti setiap adegan yang dipertahankan, dipadatkan, atau ditambahkan adalah keputusan editorial tentang apa inti cerita ini.",
+        "Saat menonton, coba perhatikan bagian mana yang diberi ruang paling lama: percobaan pembunuhan yang absurd, atau siaran televisi di akhir. Pilihan itu menunjukkan bagaimana tim adaptasi membaca Shikaku."
+      ]
+    }
+  ],
+  "copyrightTitle": "Catatan hak cipta",
+  "copyright": "Trailer adalah milik pemegang hak dan diputar langsung dari YouTube resmi. Tidak ada cuplikan, tangkapan layar, atau key visual yang disalin ke situs ini. Semua ilustrasi di halaman ini dibuat sendiri. Shikaku © Tatsuki Fujimoto / Shueisha; anime © pemegang hak masing-masing."
+}

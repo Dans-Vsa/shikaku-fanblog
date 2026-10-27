@@ -1,0 +1,142 @@
+{
+  "kicker": "Fujimoto · timeline",
+  "title": "From age 17 to Chainsaw Man",
+  "lede": "Shikaku was not born in a vacuum. Scroll sideways to see where it sits in Tatsuki Fujimoto's career.",
+  "hint": "Keep scrolling: the timeline moves sideways.",
+  "intro": [
+    "Tatsuki Fujimoto drew short stories from his teens. The 17-21 and 22-26 collections are titled after his age when he drew them, so reading them feels like opening a creative diary.",
+    "The years below are release or creation years listed in official sources and public references. We deliberately give years only, not exact dates, to avoid unverified detail."
+  ],
+  "events": [
+    {
+      "year": "2011",
+      "title": "A Couple Clucking Chickens Were Still Kickin' in the Schoolyard",
+      "body": "The opening story of 17-21.",
+      "kind": "oneshot"
+    },
+    {
+      "year": "2013",
+      "title": "Sasaki Stopped a Bullet",
+      "body": "A one-shot about a teacher named Sasaki and his student.",
+      "kind": "oneshot"
+    },
+    {
+      "year": "2013",
+      "title": "Love is Blind",
+      "body": "A school romance with a confession that keeps getting delayed.",
+      "kind": "oneshot"
+    },
+    {
+      "year": "2014",
+      "title": "Shikaku",
+      "body": "Assassin vs immortal vampire. The closing story of 17-21, and the reason this site exists.",
+      "kind": "star"
+    },
+    {
+      "year": "2014",
+      "title": "Mermaid Rhapsody",
+      "body": "The opening story of 22-26.",
+      "kind": "oneshot"
+    },
+    {
+      "year": "2015",
+      "title": "Nayuta of the Prophecy",
+      "body": "A little sister with the power to end the world.",
+      "kind": "oneshot"
+    },
+    {
+      "year": "2016",
+      "title": "Fire Punch",
+      "body": "His first long series (Shōnen Jump+). A body that keeps burning and keeps healing.",
+      "kind": "series"
+    },
+    {
+      "year": "2017",
+      "title": "Woke-Up-as-a-Girl Syndrome",
+      "body": "A one-shot in the 22-26 collection.",
+      "kind": "oneshot"
+    },
+    {
+      "year": "2018",
+      "title": "Sisters",
+      "body": "The closing story of 22-26.",
+      "kind": "oneshot"
+    },
+    {
+      "year": "2018",
+      "title": "Chainsaw Man",
+      "body": "Began in Weekly Shōnen Jump. Part two continued on Shōnen Jump+.",
+      "kind": "series"
+    },
+    {
+      "year": "2021",
+      "title": "Look Back",
+      "body": "A long one-shot about two girls who draw manga. Adapted into a film in 2024.",
+      "kind": "oneshot"
+    },
+    {
+      "year": "2021",
+      "title": "The 17-21 & 22-26 collections",
+      "body": "Shueisha collected eight early short stories. VIZ's English editions followed in 2023.",
+      "kind": "book"
+    },
+    {
+      "year": "2022",
+      "title": "Goodbye, Eri",
+      "body": "A one-shot about film, memory, and beautiful lies.",
+      "kind": "oneshot"
+    },
+    {
+      "year": "2025",
+      "title": "Tatsuki Fujimoto 17-26 anime",
+      "body": "Eight short stories adapted; Shikaku is episode 4.",
+      "kind": "star"
+    }
+  ],
+  "dnaTitle": "Fujimoto's DNA",
+  "dnaLede": "Threads fans find in nearly all his work, already clearly visible in Shikaku.",
+  "dna": [
+    {
+      "jp": "暴",
+      "title": "Violence as a joke",
+      "body": "A shattered body is treated like a sight gag, which makes sincere emotion land as a shock.",
+      "inShikaku": "Yugeru complains about his clothes, not his wounds."
+    },
+    {
+      "jp": "間",
+      "title": "The stabbing pause",
+      "body": "Empty, silent panels right after chaos. Fujimoto is often called deeply cinematic in how he times a pause.",
+      "inShikaku": "The silent castle after Shikaku leaves."
+    },
+    {
+      "jp": "狂",
+      "title": "The uncontrollable character",
+      "body": "Characters who are dangerous, childish, and sincere at once. Violence is their language for getting close.",
+      "inShikaku": "Shikaku's love, born from a target she failed to kill."
+    },
+    {
+      "jp": "再",
+      "title": "Bodies that refuse to die",
+      "body": "Regeneration returns again and again, from comedy to tragedy.",
+      "inShikaku": "Yugeru, who always comes back."
+    },
+    {
+      "jp": "映",
+      "title": "Love of film and screens",
+      "body": "Cinema references and screens often become a key part of the story.",
+      "inShikaku": "A climax that happens on live television."
+    },
+    {
+      "jp": "優",
+      "title": "Endings that turn tender",
+      "body": "After all the madness, his stories often close on something warm and strange.",
+      "inShikaku": "An invitation to stay for thousands of years."
+    }
+  ],
+  "kinds": {
+    "oneshot": "One-shot",
+    "series": "Series",
+    "star": "Spotlight",
+    "book": "Book"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "kicker": "Kredit",
+  "title": "Siapa membuat apa",
+  "lede": "Daftar lengkap karya asli, font, pustaka, dan aset yang dipakai situs ini, beserta lisensinya.",
+  "originalTitle": "Karya asli",
+  "original": [
+    "Shikaku (シカク) © Tatsuki Fujimoto / Shueisha. Diterbitkan pertama kali di Jump SQ.19 (2014); edisi bahasa Inggris oleh VIZ Media dalam Tatsuki Fujimoto Before Chainsaw Man: 17-21.",
+    "Anime Tatsuki Fujimoto 17-26 © pemegang hak masing-masing; didistribusikan oleh Avex Pictures dan Prime Video. Trailer diputar langsung dari kanal YouTube resmi."
+  ],
+  "madeTitle": "Dibuat sendiri untuk situs ini",
+  "made": [
+    "Semua ilustrasi (siluet Yugeru & Shikaku, hidangan simbolik, kursi kosong, cangkir teh, sosok terbakar, poster trailer) digambar sebagai SVG/canvas orisinal.",
+    "Tekstur kertas, noise, dan percikan tinta dibuat sendiri dengan SVG feTurbulence.",
+    "Semua efek suara disintesis real-time dengan Web Audio API; tidak ada file audio pihak ketiga.",
+    "Shader CRT, simulasi eksekusi, morph partikel kanji, dan kartu hasil kuis ditulis dari nol.",
+    "Seluruh teks wiki ditulis sendiri sebagai parafrase dan analisis; tidak ada dialog manga yang disalin."
+  ],
+  "fontsTitle": "Font",
+  "librariesTitle": "Pustaka",
+  "roles": {
+    "yugeru": "Suara Yugeru: serif aristokrat",
+    "shikaku": "Suara Shikaku: spidol impulsif",
+    "scrawl": "Coretan tangan",
+    "jp": "Kanji (di-subset)",
+    "jpHeavy": "Kanji tebal (di-subset)",
+    "mono": "Label arsip & UI",
+    "ui": "Antarmuka",
+    "router": "Routing & code splitting",
+    "build": "Build & dev server",
+    "lang": "Bahasa (strict)",
+    "css": "Utilitas CSS",
+    "anim": "Animasi & scrollytelling",
+    "scroll": "Smooth scroll",
+    "webgl": "Pipeline WebGL shader CRT",
+    "audio": "Hub audio",
+    "i18n": "Bahasa ID/EN",
+    "fonts": "Self-host font",
+    "subset": "Subset font Jepang"
+  },
+  "sourcesTitle": "Sumber fakta",
+  "sources": "Fakta rilis diverifikasi dari situs resmi anime, VIZ Media, pengumuman Prime Video, kanal YouTube avex pictures, dan Wikipedia. Lihat juga halaman Produksi di wiki.",
+  "license": "Kode situs ini dibuat sebagai portofolio penggemar non-komersial."
+}

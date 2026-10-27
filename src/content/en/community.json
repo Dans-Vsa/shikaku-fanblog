@@ -1,0 +1,166 @@
+{
+  "kicker": "Community",
+  "title": "The fan room",
+  "lede": "Pin your favorite panel, take the quiz, and leave your interpretation. Everything stays on your own device.",
+  "storageNote": "Community features are currently stored locally in your browser (localStorage) and never sent to any server. The architecture uses an adapter layer so it can be connected to a backend later.",
+  "sections": { "wall": "Favorite panel wall", "quiz": "Quiz", "board": "Interpretation board" },
+  "wall": {
+    "title": "Favorite panel wall",
+    "intro": "Describe your favorite panel or moment in your own words. Text only, no images, and no copying manga dialogue.",
+    "nameLabel": "Nickname (optional)",
+    "textLabel": "Your favorite panel",
+    "textPlaceholder": "E.g. when Yugeru complains about his clothes for the umpteenth time…",
+    "tagLabel": "Act",
+    "tags": ["Act 1", "Act 2", "Act 3", "Act 5", "Other"],
+    "submit": "Pin to the wall",
+    "anonymous": "Anonymous",
+    "empty": "No panels yet. Be the first.",
+    "seedLabel": "example from the site team",
+    "count": "{{n}} characters left",
+    "posted": "Pinned!"
+  },
+  "board": {
+    "title": "Interpretation board",
+    "intro": "What does 資格 mean to you? Is the ending happy? Write your interpretation and back others you agree with.",
+    "textLabel": "Your interpretation",
+    "textPlaceholder": "I think Yugeru actually…",
+    "tagLabel": "Topic",
+    "tags": [
+      "Meaning of the title",
+      "The ending",
+      "Shikaku's psychology",
+      "Yugeru's psychology",
+      "Fujimoto"
+    ],
+    "submit": "Post interpretation",
+    "vote": "Agree",
+    "voted": "Agreed",
+    "spoilerWarning": "This board discusses the ending."
+  },
+  "seeds": [
+    {
+      "id": "seed-wall-1",
+      "kind": "panels",
+      "author": "Site team",
+      "tag": "Act 1",
+      "text": "The moment his body is whole again and the first thing he checks is his sleeve. The story's entire sense of humor lives there.",
+      "votes": 12
+    },
+    {
+      "id": "seed-wall-2",
+      "kind": "panels",
+      "author": "Site team",
+      "tag": "Act 3",
+      "text": "The empty room after Shikaku leaves. No explosions, no dialogue, and somehow it is the loudest moment.",
+      "votes": 9
+    },
+    {
+      "id": "seed-board-1",
+      "kind": "interpretations",
+      "author": "Site team",
+      "tag": "Meaning of the title",
+      "text": "The title is in katakana so we can't know which kanji is meant until the end. Shikaku turns from 刺客 into 資格 exactly when she stops killing.",
+      "votes": 15
+    },
+    {
+      "id": "seed-board-2",
+      "kind": "interpretations",
+      "author": "Site team",
+      "tag": "Yugeru's psychology",
+      "text": "Yugeru never truly wanted to die. He wanted someone to care whether he lived or died.",
+      "votes": 11
+    }
+  ],
+  "quiz": {
+    "title": "Are you Shikaku or Yugeru?",
+    "intro": "Seven questions, no wrong answers. Your result can be downloaded as a card and shared.",
+    "start": "Start the quiz",
+    "next": "Next",
+    "back": "Back",
+    "progress": "Question {{n}} of {{total}}",
+    "retry": "Retake the quiz",
+    "download": "Download result card",
+    "share": "Share",
+    "shared": "Card shared",
+    "copied": "Result text copied",
+    "cardFooter": "shikaku · fanblog & wiki",
+    "questions": [
+      {
+        "q": "There is an impossible task. You…",
+        "a": [
+          { "t": "Try again tomorrow. And the day after. And the day after that.", "s": 2, "y": 0 },
+          { "t": "Observe first; there may be a more elegant way.", "s": 0, "y": 2 },
+          { "t": "Try once, very dramatically, and see what happens.", "s": 1, "y": 1 }
+        ]
+      },
+      {
+        "q": "The thing you protect most:",
+        "a": [
+          { "t": "Fine clothes I've worn for centuries.", "s": 0, "y": 2 },
+          { "t": "My work tools. Always clean, always ready.", "s": 2, "y": 0 },
+          { "t": "Memories, not things.", "s": 1, "y": 1 }
+        ]
+      },
+      {
+        "q": "When bored, you…",
+        "a": [
+          { "t": "Go looking for trouble. Literally.", "s": 2, "y": 0 },
+          { "t": "Reread a book I've read a hundred times.", "s": 0, "y": 2 },
+          { "t": "Wait for something unexpected to knock.", "s": 0, "y": 1 }
+        ]
+      },
+      {
+        "q": "How you show you care:",
+        "a": [
+          { "t": "Keep showing up, no matter what.", "s": 2, "y": 0 },
+          { "t": "Set out two cups of tea without being asked.", "s": 0, "y": 2 },
+          { "t": "Offer something very personal.", "s": 1, "y": 1 }
+        ]
+      },
+      {
+        "q": "If you fail in front of a crowd, you…",
+        "a": [
+          { "t": "Cry as loudly as possible. Let everyone know.", "s": 2, "y": 0 },
+          { "t": "Stay calm, then complain about a small detail.", "s": 0, "y": 2 },
+          { "t": "Laugh, because what else can you do.", "s": 1, "y": 1 }
+        ]
+      },
+      {
+        "q": "Pick one kanji:",
+        "a": [
+          { "t": "刺客 — assassin", "s": 2, "y": 0 },
+          { "t": "不死 — undying", "s": 0, "y": 2 },
+          { "t": "資格 — qualification", "s": 1, "y": 1 }
+        ]
+      },
+      {
+        "q": "The next three thousand years sound like…",
+        "a": [
+          { "t": "Enough time to finally succeed.", "s": 2, "y": 0 },
+          { "t": "Exhausting. Unless someone keeps me company.", "s": 0, "y": 2 },
+          { "t": "An adventure.", "s": 1, "y": 1 }
+        ]
+      }
+    ],
+    "results": {
+      "shikaku": {
+        "name": "Shikaku",
+        "jp": "刺客",
+        "tagline": "Relentless, impulsive, sincere to the point of danger.",
+        "body": "You don't stop until it's done, and you love with everything you have, sometimes too much. Remember: failing does not revoke your right to be loved."
+      },
+      "yugeru": {
+        "name": "Yugeru",
+        "jp": "不死",
+        "tagline": "Calm, polite, quietly lonely.",
+        "body": "You've seen a lot and are rarely surprised. But when someone truly pays attention to you, your boredom thaws faster than you expect."
+      },
+      "both": {
+        "name": "Shikaku × Yugeru",
+        "jp": "資格",
+        "tagline": "Half storm, half eternity.",
+        "body": "You have Shikaku's persistence and Yugeru's patience. You may be the best person to mediate their contract."
+      }
+    }
+  }
+}

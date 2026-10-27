@@ -1,0 +1,43 @@
+{
+  "kicker": "Credits",
+  "title": "Who made what",
+  "lede": "The full list of original works, fonts, libraries, and assets used by this site, with their licenses.",
+  "originalTitle": "Original work",
+  "original": [
+    "Shikaku (シカク) © Tatsuki Fujimoto / Shueisha. First published in Jump SQ.19 (2014); English edition by VIZ Media in Tatsuki Fujimoto Before Chainsaw Man: 17-21.",
+    "Tatsuki Fujimoto 17-26 anime © respective rights holders; distributed by Avex Pictures and Prime Video. The trailer plays directly from the official YouTube channel."
+  ],
+  "madeTitle": "Made for this site",
+  "made": [
+    "Every illustration (Yugeru & Shikaku silhouettes, the symbolic meal, the empty chair, teacups, the burning figure, the trailer poster) is drawn as original SVG/canvas.",
+    "Paper texture, noise, and ink splatter are generated with SVG feTurbulence.",
+    "All sound effects are synthesized in real time with the Web Audio API; no third-party audio files.",
+    "The CRT shader, execution simulation, kanji particle morph, and quiz result card were written from scratch.",
+    "All wiki text is original paraphrase and analysis; no manga dialogue is copied."
+  ],
+  "fontsTitle": "Fonts",
+  "librariesTitle": "Libraries",
+  "roles": {
+    "yugeru": "Yugeru's voice: aristocratic serif",
+    "shikaku": "Shikaku's voice: impulsive marker",
+    "scrawl": "Hand scrawl",
+    "jp": "Kanji (subset)",
+    "jpHeavy": "Heavy kanji (subset)",
+    "mono": "Archive labels & UI",
+    "ui": "Interface",
+    "router": "Routing & code splitting",
+    "build": "Build & dev server",
+    "lang": "Language (strict)",
+    "css": "CSS utilities",
+    "anim": "Animation & scrollytelling",
+    "scroll": "Smooth scroll",
+    "webgl": "CRT shader WebGL pipeline",
+    "audio": "Audio hub",
+    "i18n": "ID/EN languages",
+    "fonts": "Font self-hosting",
+    "subset": "Japanese font subsetting"
+  },
+  "sourcesTitle": "Fact sources",
+  "sources": "Release facts were verified against the official anime site, VIZ Media, Prime Video's announcement, the avex pictures YouTube channel, and Wikipedia. See also the Production page in the wiki.",
+  "license": "This site's code was built as a non-commercial fan portfolio."
+}

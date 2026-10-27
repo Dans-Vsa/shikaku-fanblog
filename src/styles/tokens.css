@@ -53,3 +53,18 @@
   --ink-rgb: 196 255 226;
   --ink-soft-rgb: 120 190 160;
 }
+
+/* Lingkup terbalik (blok tinta penuh dengan teks kertas), mis. kuis di /komunitas.
+   Variabel turunan harus dideklarasi ulang karena dihitung di elemen tempatnya didefinisikan. */
+.invert-scope {
+  --paper-rgb: 20 18 16;
+  --paper-deep-rgb: 44 40 36;
+  --ink-rgb: 239 232 218;
+  --ink-soft-rgb: 196 188 176;
+  --paper: rgb(var(--paper-rgb));
+  --paper-deep: rgb(var(--paper-deep-rgb));
+  --ink: rgb(var(--ink-rgb));
+  --ink-soft: rgb(var(--ink-soft-rgb));
+  background-color: var(--paper);
+  color: var(--ink);
+}

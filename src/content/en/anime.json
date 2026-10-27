@@ -1,0 +1,55 @@
+{
+  "kicker": "Anime · Tatsuki Fujimoto 17-26 · Episode 4",
+  "title": "One story, two breaths",
+  "lede": "In 2025, Shikaku moves and speaks. Here is what is certain about the adaptation, and how we compare it with the 2014 manga pages.",
+  "trailerTitle": "Official trailer",
+  "trailerNote": "The video loads from youtube-nocookie.com only after you press play. This site does not download or store any video.",
+  "play": "Play the official Shikaku trailer",
+  "trailerFallback": "Can't play it here? Watch on the official page",
+  "trailerYoutube": "Open on YouTube (avex pictures channel)",
+  "facadeLabel": "SPECIAL PV · シカク",
+  "infoTitle": "Info card",
+  "info": [
+    { "k": "Anthology", "v": "Tatsuki Fujimoto 17-26 (8 episodes)" },
+    { "k": "Episode", "v": "4 · Shikaku" },
+    { "k": "Animation studio", "v": "GRAPH77" },
+    { "k": "Shikaku", "v": "Kana Hanazawa" },
+    { "k": "Yugeru", "v": "Tomokazu Sugita" },
+    { "k": "Platform", "v": "Prime Video (worldwide), from early November 2025" },
+    { "k": "Trailer", "v": "Avex Pictures released a separate trailer for each story" }
+  ],
+  "primeCta": "Watch on Prime Video",
+  "primeJp": "Prime Video Japan",
+  "officialSite": "Official anime site",
+  "factsNote": "Every item on this card is labeled [FACT] and verified against the official anime site and Prime Video's announcement. Episode staff are deliberately not listed here.",
+  "sliderTitle": "Manga strokes vs anime direction",
+  "sliderBody": "Drag to compare two visual interpretations we drew ourselves: the left imitates the ink, hatching, and halftone of printed manga; the right imitates the flat color blocks and soft shading of animation. This is not an anime screenshot.",
+  "sliderBefore": "MANGA STROKES",
+  "sliderAfter": "ANIME DIRECTION",
+  "compareTitle": "What changes when the page starts to move",
+  "compare": [
+    {
+      "title": "Rhythm",
+      "body": [
+        "In manga, readers set their own pace. Fujimoto's signature silent pauses work because we can linger on one empty panel before turning the page.",
+        "Animation takes control of time. A pause must be measured in seconds, so a quiet moment can feel longer, or more rushed, depending on direction. It is one of the most interesting things to watch for."
+      ]
+    },
+    {
+      "title": "Music and sound",
+      "body": [
+        "Manga is silent, so explosions and gunshots only live in sound effects and speed lines. The adaptation gives everything a sound, including Shikaku's own voice through Kana Hanazawa.",
+        "For us, the biggest challenge runs the other way: how the anime protects silence. One scene without music can be as strong as one empty page."
+      ]
+    },
+    {
+      "title": "Scene choices",
+      "body": [
+        "A one-shot has to fit inside one anthology episode. Every scene kept, compressed, or added is an editorial decision about what the story is really about.",
+        "While watching, notice which part gets the most room: the absurd murder attempts, or the TV broadcast at the end. That choice shows how the adaptation team reads Shikaku."
+      ]
+    }
+  ],
+  "copyrightTitle": "Copyright note",
+  "copyright": "The trailer belongs to its rights holders and plays directly from the official YouTube upload. No clips, screenshots, or key visuals are copied to this site. All illustrations on this page are original. Shikaku © Tatsuki Fujimoto / Shueisha; anime © respective rights holders."
+}

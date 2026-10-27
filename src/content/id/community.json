@@ -1,0 +1,160 @@
+{
+  "kicker": "Komunitas",
+  "title": "Ruang penggemar",
+  "lede": "Tempelkan panel favoritmu, ikuti kuis, dan tinggalkan tafsiranmu. Semua tersimpan di perangkatmu sendiri.",
+  "storageNote": "Fitur komunitas saat ini tersimpan lokal di browser kamu (localStorage), tidak dikirim ke server mana pun. Arsitekturnya memakai lapisan adapter sehingga bisa disambungkan ke backend kelak.",
+  "sections": { "wall": "Dinding panel favorit", "quiz": "Kuis", "board": "Papan tafsiran" },
+  "wall": {
+    "title": "Dinding panel favorit",
+    "intro": "Ceritakan panel atau momen favoritmu dengan kata-kata sendiri. Teks saja, tanpa gambar, dan tanpa menyalin dialog manga.",
+    "nameLabel": "Nama panggilan (opsional)",
+    "textLabel": "Panel favoritmu",
+    "textPlaceholder": "Mis. saat Yugeru mengeluhkan bajunya untuk kesekian kalinya…",
+    "tagLabel": "Babak",
+    "tags": ["Babak 1", "Babak 2", "Babak 3", "Babak 5", "Lainnya"],
+    "submit": "Tempel ke dinding",
+    "anonymous": "Anonim",
+    "empty": "Belum ada panel. Jadilah yang pertama.",
+    "seedLabel": "contoh dari tim situs",
+    "count": "{{n}} karakter tersisa",
+    "posted": "Tertempel!"
+  },
+  "board": {
+    "title": "Papan tafsiran",
+    "intro": "Apa arti 資格 menurutmu? Apakah akhirnya bahagia? Tulis tafsiranmu, beri dukungan pada tafsiran orang lain.",
+    "textLabel": "Tafsiranmu",
+    "textPlaceholder": "Menurutku, Yugeru sebenarnya…",
+    "tagLabel": "Topik",
+    "tags": ["Makna judul", "Akhir cerita", "Psikologi Shikaku", "Psikologi Yugeru", "Fujimoto"],
+    "submit": "Kirim tafsiran",
+    "vote": "Setuju",
+    "voted": "Sudah setuju",
+    "spoilerWarning": "Papan ini membahas akhir cerita."
+  },
+  "seeds": [
+    {
+      "id": "seed-wall-1",
+      "kind": "panels",
+      "author": "Tim situs",
+      "tag": "Babak 1",
+      "text": "Momen ketika tubuhnya utuh lagi dan yang pertama ia periksa adalah lengan bajunya. Seluruh selera humor cerita ini ada di situ.",
+      "votes": 12
+    },
+    {
+      "id": "seed-wall-2",
+      "kind": "panels",
+      "author": "Tim situs",
+      "tag": "Babak 3",
+      "text": "Ruangan kosong setelah Shikaku pergi. Tidak ada ledakan, tidak ada dialog, dan justru itu yang paling berisik.",
+      "votes": 9
+    },
+    {
+      "id": "seed-board-1",
+      "kind": "interpretations",
+      "author": "Tim situs",
+      "tag": "Makna judul",
+      "text": "Judulnya ditulis katakana supaya kita tidak tahu kanji mana yang dimaksud sampai akhir. Shikaku berubah dari 刺客 ke 資格 tepat ketika ia berhenti membunuh.",
+      "votes": 15
+    },
+    {
+      "id": "seed-board-2",
+      "kind": "interpretations",
+      "author": "Tim situs",
+      "tag": "Psikologi Yugeru",
+      "text": "Yugeru tidak pernah benar-benar ingin mati. Ia ingin ada yang peduli apakah ia hidup atau mati.",
+      "votes": 11
+    }
+  ],
+  "quiz": {
+    "title": "Kamu Shikaku atau Yugeru?",
+    "intro": "Tujuh pertanyaan, tanpa jawaban salah. Hasilnya bisa diunduh sebagai kartu dan dibagikan.",
+    "start": "Mulai kuis",
+    "next": "Berikutnya",
+    "back": "Kembali",
+    "progress": "Pertanyaan {{n}} dari {{total}}",
+    "retry": "Ulangi kuis",
+    "download": "Unduh kartu hasil",
+    "share": "Bagikan",
+    "shared": "Kartu dibagikan",
+    "copied": "Teks hasil disalin",
+    "cardFooter": "shikaku · fanblog & wiki",
+    "questions": [
+      {
+        "q": "Ada tugas yang mustahil. Kamu…",
+        "a": [
+          { "t": "Coba lagi besok. Dan besoknya. Dan besoknya.", "s": 2, "y": 0 },
+          { "t": "Mengamati dulu, mungkin ada cara yang lebih elegan.", "s": 0, "y": 2 },
+          { "t": "Coba sekali dengan sangat dramatis, lalu lihat hasilnya.", "s": 1, "y": 1 }
+        ]
+      },
+      {
+        "q": "Barang yang paling kamu jaga:",
+        "a": [
+          { "t": "Pakaian bagus yang sudah kupakai berabad-abad.", "s": 0, "y": 2 },
+          { "t": "Alat kerjaku. Selalu bersih, selalu siap.", "s": 2, "y": 0 },
+          { "t": "Kenangan, bukan barang.", "s": 1, "y": 1 }
+        ]
+      },
+      {
+        "q": "Saat bosan, kamu…",
+        "a": [
+          { "t": "Mencari masalah. Sungguhan.", "s": 2, "y": 0 },
+          { "t": "Membaca ulang buku yang sudah kubaca seratus kali.", "s": 0, "y": 2 },
+          { "t": "Menunggu sesuatu yang tak terduga datang mengetuk.", "s": 0, "y": 1 }
+        ]
+      },
+      {
+        "q": "Cara kamu menunjukkan perhatian:",
+        "a": [
+          { "t": "Datang terus, apa pun yang terjadi.", "s": 2, "y": 0 },
+          { "t": "Menyiapkan dua cangkir teh tanpa diminta.", "s": 0, "y": 2 },
+          { "t": "Menawarkan sesuatu yang sangat pribadi.", "s": 1, "y": 1 }
+        ]
+      },
+      {
+        "q": "Kalau gagal di depan orang banyak, kamu…",
+        "a": [
+          { "t": "Menangis sekeras-kerasnya. Biar semua tahu.", "s": 2, "y": 0 },
+          { "t": "Tetap tenang, lalu mengeluh soal detail kecil.", "s": 0, "y": 2 },
+          { "t": "Tertawa, karena apa lagi yang bisa dilakukan.", "s": 1, "y": 1 }
+        ]
+      },
+      {
+        "q": "Pilih satu kanji:",
+        "a": [
+          { "t": "刺客 — pembunuh bayaran", "s": 2, "y": 0 },
+          { "t": "不死 — tidak bisa mati", "s": 0, "y": 2 },
+          { "t": "資格 — kualifikasi", "s": 1, "y": 1 }
+        ]
+      },
+      {
+        "q": "Tiga ribu tahun ke depan terdengar seperti…",
+        "a": [
+          { "t": "Waktu yang cukup untuk akhirnya berhasil.", "s": 2, "y": 0 },
+          { "t": "Lelah. Kecuali ada yang menemani.", "s": 0, "y": 2 },
+          { "t": "Petualangan.", "s": 1, "y": 1 }
+        ]
+      }
+    ],
+    "results": {
+      "shikaku": {
+        "name": "Shikaku",
+        "jp": "刺客",
+        "tagline": "Gigih, impulsif, tulus sampai berbahaya.",
+        "body": "Kamu tidak berhenti sebelum selesai, dan kamu mencintai dengan seluruh tenaga, kadang terlalu banyak. Ingat: kegagalan tidak mencabut hakmu untuk dicintai."
+      },
+      "yugeru": {
+        "name": "Yugeru",
+        "jp": "不死",
+        "tagline": "Tenang, sopan, diam-diam kesepian.",
+        "body": "Kamu sudah melihat banyak hal dan jarang terkejut. Tapi saat seseorang benar-benar memperhatikanmu, kebosananmu mencair lebih cepat dari yang kamu kira."
+      },
+      "both": {
+        "name": "Shikaku × Yugeru",
+        "jp": "資格",
+        "tagline": "Separuh badai, separuh keabadian.",
+        "body": "Kamu punya kegigihan Shikaku dan kesabaran Yugeru. Mungkin kamu orang yang paling cocok menengahi kontrak mereka."
+      }
+    }
+  }
+}

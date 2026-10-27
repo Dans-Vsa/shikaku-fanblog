@@ -1,0 +1,62 @@
+{
+  "kicker": "Read & watch officially",
+  "title": "Support the original work",
+  "lede": "This site exists because Shikaku deserves to be read. The best way to honor it is to read and watch through official channels.",
+  "why": [
+    "Every official read and view tells publishers and studios that short stories like this have an audience. That is what makes anthologies like Tatsuki Fujimoto 17-26 possible.",
+    "This fan site provides no scans, pirate links, or video downloads. Every link below points to official publishers, platforms, and rights holders."
+  ],
+  "groups": [
+    {
+      "title": "Read the manga",
+      "items": [
+        {
+          "label": "VIZ Media — Tatsuki Fujimoto Before Chainsaw Man: 17-21",
+          "note": "English edition (print & digital). Shikaku is story no. 4.",
+          "url": "https://www.viz.com/read/manga/tatsuki-fujimoto-before-chainsaw-man/product/7330"
+        },
+        {
+          "label": "VIZ — Before Chainsaw Man series page",
+          "note": "Volumes 17-21 and 22-26.",
+          "url": "https://www.viz.com/tatsuki-fujimoto-before-chainsaw-man"
+        },
+        {
+          "label": "Shonen Jump (VIZ) — chapters",
+          "note": "Read story by story with a Shonen Jump membership.",
+          "url": "https://www.viz.com/shonenjump/chapters/tatsuki-fujimoto-before-chainsaw-man"
+        },
+        {
+          "label": "MANGA Plus by SHUEISHA",
+          "note": "Shueisha's official global platform for Fujimoto's other works.",
+          "url": "https://mangaplus.shueisha.co.jp/"
+        }
+      ]
+    },
+    {
+      "title": "Watch the anime",
+      "items": [
+        {
+          "label": "Prime Video — Tatsuki Fujimoto 17-26",
+          "note": "Exclusive worldwide streaming. Shikaku = episode 4.",
+          "url": "https://www.amazon.com/dp/B0FGHMF69K"
+        },
+        {
+          "label": "Prime Video Japan",
+          "note": "Title page for the Japan region.",
+          "url": "https://www.amazon.co.jp/dp/B0FGHFLJ5M"
+        },
+        {
+          "label": "Official anime site",
+          "note": "News, stories, and Blu-ray info.",
+          "url": "https://fujimototatsuki17-26.com/"
+        },
+        {
+          "label": "avex pictures YouTube channel",
+          "note": "Official per-story trailers, including Shikaku.",
+          "url": "https://www.youtube.com/@avexpictures"
+        }
+      ]
+    }
+  ],
+  "regionNote": "Availability varies by country. If a link isn't available in your region, look up the official title at local bookstores or legal platforms."
+}

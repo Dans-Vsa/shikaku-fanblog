@@ -1,0 +1,142 @@
+{
+  "kicker": "Fujimoto · garis waktu",
+  "title": "Dari 17 tahun ke Chainsaw Man",
+  "lede": "Shikaku tidak lahir di ruang hampa. Gulir ke samping untuk melihat posisinya dalam karier Tatsuki Fujimoto.",
+  "hint": "Gulir terus: garis waktu bergerak ke samping.",
+  "intro": [
+    "Tatsuki Fujimoto menggambar cerita-cerita pendek sejak remaja. Kumpulan 17-21 dan 22-26 diberi judul sesuai usia sang pengarang saat menggambarnya, sehingga membacanya terasa seperti membuka buku harian kreatif.",
+    "Tahun-tahun di bawah adalah tahun rilis atau tahun pembuatan yang tercantum di sumber resmi dan referensi publik. Kami sengaja hanya menulis tahun, bukan tanggal, untuk menghindari detail yang belum terverifikasi."
+  ],
+  "events": [
+    {
+      "year": "2011",
+      "title": "A Couple Clucking Chickens Were Still Kickin' in the Schoolyard",
+      "body": "Cerita pembuka kumpulan 17-21.",
+      "kind": "oneshot"
+    },
+    {
+      "year": "2013",
+      "title": "Sasaki Stopped a Bullet",
+      "body": "One-shot tentang seorang guru bernama Sasaki dan muridnya.",
+      "kind": "oneshot"
+    },
+    {
+      "year": "2013",
+      "title": "Love is Blind",
+      "body": "Romansa sekolah dengan pengakuan cinta yang terus tertunda.",
+      "kind": "oneshot"
+    },
+    {
+      "year": "2014",
+      "title": "Shikaku",
+      "body": "Pembunuh bayaran vs vampir abadi. Cerita penutup 17-21, dan alasan situs ini ada.",
+      "kind": "star"
+    },
+    {
+      "year": "2014",
+      "title": "Mermaid Rhapsody",
+      "body": "Pembuka kumpulan 22-26.",
+      "kind": "oneshot"
+    },
+    {
+      "year": "2015",
+      "title": "Nayuta of the Prophecy",
+      "body": "Adik perempuan dengan kekuatan yang bisa mengakhiri dunia.",
+      "kind": "oneshot"
+    },
+    {
+      "year": "2016",
+      "title": "Fire Punch",
+      "body": "Serial panjang pertama (Shōnen Jump+). Tubuh yang terus terbakar dan terus pulih.",
+      "kind": "series"
+    },
+    {
+      "year": "2017",
+      "title": "Woke-Up-as-a-Girl Syndrome",
+      "body": "One-shot di kumpulan 22-26.",
+      "kind": "oneshot"
+    },
+    {
+      "year": "2018",
+      "title": "Sisters",
+      "body": "Cerita penutup 22-26.",
+      "kind": "oneshot"
+    },
+    {
+      "year": "2018",
+      "title": "Chainsaw Man",
+      "body": "Mulai terbit di Weekly Shōnen Jump. Bagian kedua berlanjut di Shōnen Jump+.",
+      "kind": "series"
+    },
+    {
+      "year": "2021",
+      "title": "Look Back",
+      "body": "One-shot panjang tentang dua gadis yang menggambar manga. Diadaptasi menjadi film pada 2024.",
+      "kind": "oneshot"
+    },
+    {
+      "year": "2021",
+      "title": "Kumpulan 17-21 & 22-26",
+      "body": "Shueisha membukukan delapan cerita pendek awal. Edisi Inggris VIZ terbit 2023.",
+      "kind": "book"
+    },
+    {
+      "year": "2022",
+      "title": "Goodbye, Eri",
+      "body": "One-shot tentang film, kenangan, dan kebohongan yang indah.",
+      "kind": "oneshot"
+    },
+    {
+      "year": "2025",
+      "title": "Anime Tatsuki Fujimoto 17-26",
+      "body": "Delapan cerita pendek diadaptasi; Shikaku menjadi episode 4.",
+      "kind": "star"
+    }
+  ],
+  "dnaTitle": "DNA Fujimoto",
+  "dnaLede": "Benang merah yang penggemar temukan di hampir semua karyanya, dan sudah terlihat jelas di Shikaku.",
+  "dna": [
+    {
+      "jp": "暴",
+      "title": "Kekerasan sebagai lelucon",
+      "body": "Tubuh hancur diperlakukan seperti gag visual, sehingga emosi yang tulus justru terasa mengejutkan.",
+      "inShikaku": "Yugeru mengeluhkan bajunya, bukan lukanya."
+    },
+    {
+      "jp": "間",
+      "title": "Jeda yang menikam",
+      "body": "Panel kosong dan hening tiba-tiba setelah kekacauan. Fujimoto sering disebut sangat sinematik dalam mengatur jeda.",
+      "inShikaku": "Kastil yang sunyi setelah Shikaku pergi."
+    },
+    {
+      "jp": "狂",
+      "title": "Tokoh yang tak terkendali",
+      "body": "Tokoh yang berbahaya, kekanak-kanakan, dan tulus sekaligus. Kekerasan menjadi bahasa mereka untuk mendekat.",
+      "inShikaku": "Cinta Shikaku yang lahir dari target yang gagal dibunuh."
+    },
+    {
+      "jp": "再",
+      "title": "Tubuh yang tidak mau mati",
+      "body": "Regenerasi muncul berulang kali, dari komedi hingga tragedi.",
+      "inShikaku": "Yugeru yang selalu pulih."
+    },
+    {
+      "jp": "映",
+      "title": "Cinta pada film dan layar",
+      "body": "Referensi sinema dan layar tontonan sering muncul sebagai bagian penting cerita.",
+      "inShikaku": "Klimaks yang terjadi di siaran televisi."
+    },
+    {
+      "jp": "優",
+      "title": "Akhir yang mendadak lembut",
+      "body": "Setelah semua kegilaan, ceritanya sering ditutup dengan sesuatu yang hangat dan ganjil.",
+      "inShikaku": "Undangan untuk menemani ribuan tahun ke depan."
+    }
+  ],
+  "kinds": {
+    "oneshot": "One-shot",
+    "series": "Serial",
+    "star": "Sorotan",
+    "book": "Buku"
+  }
+}
