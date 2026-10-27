@@ -1,9 +1,10 @@
 import { forwardRef, useRef } from 'react';
-import { BurningFigure } from '@/assets/Illustrations';
-import { ShikakuFigure, YugeruFigure } from '@/assets/Silhouettes';
+import { OfficialFigure } from '@/components/ui/OfficialFigure';
 import { Paragraphs } from '@/components/ui/RichText';
 import { Tag, type TagKind } from '@/components/ui/Tag';
+import { covers, images, RIGHTS } from '@/config/images';
 import { BeforeAfterSlider } from '@/features/before-after-slider/BeforeAfterSlider';
+import { useLang } from '@/hooks/useProviders';
 import { useReveal } from '@/hooks/useReveal';
 import type { ReadContent } from './types';
 import { ActHeader } from './ActHeader';
@@ -15,6 +16,7 @@ import { ActHeader } from './ActHeader';
 export const Act4 = forwardRef<HTMLElement, { c: ReadContent['act4'] }>(function Act4({ c }, ref) {
   const scope = useRef<HTMLDivElement>(null);
   useReveal(scope, { y: 20, stagger: 0.1 });
+  const { lang } = useLang();
   const [unhinged, immortal, evolution] = c.panels;
 
   return (
@@ -49,10 +51,13 @@ export const Act4 = forwardRef<HTMLElement, { c: ReadContent['act4'] }>(function
                 </li>
               ))}
             </ol>
-            <div className="mx-auto w-40">
-              <ShikakuFigure figureStyle="ink" className="h-auto w-full" />
-            </div>
-            <figcaption className="t-label text-center text-ink-soft">シカク · 2014</figcaption>
+            <OfficialFigure
+              image={images.mangaTitle}
+              className="mx-auto w-full max-w-xs"
+              imgClassName="border-[3px] border-ink"
+              caption="シカク · Jump SQ.19 · 2014"
+              sizes="320px"
+            />
           </figure>
         </article>
 
@@ -63,13 +68,32 @@ export const Act4 = forwardRef<HTMLElement, { c: ReadContent['act4'] }>(function
         >
           <figure className="order-2 grid grid-cols-2 items-end gap-6 bg-paper-deep/60 p-6 lg:order-1">
             <div className="flex flex-col items-center gap-2">
-              <YugeruFigure figureStyle="hatch" boredom={1} className="h-auto w-28" />
-              <span className="t-label">Yugeru · 2014</span>
+              <img
+                src={images.charaYugeru.small}
+                width={480}
+                height={640}
+                alt={images.charaYugeru.alt[lang]}
+                loading="lazy"
+                decoding="async"
+                className="h-auto w-full max-w-[12rem]"
+              />
+              <span className="t-label">Yugeru · Shikaku (2014)</span>
             </div>
             <div className="flex flex-col items-center gap-2">
-              <BurningFigure className="h-auto w-28" />
-              <span className="t-label">Agni · 2016</span>
+              <img
+                src={covers['Fire Punch']}
+                width={360}
+                height={565}
+                alt="Fire Punch vol. 1"
+                loading="lazy"
+                decoding="async"
+                className="h-auto w-full max-w-[10rem] border-[3px] border-ink"
+              />
+              <span className="t-label">Agni · Fire Punch (2016)</span>
             </div>
+            <figcaption className="t-label col-span-2 text-[0.6rem] text-ink-soft">
+              {RIGHTS.anime} · {RIGHTS.manga}
+            </figcaption>
           </figure>
           <div className="order-1 flex flex-col gap-4 lg:order-2">
             <p className="t-label">02 · {immortal.id}</p>
@@ -95,15 +119,30 @@ export const Act4 = forwardRef<HTMLElement, { c: ReadContent['act4'] }>(function
             beforeLabel={c.sliderBefore}
             afterLabel={c.sliderAfter}
             className="mx-auto w-full max-w-md bg-paper"
+            credit={`${RIGHTS.manga} · ${RIGHTS.anime}`}
             before={
-              <div className="halftone flex justify-center bg-paper p-6">
-                <ShikakuFigure figureStyle="hatch" className="h-auto w-56" />
-              </div>
+              <img
+                src={images.mangaTitle.src}
+                width={764}
+                height={1200}
+                alt={images.mangaTitle.alt[lang]}
+                loading="lazy"
+                decoding="async"
+                draggable={false}
+                className="block aspect-[2/3] w-full object-cover"
+              />
             }
             after={
-              <div className="flex h-full justify-center bg-gradient-to-b from-paper to-paper-deep p-6">
-                <ShikakuFigure figureStyle="cel" className="h-auto w-56" />
-              </div>
+              <img
+                src={images.animeKv.src}
+                width={1080}
+                height={1519}
+                alt=""
+                loading="lazy"
+                decoding="async"
+                draggable={false}
+                className="block h-full w-full object-cover"
+              />
             }
           />
         </article>

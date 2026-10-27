@@ -7,12 +7,11 @@
     "Shikaku (シカク) © Tatsuki Fujimoto / Shueisha. First published in Jump SQ.19 (2014); English edition by VIZ Media in Tatsuki Fujimoto Before Chainsaw Man: 17-21.",
     "Tatsuki Fujimoto 17-26 anime © respective rights holders; distributed by Avex Pictures and Prime Video. The trailer plays directly from the official YouTube channel."
   ],
-  "madeTitle": "Made for this site",
+  "madeTitle": "Images & assets",
   "made": [
-    "Every illustration (Yugeru & Shikaku silhouettes, the symbolic meal, the empty chair, teacups, the burning figure, the trailer poster) is drawn as original SVG/canvas.",
-    "Paper texture, noise, and ink splatter are generated with SVG feTurbulence.",
+    "Official images used: the Shikaku manga title page (Jump SQ.19, 2014) and covers of other Fujimoto works (via the Fujimoto Archive); the key visual and Shikaku & Yugeru character designs (official anime site); a Special PV frame (avex pictures YouTube thumbnail). Used for review & promotion with attribution.",
+    "Original to this site: paper/noise/ink textures (SVG feTurbulence), symbolic illustrations (the meal, the empty chair, teacups), the CRT shader, execution simulation, kanji particle morph, and quiz result card.",
     "All sound effects are synthesized in real time with the Web Audio API; no third-party audio files.",
-    "The CRT shader, execution simulation, kanji particle morph, and quiz result card were written from scratch.",
     "All wiki text is original paraphrase and analysis; no manga dialogue is copied."
   ],
   "fontsTitle": "Fonts",

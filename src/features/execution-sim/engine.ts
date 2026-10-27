@@ -1,7 +1,8 @@
 import { duckAudio, playSfx, setAmbience } from '@/lib/audio-bridge';
 import { clamp, damp, lerp, pickFresh, randRange } from '@/lib/math';
 import type { Quality } from '@/lib/perf-detect';
-import { renderYugeru, type FigureSprite } from './figure';
+import { charaYugeruSrc } from '@/config/images';
+import { renderYugeru, renderYugeruFromImage, type FigureSprite } from './figure';
 import { P_BLOOD, P_INK, P_SHELL, P_SMOKE, P_SPARK, ParticlePool } from './particles';
 import { Trauma } from './shake';
 
@@ -110,6 +111,8 @@ export class ExecutionEngine {
   private ruinLayer: HTMLCanvasElement | null = null;
   private sprite: FigureSprite | null = null;
   private spriteBoredom = -1;
+  /** desain karakter resmi; null sampai selesai dimuat (sprite gambar dipakai sementara) */
+  private charaImg: HTMLImageElement | null = null;
   private fig = { cx: 0, footY: 0, h: 0, w: 0, left: 0, top: 0 };
 
   private particles: ParticlePool;
@@ -164,6 +167,20 @@ export class ExecutionEngine {
     this.ctx = canvas.getContext('2d', { alpha: false })!;
     this.particles = new ParticlePool(this.capFor(opts.quality));
     this.readColors();
+    const img = new Image();
+    img.decoding = 'async';
+    img.src = charaYugeruSrc;
+    void img
+      .decode()
+      .then(() => {
+        this.charaImg = img;
+        this.spriteBoredom = -1;
+        if (this.W) {
+          this.ensureSprite();
+          this.render();
+        }
+      })
+      .catch(() => undefined);
     canvas.addEventListener('pointerdown', this.onDown);
     canvas.addEventListener('pointermove', this.onMove);
     canvas.addEventListener('pointerup', this.onUp);
@@ -291,6 +308,12 @@ export class ExecutionEngine {
   }
 
   private ensureSprite() {
+    if (this.charaImg) {
+      if (this.spriteBoredom === -2 && this.sprite) return;
+      this.spriteBoredom = -2;
+      this.sprite = renderYugeruFromImage(this.charaImg, this.fig.h, this.dpr);
+      return;
+    }
     const b = Math.round(this.boredom * 4) / 4;
     if (b === this.spriteBoredom && this.sprite) return;
     this.spriteBoredom = b;

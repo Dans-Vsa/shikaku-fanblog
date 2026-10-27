@@ -1,12 +1,14 @@
 import { useTranslation } from 'react-i18next';
-import { ShikakuFigure, YugeruFigure } from '@/assets/Silhouettes';
 import { PageHeader } from '@/components/layout/PageHeader';
 import { PanelFrame } from '@/components/manga/PanelFrame';
 import { ExternalButton } from '@/components/ui/Button';
 import { ExternalIcon } from '@/components/ui/icons';
 import { Paragraphs } from '@/components/ui/RichText';
 import { Tag } from '@/components/ui/Tag';
+import { images, RIGHTS } from '@/config/images';
 import { media } from '@/config/media';
+import { OfficialFigure } from '@/components/ui/OfficialFigure';
+import { useLang } from '@/hooks/useProviders';
 import en from '@/content/en/anime.json';
 import id from '@/content/id/anime.json';
 import { BeforeAfterSlider } from '@/features/before-after-slider/BeforeAfterSlider';
@@ -15,20 +17,10 @@ import { useLocalized } from '@/hooks/useLocalized';
 import { useScrollChaos } from '@/hooks/useScrollChaos';
 import { TrailerEmbed } from './TrailerEmbed';
 
-function Pair({ style }: { style: 'hatch' | 'cel' }) {
-  return (
-    <div
-      className={`flex items-end justify-center gap-4 p-6 ${style === 'hatch' ? 'halftone bg-paper' : 'bg-gradient-to-b from-paper to-paper-deep'}`}
-    >
-      <ShikakuFigure figureStyle={style} className="h-auto w-[38%]" />
-      <YugeruFigure figureStyle={style} boredom={0.7} className="h-auto w-[38%]" />
-    </div>
-  );
-}
-
 export default function Anime() {
   const { t } = useTranslation();
   const c = useLocalized({ id, en });
+  const { lang } = useLang();
   useDocumentTitle(c.title);
   useScrollChaos(0.3);
 
@@ -115,6 +107,11 @@ export default function Anime() {
             </div>
           </div>
           <p className="text-sm text-ink-soft">{c.factsNote}</p>
+          <OfficialFigure
+            image={images.animeKv}
+            imgClassName="border-[3px] border-ink"
+            sizes="(min-width: 1024px) 30vw, 90vw"
+          />
         </PanelFrame>
       </section>
 
@@ -127,9 +124,32 @@ export default function Anime() {
           label={c.sliderTitle}
           beforeLabel={c.sliderBefore}
           afterLabel={c.sliderAfter}
-          before={<Pair style="hatch" />}
-          after={<Pair style="cel" />}
-          className="bg-paper"
+          before={
+            <img
+              src={images.mangaTitle.src}
+              width={764}
+              height={1200}
+              alt={images.mangaTitle.alt[lang]}
+              loading="lazy"
+              decoding="async"
+              draggable={false}
+              className="block aspect-[3/4] w-full object-cover object-[0%_100%]"
+            />
+          }
+          after={
+            <img
+              src={images.charaShikaku.src}
+              width={900}
+              height={1200}
+              alt={images.charaShikaku.alt[lang]}
+              loading="lazy"
+              decoding="async"
+              draggable={false}
+              className="block h-full w-full bg-gradient-to-b from-paper to-paper-deep object-contain"
+            />
+          }
+          className="mx-auto w-full max-w-md bg-paper"
+          credit={`${RIGHTS.manga} · ${RIGHTS.anime}`}
         />
       </section>
 

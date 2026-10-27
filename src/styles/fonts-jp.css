@@ -1,5 +1,5 @@
 /* AUTO-GENERATED oleh scripts/subset-fonts.py — jangan edit manual. */
-/* 90 glyph CJK/kana dipakai situs. Lisensi font: SIL OFL 1.1. */
+/* 98 glyph CJK/kana dipakai situs. Lisensi font: SIL OFL 1.1. */
 @font-face {
   font-family: 'Zen Antique';
   font-style: normal;
@@ -38,7 +38,7 @@
   font-weight: 400;
   font-display: swap;
   src: url('/fonts/zen-antique-4.woff2') format('woff2');
-  unicode-range: U+899A;
+  unicode-range: U+82F1, U+899A;
 }
 @font-face {
   font-family: 'Zen Antique';
@@ -70,7 +70,7 @@
   font-weight: 400;
   font-display: swap;
   src: url('/fonts/zen-antique-8.woff2') format('woff2');
-  unicode-range: U+5B57;
+  unicode-range: U+5B57, U+FF0F;
 }
 @font-face {
   font-family: 'Zen Antique';
@@ -78,7 +78,7 @@
   font-weight: 400;
   font-display: swap;
   src: url('/fonts/zen-antique-9.woff2') format('woff2');
-  unicode-range: U+653E, U+6620;
+  unicode-range: U+653E, U+6620, U+88FD;
 }
 @font-face {
   font-family: 'Zen Antique';
@@ -110,7 +110,7 @@
   font-weight: 400;
   font-display: swap;
   src: url('/fonts/zen-antique-13.woff2') format('woff2');
-  unicode-range: U+3005, U+4E0D, U+544A, U+683C, U+9001;
+  unicode-range: U+3005, U+4E0D, U+544A, U+54E1, U+683C, U+9001;
 }
 @font-face {
   font-family: 'Zen Antique';
@@ -134,7 +134,7 @@
   font-weight: 400;
   font-display: swap;
   src: url('/fonts/zen-antique-16.woff2') format('woff2');
-  unicode-range: U+300C-300D, U+4EBA, U+5F0F, U+672C, U+7528, U+753B, U+9593;
+  unicode-range: U+300C-300D, U+4EBA, U+4F1A, U+5F0F, U+672C, U+7528, U+753B, U+793E, U+9593;
 }
 @font-face {
   font-family: 'Zen Antique';
@@ -153,7 +153,7 @@
   unicode-range:
     U+3057, U+3064, U+306E, U+307F, U+308A, U+30A2, U+30AB, U+30AD, U+30AF, U+30B2, U+30B7-30B9,
     U+30BF, U+30C4, U+30C7, U+30CA-30CB, U+30D7, U+30DA, U+30E1, U+30E3-30E4, U+30E6, U+30EB-30EC,
-    U+30F3;
+    U+30F3, U+30FB;
 }
 @font-face {
   font-family: 'Zen Antique';
@@ -209,7 +209,7 @@
   font-weight: 400;
   font-display: swap;
   src: url('/fonts/zen-antique-25.woff2') format('woff2');
-  unicode-range: U+6BBA;
+  unicode-range: U+59D4;
 }
 @font-face {
   font-family: 'Zen Antique';
@@ -217,7 +217,7 @@
   font-weight: 400;
   font-display: swap;
   src: url('/fonts/zen-antique-26.woff2') format('woff2');
-  unicode-range: U+523A, U+8840;
+  unicode-range: U+6BBA;
 }
 @font-face {
   font-family: 'Zen Antique';
@@ -225,7 +225,7 @@
   font-weight: 400;
   font-display: swap;
   src: url('/fonts/zen-antique-27.woff2') format('woff2');
-  unicode-range: U+6F2B, U+8B1D;
+  unicode-range: U+523A, U+8840;
 }
 @font-face {
   font-family: 'Zen Antique';
@@ -233,15 +233,23 @@
   font-weight: 400;
   font-display: swap;
   src: url('/fonts/zen-antique-28.woff2') format('woff2');
+  unicode-range: U+6F2B, U+8B1D;
+}
+@font-face {
+  font-family: 'Zen Antique';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/zen-antique-29.woff2') format('woff2');
   unicode-range:
     U+3005, U+300C-300D, U+3057, U+3064, U+306E, U+307F, U+308A, U+30A2, U+30AB, U+30AD, U+30AF,
     U+30B2, U+30B7-30B9, U+30BF, U+30C4, U+30C7, U+30CA-30CB, U+30D7, U+30DA, U+30E1, U+30E3-30E4,
-    U+30E6, U+30EB-30EC, U+30F3, U+4E0D, U+4E3B, U+4E8C, U+4EBA, U+4EF2, U+4F5C, U+512A, U+516C,
-    U+518D, U+5207, U+5236, U+523A, U+5256, U+5438, U+544A, U+56DB, U+58F0, U+5B57, U+5BA2, U+5BB6,
-    U+5C4B, U+5F0F, U+606F, U+653E, U+6599, U+65E5, U+6620, U+66B4, U+672C, U+683C, U+6B7B, U+6BBA,
-    U+6F22, U+6F2B, U+7269, U+72C2, U+7528, U+753B, U+767D, U+77ED, U+7A7A, U+7B11, U+7DDA, U+7DE8,
-    U+85E4, U+8840, U+8996, U+899A, U+89D2, U+89E3, U+8A9E, U+8AAD, U+8B1D, U+8CC7, U+8F9E, U+9001,
-    U+9593, U+96C6, U+984C, U+9B3C;
+    U+30E6, U+30EB-30EC, U+30F3, U+30FB, U+4E0D, U+4E3B, U+4E8C, U+4EBA, U+4EF2, U+4F1A, U+4F5C,
+    U+512A, U+516C, U+518D, U+5207, U+5236, U+523A, U+5256, U+5438, U+544A, U+54E1, U+56DB, U+58F0,
+    U+59D4, U+5B57, U+5BA2, U+5BB6, U+5C4B, U+5F0F, U+606F, U+653E, U+6599, U+65E5, U+6620, U+66B4,
+    U+672C, U+683C, U+6B7B, U+6BBA, U+6F22, U+6F2B, U+7269, U+72C2, U+7528, U+753B, U+767D, U+77ED,
+    U+793E, U+7A7A, U+7B11, U+7DDA, U+7DE8, U+82F1, U+85E4, U+8840, U+88FD, U+8996, U+899A, U+89D2,
+    U+89E3, U+8A9E, U+8AAD, U+8B1D, U+8CC7, U+8F9E, U+9001, U+9593, U+96C6, U+984C, U+9B3C, U+FF0F;
 }
 @font-face {
   font-family: 'Dela Gothic One';
@@ -281,7 +289,7 @@
   font-weight: 400;
   font-display: swap;
   src: url('/fonts/dela-gothic-one-4.woff2') format('woff2');
-  unicode-range: U+899A;
+  unicode-range: U+82F1, U+899A;
 }
 @font-face {
   font-family: 'Dela Gothic One';
@@ -313,7 +321,7 @@
   font-weight: 400;
   font-display: swap;
   src: url('/fonts/dela-gothic-one-8.woff2') format('woff2');
-  unicode-range: U+5B57;
+  unicode-range: U+5B57, U+FF0F;
 }
 @font-face {
   font-family: 'Dela Gothic One';
@@ -321,7 +329,7 @@
   font-weight: 400;
   font-display: swap;
   src: url('/fonts/dela-gothic-one-9.woff2') format('woff2');
-  unicode-range: U+653E, U+6620;
+  unicode-range: U+653E, U+6620, U+88FD;
 }
 @font-face {
   font-family: 'Dela Gothic One';
@@ -353,7 +361,7 @@
   font-weight: 400;
   font-display: swap;
   src: url('/fonts/dela-gothic-one-13.woff2') format('woff2');
-  unicode-range: U+3005, U+4E0D, U+544A, U+683C, U+9001;
+  unicode-range: U+3005, U+4E0D, U+544A, U+54E1, U+683C, U+9001;
 }
 @font-face {
   font-family: 'Dela Gothic One';
@@ -377,7 +385,7 @@
   font-weight: 400;
   font-display: swap;
   src: url('/fonts/dela-gothic-one-16.woff2') format('woff2');
-  unicode-range: U+300C-300D, U+4EBA, U+5F0F, U+672C, U+7528, U+753B, U+9593;
+  unicode-range: U+300C-300D, U+4EBA, U+4F1A, U+5F0F, U+672C, U+7528, U+753B, U+793E, U+9593;
 }
 @font-face {
   font-family: 'Dela Gothic One';
@@ -396,7 +404,7 @@
   unicode-range:
     U+3057, U+3064, U+306E, U+307F, U+308A, U+30A2, U+30AB, U+30AD, U+30AF, U+30B2, U+30B7-30B9,
     U+30BF, U+30C4, U+30C7, U+30CA-30CB, U+30D7, U+30DA, U+30E1, U+30E3-30E4, U+30E6, U+30EB-30EC,
-    U+30F3;
+    U+30F3, U+30FB;
 }
 @font-face {
   font-family: 'Dela Gothic One';
@@ -452,7 +460,7 @@
   font-weight: 400;
   font-display: swap;
   src: url('/fonts/dela-gothic-one-25.woff2') format('woff2');
-  unicode-range: U+6BBA;
+  unicode-range: U+59D4;
 }
 @font-face {
   font-family: 'Dela Gothic One';
@@ -460,7 +468,7 @@
   font-weight: 400;
   font-display: swap;
   src: url('/fonts/dela-gothic-one-26.woff2') format('woff2');
-  unicode-range: U+523A, U+8840;
+  unicode-range: U+6BBA;
 }
 @font-face {
   font-family: 'Dela Gothic One';
@@ -468,7 +476,7 @@
   font-weight: 400;
   font-display: swap;
   src: url('/fonts/dela-gothic-one-27.woff2') format('woff2');
-  unicode-range: U+6F2B, U+8B1D;
+  unicode-range: U+523A, U+8840;
 }
 @font-face {
   font-family: 'Dela Gothic One';
@@ -476,13 +484,21 @@
   font-weight: 400;
   font-display: swap;
   src: url('/fonts/dela-gothic-one-28.woff2') format('woff2');
+  unicode-range: U+6F2B, U+8B1D;
+}
+@font-face {
+  font-family: 'Dela Gothic One';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/dela-gothic-one-29.woff2') format('woff2');
   unicode-range:
     U+3005, U+300C-300D, U+3057, U+3064, U+306E, U+307F, U+308A, U+30A2, U+30AB, U+30AD, U+30AF,
     U+30B2, U+30B7-30B9, U+30BF, U+30C4, U+30C7, U+30CA-30CB, U+30D7, U+30DA, U+30E1, U+30E3-30E4,
-    U+30E6, U+30EB-30EC, U+30F3, U+4E0D, U+4E3B, U+4E8C, U+4EBA, U+4EF2, U+4F5C, U+512A, U+516C,
-    U+518D, U+5207, U+5236, U+523A, U+5256, U+5438, U+544A, U+56DB, U+58F0, U+5B57, U+5BA2, U+5BB6,
-    U+5C4B, U+5F0F, U+606F, U+653E, U+6599, U+65E5, U+6620, U+66B4, U+672C, U+683C, U+6B7B, U+6BBA,
-    U+6F22, U+6F2B, U+7269, U+72C2, U+7528, U+753B, U+767D, U+77ED, U+7A7A, U+7B11, U+7DDA, U+7DE8,
-    U+85E4, U+8840, U+8996, U+899A, U+89D2, U+89E3, U+8A9E, U+8AAD, U+8B1D, U+8CC7, U+8F9E, U+9001,
-    U+9593, U+96C6, U+984C, U+9B3C;
+    U+30E6, U+30EB-30EC, U+30F3, U+30FB, U+4E0D, U+4E3B, U+4E8C, U+4EBA, U+4EF2, U+4F1A, U+4F5C,
+    U+512A, U+516C, U+518D, U+5207, U+5236, U+523A, U+5256, U+5438, U+544A, U+54E1, U+56DB, U+58F0,
+    U+59D4, U+5B57, U+5BA2, U+5BB6, U+5C4B, U+5F0F, U+606F, U+653E, U+6599, U+65E5, U+6620, U+66B4,
+    U+672C, U+683C, U+6B7B, U+6BBA, U+6F22, U+6F2B, U+7269, U+72C2, U+7528, U+753B, U+767D, U+77ED,
+    U+793E, U+7A7A, U+7B11, U+7DDA, U+7DE8, U+82F1, U+85E4, U+8840, U+88FD, U+8996, U+899A, U+89D2,
+    U+89E3, U+8A9E, U+8AAD, U+8B1D, U+8CC7, U+8F9E, U+9001, U+9593, U+96C6, U+984C, U+9B3C, U+FF0F;
 }

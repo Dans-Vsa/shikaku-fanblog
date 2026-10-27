@@ -48,3 +48,12 @@ Format: **keputusan** — alasan. Ditulis saat keputusan diambil, per fase.
 - **Repo `Dans-Vsa/shikaku-fanblog`**, nama mengikuti pola `sasaki-fanblog`; disajikan GitHub Pages dari branch `gh-pages` di `/shikaku-fanblog/` (base Vite + `basename` router; `404.html` = salinan `index.html` untuk deep link).
 - **Deploy lewat `tools/deploy.mjs`** (meniru hub 17-26), bukan GitHub Actions: commit `gh-pages` dibuat dengan identitas git lokal sehingga satu-satunya kontributor tetap pemilik repo (tanpa `github-actions[bot]`).
 - **Tautan jaringan**: footer + halaman /fujimoto menaut ke Fujimoto Archive dan `before-chainsaw-man-fanblog/17-21/#shikaku`; kedua hub itu menaut balik lewat field `blog` / `site` masing-masing.
+
+## Gambar resmi (2026-10-27)
+
+- **Ilustrasi buatan sendiri diganti gambar resmi** atas permintaan pemilik situs ("biar relate untuk perkenalan/promosi"): halaman judul manga, sampul karya, key visual, desain karakter, frame PV. Semua dengan atribusi; sumber di `ASSETS.md`.
+- **Sumber diutamakan dari repo milik sendiri** (Fujimoto Archive, hub 17-26) lalu situs resmi anime & thumbnail YouTube resmi. Gambar dari artikel berita yang memakai proteksi hotlink **tidak** diambil (tidak mem-bypass kontrol akses).
+- **Koreksi fakta penampilan**: brief menyebut Shikaku berseragam pelaut hitam dan Yugeru berjubah bangsawan; gambar resmi menunjukkan hoodie + syal + sabuk senjata dan kemeja + bretel. Semua teks ID/EN, keluhan simulasi, dan alt text disesuaikan.
+- **Simulasi** memakai desain resmi Yugeru (grayscale agar menyatu dengan estetika tinta; merah tetap hanya untuk regenerasi). **Siaran Babak 5** memakai close-up resmi dari Special PV, tetap melewati shader CRT. Gambar vektor lama hanya jadi cadangan selama gambar dimuat.
+- `Silhouettes.tsx` & `BurningFigure` dihapus (tak terpakai). Agni diwakili sampul Fire Punch vol. 1.
+- `vite preview` kini memakai base produksi (`isPreview`), agar preview lokal identik dengan GitHub Pages.

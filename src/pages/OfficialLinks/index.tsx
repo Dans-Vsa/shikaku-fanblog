@@ -7,6 +7,7 @@ import id from '@/content/id/official.json';
 import { useDocumentTitle } from '@/hooks/useDocumentTitle';
 import { useLocalized } from '@/hooks/useLocalized';
 import { useScrollChaos } from '@/hooks/useScrollChaos';
+import { covers, images, RIGHTS } from '@/config/images';
 
 export default function OfficialLinks() {
   const { t } = useTranslation();
@@ -20,9 +21,23 @@ export default function OfficialLinks() {
         <Paragraphs items={c.why} className="max-w-prose text-lg" />
       </section>
       <section className="container-ink grid gap-10 md:grid-cols-2">
-        {c.groups.map((g) => (
+        {c.groups.map((g, gi) => (
           <div key={g.title}>
             <h2 className="mb-5 border-b-[3px] border-ink pb-2 text-3xl">{g.title}</h2>
+            <figure className="mb-5 flex items-end gap-4">
+              <img
+                src={gi === 0 ? covers['17-21'] : images.animeKv.small}
+                width={gi === 0 ? 360 : 600}
+                height={gi === 0 ? 565 : 844}
+                alt=""
+                loading="lazy"
+                decoding="async"
+                className="h-48 w-auto border-[3px] border-ink shadow-[5px_5px_0_var(--ink)]"
+              />
+              <figcaption className="t-label text-[0.6rem] text-ink-soft">
+                {gi === 0 ? RIGHTS.manga : RIGHTS.anime}
+              </figcaption>
+            </figure>
             <ul className="flex flex-col gap-4">
               {g.items.map((item) => (
                 <li key={item.url}>

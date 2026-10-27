@@ -1,5 +1,5 @@
 import { forwardRef, useRef } from 'react';
-import { ShikakuFigure, YugeruFigure } from '@/assets/Silhouettes';
+import { CharaPortrait } from '@/components/ui/CharaPortrait';
 import { PanelFrame } from '@/components/manga/PanelFrame';
 import { ExecutionSim } from '@/features/execution-sim/ExecutionSim';
 import { useReveal } from '@/hooks/useReveal';
@@ -68,15 +68,8 @@ export const Act1 = forwardRef<HTMLElement, { c: ReadContent['act1'] }>(function
                 k === 'yugeru' ? 'border-r-[3px] border-ink' : 'bg-ink text-paper'
               }`}
             >
-              <div data-reveal className="w-24 shrink-0 md:w-36">
-                {k === 'yugeru' ? (
-                  <YugeruFigure figureStyle="hatch" boredom={0.9} className="h-auto w-full" />
-                ) : (
-                  <ShikakuFigure
-                    figureStyle="ink"
-                    className="h-auto w-full rounded-sm bg-paper p-1"
-                  />
-                )}
+              <div data-reveal className="w-28 shrink-0 md:w-44">
+                <CharaPortrait who={k} />
               </div>
               <div className="flex flex-col gap-1">
                 <p

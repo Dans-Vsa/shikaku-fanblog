@@ -4,7 +4,7 @@
   "lede": "Yugeru tersimpan rapi di arsip kontrak. Shikaku tercoret-coret di papan buronan. Balik kartunya untuk melihat siapa mereka saat tidak sedang berpose.",
   "intro": [
     "Seluruh kisah Shikaku digerakkan oleh dua tokoh yang secara bentuk saja sudah bertolak belakang. Yang satu tenang, sopan, dan hidup terlalu lama. Yang lain impulsif, kekanak-kanakan, dan hidup seolah tidak punya hari esok. Fujimoto menabrakkan keduanya dalam satu kontrak yang mustahil dipenuhi.",
-    "Kartu di bawah meniru dua jenis dokumen: berkas kontrak bangsawan untuk {{g:kyuuketsuki|vampir}} yang memesan kematiannya sendiri, dan poster buronan penuh coretan untuk gadis yang menerima pesanan itu. Sisi depan adalah citra publik mereka. Sisi belakang adalah sisi asli, yang membuka sebagian alur cerita sehingga disensor bila mode aman spoiler aktif."
+    "Kartu di bawah meniru dua jenis dokumen: berkas kontrak formal untuk {{g:kyuuketsuki|vampir}} yang memesan kematiannya sendiri, dan poster buronan penuh coretan untuk gadis yang menerima pesanan itu. Sisi depan adalah citra publik mereka. Sisi belakang adalah sisi asli, yang membuka sebagian alur cerita sehingga disensor bila mode aman spoiler aktif."
   ],
   "flipHint": "Klik, tekan Enter, atau ketuk kartu untuk membaliknya.",
   "front": "Citra publik",
@@ -26,7 +26,7 @@
         { "k": "Seiyū (anime)", "v": "Tomokazu Sugita {{tag:fact}}" }
       ],
       "frontBody": [
-        "Bangsawan malam yang sopan, berpakaian rapi, dan bicara dengan nada orang yang sudah terlalu sering melihat matahari terbenam. Ia tidak menyewa pembunuh karena dendam pada siapa pun. Targetnya adalah dirinya sendiri.",
+        "Pria sopan berambut perak yang disisir rapi, berkemeja putih dengan bretel, dan bicara dengan nada orang yang sudah terlalu sering melihat matahari terbenam. Ia tidak menyewa pembunuh karena dendam pada siapa pun. Targetnya adalah dirinya sendiri.",
         "Di depan umum ia tampak tenang dan agak jemu. Setiap kali tubuhnya dihancurkan, yang paling ia sesali justru pakaiannya yang rusak."
       ],
       "backTitle": "Yang tidak tertulis di kontrak",
@@ -50,7 +50,7 @@
       "stamp": "SANGAT BERBAHAYA",
       "fields": [
         { "k": "Profesi", "v": "{{g:koroshiya|Pembunuh bayaran}} {{tag:fact}}" },
-        { "k": "Ciri", "v": "Seragam pelaut hitam, dua pistol" },
+        { "k": "Ciri", "v": "Jaket hoodie, syal, sabuk senjata" },
         { "k": "Gaya", "v": "Membantai sambil tersenyum" },
         { "k": "Rekor", "v": "Tidak pernah gagal… sampai sekarang" },
         { "k": "Seiyū (anime)", "v": "Kana Hanazawa {{tag:fact}}" }

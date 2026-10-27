@@ -51,7 +51,7 @@
         "lines": [
           "Riang.",
           "Presisi.",
-          "Seragam pelaut hitam.",
+          "Jaket hoodie, syal, sabuk senjata.",
           "Membantai penjaga sambil tersenyum."
         ]
       }
@@ -148,8 +148,8 @@
         "kind": "opinion",
         "title": "Evolusi visual: manga 2014 vs anime 2025",
         "body": [
-          "Manga Shikaku bertumpu pada garis tinta yang kasar, blok hitam pekat, dan panel kosong yang berani. Adaptasi anime 2025 di Prime Video punya bahasa sendiri: gerak, warna, dan suara.",
-          "Ilustrasi di samping adalah tafsir kami sendiri, bukan tangkapan layar: kiri gaya arsir manga, kanan gaya blok warna datar ala animasi. Geser untuk membandingkan."
+          "Manga Shikaku bertumpu pada garis tinta yang kasar, blok hitam pekat, screentone, dan panel yang berani. Adaptasi anime 2025 di Prime Video punya bahasa sendiri: warna, cahaya, gerak, dan suara.",
+          "Kiri: halaman judul manga 2014 (Jump SQ.19). Kanan: key visual resmi anime 2025. Geser untuk membandingkan bagaimana pertemuan yang sama diterjemahkan dari tinta ke cahaya."
         ]
       }
     ],
@@ -166,7 +166,7 @@
     "signalLost": "SINYAL HILANG",
     "hijack": "SIARAN INI DIAMBIL ALIH",
     "confession": [
-      "{{s:Seorang gadis berseragam pelaut hitam menangis di depan kamera.}}",
+      "{{s:Seorang gadis berjaket hoodie menangis di depan kamera.}}",
       "{{s:Ia bilang ia gagal. Ia bilang ia tidak pantas.}}",
       "{{s:Lalu, di depan seluruh negeri, ia bilang ia mencintainya.}}"
     ],

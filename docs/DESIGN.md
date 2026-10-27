@@ -24,6 +24,12 @@ Logo & favicon sengaja memakai titik tinta, bukan merah, agar `--blood` tetap me
   lalu kembali ke `paper`. Ini bukan dark mode; ini perubahan medium dari kertas ke layar.
 - `.invert-scope`: blok tinta penuh (kuis di `/komunitas`).
 
+## Gambar resmi
+
+Gambar resmi tampil di dalam bingkai panel tinta (`border-[3px] border-ink`, bayangan offset),
+selalu dengan baris atribusi `t-label` kecil. Di dalam simulasi gambar dibuat grayscale agar
+`--blood` tetap satu-satunya warna kejutan; di siaran Babak 5 gambar ikut ditint fosfor oleh shader.
+
 ## Tipografi
 
 | Peran | Font | Kelas |

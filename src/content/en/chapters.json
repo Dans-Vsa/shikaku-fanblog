@@ -51,7 +51,7 @@
         "lines": [
           "Cheerful.",
           "Precise.",
-          "Black sailor uniform.",
+          "Hoodie, scarf, weapon belt.",
           "Mows down the guards, smiling."
         ]
       }
@@ -148,8 +148,8 @@
         "kind": "opinion",
         "title": "Visual evolution: 2014 manga vs 2025 anime",
         "body": [
-          "The Shikaku manga leans on rough ink lines, solid black blocks, and bold empty panels. The 2025 anime adaptation on Prime Video speaks its own language: motion, color, and sound.",
-          "The illustration beside this is our own interpretation, not a screenshot: left in manga hatching style, right in flat animation-style color blocks. Drag to compare."
+          "The Shikaku manga leans on rough ink lines, solid blacks, screentone, and bold panels. The 2025 anime adaptation on Prime Video speaks its own language: color, light, motion, and sound.",
+          "Left: the 2014 manga title page (Jump SQ.19). Right: the official 2025 anime key visual. Drag to compare how the same encounter is translated from ink into light."
         ]
       }
     ],
@@ -166,7 +166,7 @@
     "signalLost": "SIGNAL LOST",
     "hijack": "THIS BROADCAST HAS BEEN TAKEN OVER",
     "confession": [
-      "{{s:A girl in a black sailor uniform cries in front of the camera.}}",
+      "{{s:A girl in a hoodie cries in front of the camera.}}",
       "{{s:She says she failed. She says she has no right.}}",
       "{{s:Then, in front of the whole country, she says she loves him.}}"
     ],

@@ -4,8 +4,9 @@ import react from '@vitejs/plugin-react';
 
 // GitHub Pages menyajikan situs di /shikaku-fanblog/. Dev selalu di root.
 // Hosting lain di root domain: VITE_BASE=/ npm run build
-export default defineConfig(({ command }) => ({
-  base: command === 'build' ? (process.env.VITE_BASE ?? '/shikaku-fanblog/') : '/',
+export default defineConfig(({ command, isPreview }) => ({
+  // build & preview memakai base produksi; dev server di root
+  base: command === 'build' || isPreview ? (process.env.VITE_BASE ?? '/shikaku-fanblog/') : '/',
   plugins: [react()],
   resolve: {
     alias: { '@': fileURLToPath(new URL('./src', import.meta.url)) },

@@ -76,5 +76,6 @@ build dengan `VITE_BASE=/ npm run build`.
 ## Hak cipta
 
 Shikaku © Tatsuki Fujimoto / Shueisha. Situs ini tidak berafiliasi dengan Shueisha, VIZ
-Media, Avex Pictures, atau Amazon. Tidak ada scan panel, tangkapan layar anime, atau key
-visual yang disalin; semua ilustrasi dibuat sendiri. Dukung karya aslinya lewat jalur resmi.
+Media, Avex Pictures, atau Amazon. Gambar resmi (halaman judul manga, sampul, key visual, desain
+karakter, frame PV) dipakai untuk ulasan dan promosi dengan atribusi pemegang hak; sumbernya
+dicatat di `ASSETS.md`. Dukung karya aslinya lewat jalur resmi.

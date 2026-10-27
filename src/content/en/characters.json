@@ -4,7 +4,7 @@
   "lede": "Yugeru is filed neatly in a contract archive. Shikaku is scribbled across a wanted poster. Flip the cards to see who they are when they stop posing.",
   "intro": [
     "All of Shikaku runs on two characters who are opposites even in silhouette. One is calm, polite, and has lived far too long. The other is impulsive, childish, and lives as if there were no tomorrow. Fujimoto collides them in a single contract that can never be fulfilled.",
-    "The cards below imitate two kinds of documents: an aristocratic contract file for the {{g:kyuuketsuki|vampire}} who orders his own death, and a scribbled wanted poster for the girl who takes the job. The front is their public image. The back is the real self, which reveals part of the plot and is censored while spoiler-safe mode is on."
+    "The cards below imitate two kinds of documents: a formal contract file for the {{g:kyuuketsuki|vampire}} who orders his own death, and a scribbled wanted poster for the girl who takes the job. The front is their public image. The back is the real self, which reveals part of the plot and is censored while spoiler-safe mode is on."
   ],
   "flipHint": "Click, press Enter, or tap a card to flip it.",
   "front": "Public image",
@@ -26,7 +26,7 @@
         { "k": "Seiyū (anime)", "v": "Tomokazu Sugita {{tag:fact}}" }
       ],
       "frontBody": [
-        "A courteous noble of the night, impeccably dressed, speaking like someone who has watched far too many sunsets. He does not hire a killer out of grudge against anyone. The target is himself.",
+        "A courteous man with slicked-back silver hair, a white shirt and suspenders, speaking like someone who has watched far too many sunsets. He does not hire a killer out of grudge against anyone. The target is himself.",
         "In public he is calm and faintly bored. Each time his body is destroyed, what he regrets most is the ruined clothing."
       ],
       "backTitle": "What the contract leaves out",
@@ -50,7 +50,7 @@
       "stamp": "EXTREMELY DANGEROUS",
       "fields": [
         { "k": "Profession", "v": "{{g:koroshiya|Hitwoman}} {{tag:fact}}" },
-        { "k": "Marks", "v": "Black sailor uniform, twin pistols" },
+        { "k": "Marks", "v": "Hoodie, scarf, weapon belt" },
         { "k": "Style", "v": "Slaughters with a smile" },
         { "k": "Record", "v": "Never failed… until now" },
         { "k": "Seiyū (anime)", "v": "Kana Hanazawa {{tag:fact}}" }

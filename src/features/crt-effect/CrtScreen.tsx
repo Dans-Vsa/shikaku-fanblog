@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState, type RefObject } from 'react';
+import { faceCloseupSrc } from '@/config/images';
 import { createMorph, type KanjiParticles } from '@/features/kanji-morph/particles';
 import { usePerformance } from '@/hooks/useProviders';
 import { useReducedMotion } from '@/hooks/useReducedMotion';
@@ -59,6 +60,15 @@ export function CrtScreen({ progress, text, censored }: CrtScreenProps) {
     const broadcast = new BroadcastCanvas();
     let morph: KanjiParticles | null = null;
     void createMorph('刺客', '資格', 5).then((m) => (morph = m));
+    // close-up resmi (same-origin, aman untuk tekstur WebGL)
+    let faceImg: HTMLImageElement | null = null;
+    const face = new Image();
+    face.decoding = 'async';
+    face.src = faceCloseupSrc;
+    void face
+      .decode()
+      .then(() => (faceImg = face))
+      .catch(() => undefined);
 
     let pipeline: CrtPipeline | null = null;
     if (mode === 'gl' && glEl) {
@@ -113,7 +123,7 @@ export function CrtScreen({ progress, text, censored }: CrtScreenProps) {
         tvTheme = s.tv;
         document.documentElement.dataset.theme = tvTheme ? 'tv' : 'paper';
       }
-      broadcast.draw(s, time, tx, cz, morph);
+      broadcast.draw(s, time, tx, cz, morph, faceImg);
       if (pipeline) {
         pipeline.render({
           time,

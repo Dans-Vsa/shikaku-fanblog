@@ -10,22 +10,43 @@
   "facadeLabel": "SPECIAL PV · シカク",
   "infoTitle": "Info card",
   "info": [
-    { "k": "Anthology", "v": "Tatsuki Fujimoto 17-26 (8 episodes)" },
-    { "k": "Episode", "v": "4 · Shikaku" },
-    { "k": "Animation studio", "v": "GRAPH77" },
-    { "k": "Shikaku", "v": "Kana Hanazawa" },
-    { "k": "Yugeru", "v": "Tomokazu Sugita" },
-    { "k": "Platform", "v": "Prime Video (worldwide), from early November 2025" },
-    { "k": "Trailer", "v": "Avex Pictures released a separate trailer for each story" }
+    {
+      "k": "Anthology",
+      "v": "Tatsuki Fujimoto 17-26 (8 episodes)"
+    },
+    {
+      "k": "Episode",
+      "v": "4 · Shikaku"
+    },
+    {
+      "k": "Animation studio",
+      "v": "GRAPH77"
+    },
+    {
+      "k": "Shikaku",
+      "v": "Kana Hanazawa"
+    },
+    {
+      "k": "Yugeru",
+      "v": "Tomokazu Sugita"
+    },
+    {
+      "k": "Platform",
+      "v": "Prime Video (worldwide), from early November 2025"
+    },
+    {
+      "k": "Trailer",
+      "v": "Avex Pictures released a separate trailer for each story"
+    }
   ],
   "primeCta": "Watch on Prime Video",
   "primeJp": "Prime Video Japan",
   "officialSite": "Official anime site",
   "factsNote": "Every item on this card is labeled [FACT] and verified against the official anime site and Prime Video's announcement. Episode staff are deliberately not listed here.",
   "sliderTitle": "Manga strokes vs anime direction",
-  "sliderBody": "Drag to compare two visual interpretations we drew ourselves: the left imitates the ink, hatching, and halftone of printed manga; the right imitates the flat color blocks and soft shading of animation. This is not an anime screenshot.",
-  "sliderBefore": "MANGA STROKES",
-  "sliderAfter": "ANIME DIRECTION",
+  "sliderBody": "Drag to compare Shikaku on the 2014 manga title page (left) with her 2025 anime character design (right). The jacket, bob, and weapon belt carry over; what changes is the medium: ink and screentone become color and light.",
+  "sliderBefore": "MANGA 2014",
+  "sliderAfter": "ANIME 2025",
   "compareTitle": "What changes when the page starts to move",
   "compare": [
     {
@@ -51,5 +72,5 @@
     }
   ],
   "copyrightTitle": "Copyright note",
-  "copyright": "The trailer belongs to its rights holders and plays directly from the official YouTube upload. No clips, screenshots, or key visuals are copied to this site. All illustrations on this page are original. Shikaku © Tatsuki Fujimoto / Shueisha; anime © respective rights holders."
+  "copyright": "Official images (manga title page, key visual, character designs, PV frame) are used for review and promotion with rights-holder attribution. The trailer plays directly from the official YouTube upload; no video is downloaded. Shikaku © Tatsuki Fujimoto / Shueisha; anime © 藤本タツキ／集英社・「藤本タツキ 17-26」製作委員会."
 }

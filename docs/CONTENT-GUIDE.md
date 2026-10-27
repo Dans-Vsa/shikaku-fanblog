@@ -14,6 +14,11 @@ Setiap klaim memakai salah satu label (`Tag` / `{{tag:...}}` di JSON):
 
 ## Aturan
 
+0. **Gambar resmi boleh dipakai** (keputusan pemilik situs, 2026-10-27) sebagai cuplikan ulasan & promosi:
+   halaman judul manga, sampul, key visual, desain karakter, frame PV. Wajib atribusi
+   (`RIGHTS` di `src/config/images.ts` / `OfficialFigure`) dan sumber dicatat di `ASSETS.md`.
+   Tetap dilarang: scan bab lengkap, unduhan video, gambar dari situs bajakan.
+
 1. **Jangan menyalin dialog manga.** Semua adegan diparafrasekan dengan kata-kata sendiri.
 2. **Angka & detail yang tidak terverifikasi ditulis umum.** Contoh: "365 hari" di Babak 2
    diberi label dramatisasi dan catatan "simbolis"; jumlah percobaan pembunuhan tidak ditulis.
@@ -38,5 +43,6 @@ Setiap klaim memakai salah satu label (`Tag` / `{{tag:...}}` di JSON):
 - Shikaku: one-shot 2014, Jump SQ.19; cerita ke-4 di *17-21* (Shueisha 4 Okt 2021; VIZ 17 Jan 2023).
 - Situs resmi anime: Yugeru bosan setelah ±3.500 tahun hidup abadi; Shikaku gadis yang terkenal sebagai pembunuh bayaran.
 - Imbalan 100 juta dolar (Wikipedia).
+- Penampilan (dari halaman judul manga & desain karakter resmi): Shikaku berambut bob, jaket hoodie, syal, sabuk berkantong senjata; Yugeru berambut perak disisir ke belakang, kemeja putih, bretel. Deskripsi "seragam pelaut hitam" dan "jubah bangsawan" di brief awal **keliru** dan sudah dikoreksi.
 - Anime *Tatsuki Fujimoto 17-26*: bioskop Jepang terbatas mulai 17 Okt 2025, Prime Video global 7 Nov 2025 (8 Nov JST).
 - Trailer resmi Shikaku: `RNXHeI0Sly8` (kanal avex pictures, diverifikasi via oEmbed).

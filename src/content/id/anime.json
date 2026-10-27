@@ -10,22 +10,43 @@
   "facadeLabel": "SPECIAL PV · シカク",
   "infoTitle": "Kartu info",
   "info": [
-    { "k": "Antologi", "v": "Tatsuki Fujimoto 17-26 (8 episode)" },
-    { "k": "Episode", "v": "4 · Shikaku" },
-    { "k": "Studio animasi", "v": "GRAPH77" },
-    { "k": "Shikaku", "v": "Kana Hanazawa" },
-    { "k": "Yugeru", "v": "Tomokazu Sugita" },
-    { "k": "Platform", "v": "Prime Video (global), mulai awal November 2025" },
-    { "k": "Trailer", "v": "Avex Pictures merilis trailer terpisah untuk tiap cerita" }
+    {
+      "k": "Antologi",
+      "v": "Tatsuki Fujimoto 17-26 (8 episode)"
+    },
+    {
+      "k": "Episode",
+      "v": "4 · Shikaku"
+    },
+    {
+      "k": "Studio animasi",
+      "v": "GRAPH77"
+    },
+    {
+      "k": "Shikaku",
+      "v": "Kana Hanazawa"
+    },
+    {
+      "k": "Yugeru",
+      "v": "Tomokazu Sugita"
+    },
+    {
+      "k": "Platform",
+      "v": "Prime Video (global), mulai awal November 2025"
+    },
+    {
+      "k": "Trailer",
+      "v": "Avex Pictures merilis trailer terpisah untuk tiap cerita"
+    }
   ],
   "primeCta": "Tonton di Prime Video",
   "primeJp": "Prime Video Jepang",
   "officialSite": "Situs resmi anime",
   "factsNote": "Semua butir di kartu ini berlabel [FAKTA] dan diverifikasi dari situs resmi anime serta pengumuman Prime Video. Staf episode sengaja tidak kami cantumkan di sini.",
   "sliderTitle": "Goresan manga vs arah visual anime",
-  "sliderBody": "Geser untuk membandingkan dua tafsir visual yang kami gambar sendiri: kiri meniru tinta, arsir, dan halftone cetakan manga; kanan meniru blok warna datar dan bayangan lembut khas animasi. Ini bukan tangkapan layar anime.",
-  "sliderBefore": "GORESAN MANGA",
-  "sliderAfter": "ARAH ANIME",
+  "sliderBody": "Geser untuk membandingkan Shikaku di halaman judul manga 2014 (kiri) dengan desain karakternya di anime 2025 (kanan). Jaket, rambut bob, dan sabuk senjatanya sama; yang berubah adalah medium: tinta dan screentone menjadi warna dan cahaya.",
+  "sliderBefore": "MANGA 2014",
+  "sliderAfter": "ANIME 2025",
   "compareTitle": "Apa yang berubah saat halaman menjadi gerak",
   "compare": [
     {
@@ -51,5 +72,5 @@
     }
   ],
   "copyrightTitle": "Catatan hak cipta",
-  "copyright": "Trailer adalah milik pemegang hak dan diputar langsung dari YouTube resmi. Tidak ada cuplikan, tangkapan layar, atau key visual yang disalin ke situs ini. Semua ilustrasi di halaman ini dibuat sendiri. Shikaku © Tatsuki Fujimoto / Shueisha; anime © pemegang hak masing-masing."
+  "copyright": "Gambar resmi (halaman judul manga, key visual, desain karakter, frame PV) dipakai untuk ulasan dan promosi karya, dengan atribusi pemegang hak. Trailer diputar langsung dari YouTube resmi; tidak ada video yang diunduh. Shikaku © Tatsuki Fujimoto / Shueisha; anime © 藤本タツキ／集英社・「藤本タツキ 17-26」製作委員会."
 }

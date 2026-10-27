@@ -1,6 +1,7 @@
 import { PageHeader } from '@/components/layout/PageHeader';
 import { Paragraphs, RichText } from '@/components/ui/RichText';
-import { ShikakuFigure, YugeruFigure } from '@/assets/Silhouettes';
+import { CharaPortrait } from '@/components/ui/CharaPortrait';
+import { RIGHTS } from '@/config/images';
 import en from '@/content/en/characters.json';
 import id from '@/content/id/characters.json';
 import { Spoiler } from '@/features/spoiler-ink/Spoiler';
@@ -39,10 +40,13 @@ function ContractFront({ c }: { c: Character }) {
           {c.jp}
         </span>
       </header>
-      <div className="grid gap-6 sm:grid-cols-[150px_1fr]">
-        <div className="relative mx-auto w-[150px] border-2 border-ink bg-paper-deep p-2">
-          <YugeruFigure figureStyle="hatch" boredom={0.75} className="h-auto w-full" />
-        </div>
+      <div className="grid gap-6 sm:grid-cols-[170px_1fr]">
+        <figure className="relative mx-auto w-[170px] border-2 border-ink bg-paper-deep p-2">
+          <CharaPortrait who="yugeru" />
+          <figcaption className="t-label mt-1 text-[0.55rem] text-ink-soft">
+            {RIGHTS.anime}
+          </figcaption>
+        </figure>
         <Fields fields={c.fields} />
       </div>
       <Paragraphs items={c.frontBody} className="t-yugeru text-xl" />
@@ -63,9 +67,10 @@ function WantedFront({ c }: { c: Character }) {
         <p className="t-shikaku text-5xl tracking-widest md:text-6xl">{c.docTitle.split('·')[0]}</p>
         <p className="t-label mt-1">{c.docTitle.split('·')[1]}</p>
       </header>
-      <div className="grid gap-6 sm:grid-cols-[150px_1fr]">
-        <div className="relative mx-auto w-[150px] rotate-[-3deg] border-[3px] border-ink bg-paper p-2 shadow-[4px_4px_0_var(--ink)]">
-          <ShikakuFigure figureStyle="ink" className="h-auto w-full" />
+      <div className="grid gap-6 sm:grid-cols-[170px_1fr]">
+        <div className="relative mx-auto w-[170px] rotate-[-3deg] border-[3px] border-ink bg-paper p-2 shadow-[4px_4px_0_var(--ink)]">
+          <CharaPortrait who="shikaku" />
+          <span className="t-label mt-1 block text-[0.55rem] text-ink-soft">{RIGHTS.anime}</span>
           <span
             aria-hidden="true"
             className="absolute -top-3 left-1/2 h-5 w-16 -translate-x-1/2 rotate-2 bg-ink/20"

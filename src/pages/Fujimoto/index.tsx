@@ -13,6 +13,14 @@ import { useMediaQuery } from '@/hooks/useMediaQuery';
 import { useReducedMotion } from '@/hooks/useReducedMotion';
 import { useScrollChaos } from '@/hooks/useScrollChaos';
 import { gsap } from '@/lib/gsap-setup';
+import { covers, RIGHTS } from '@/config/images';
+
+function coverFor(e: { title: string; kind: string }) {
+  if (covers[e.title]) return covers[e.title];
+  if (e.kind === 'book') return covers['17-21'];
+  if (e.title.includes('17-26')) return covers['17-26'];
+  return undefined;
+}
 
 type Event = (typeof id.events)[number];
 
@@ -27,6 +35,17 @@ function EventCard({ e, index, kind }: { e: Event; index: number; kind: string }
       }`}
       style={{ transform: `rotate(${star ? -1.5 : index % 2 ? 0.6 : -0.4}deg)` }}
     >
+      {coverFor(e) && (
+        <img
+          src={coverFor(e)}
+          alt=""
+          width={360}
+          height={565}
+          loading="lazy"
+          decoding="async"
+          className={`h-44 w-full border-2 object-cover ${star ? 'border-paper' : 'border-ink'} ${e.title.includes('17-26') ? 'object-center' : 'object-top'}`}
+        />
+      )}
       <span className={`t-label ${star ? 'text-paper/80' : 'text-ink-soft'}`}>{kind}</span>
       <span className="text-5xl font-bold leading-none">{e.year}</span>
       <span className={`${star ? 't-shikaku text-3xl' : 'text-2xl font-bold'} leading-tight`}>
@@ -83,8 +102,9 @@ export default function Fujimoto() {
       <PageHeader kicker={c.kicker} title={c.title} jp="藤本" lede={c.lede} />
       <section className="container-ink pb-10">
         <Paragraphs items={c.intro} className="max-w-prose text-lg" />
-        <div className="mt-4 flex items-center gap-2">
+        <div className="mt-4 flex flex-wrap items-center gap-2">
           <Tag kind="fact" />
+          <p className="t-label text-[0.6rem] text-ink-soft">{RIGHTS.manga}</p>
           {horizontal && <p className="t-label text-ink-soft">{c.hint}</p>}
         </div>
       </section>

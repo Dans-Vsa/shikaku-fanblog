@@ -123,23 +123,3 @@ export function EmptyChairIllustration({ className = '' }: { className?: string 
     </svg>
   );
 }
-
-/** Sosok terbakar (tafsir bebas tokoh beregenerasi di Fire Punch) — siluet tinta + lidah api. */
-export function BurningFigure({ className = '' }: { className?: string }) {
-  return (
-    <svg viewBox="0 0 200 400" className={className} role="img" aria-hidden="true">
-      <g fill="var(--ink)">
-        <circle cx="100" cy="78" r="30" />
-        <path d="M70 112 C60 160 62 230 70 300 L84 392 L98 392 L100 300 L102 392 L116 392 L130 300 C138 230 140 160 130 112 Z" />
-        <path d="M70 120 L34 220 L46 224 L80 150 Z M130 120 L166 220 L154 224 L120 150 Z" />
-      </g>
-      <g fill="var(--paper)" stroke="var(--ink)" strokeWidth="3" strokeLinejoin="round">
-        <path d="M100 6 C112 30 96 36 118 54 C130 30 140 46 134 70 C150 60 150 84 140 98 C126 92 112 104 100 96 C86 104 72 92 60 98 C50 84 52 60 66 70 C60 46 74 30 82 54 C102 36 88 30 100 6 Z" />
-        <path d="M40 200 C30 186 40 176 34 160 C50 170 56 186 52 204 Z" />
-        <path d="M160 200 C170 186 160 176 166 160 C150 170 144 186 148 204 Z" />
-        <path d="M86 250 C78 230 90 222 86 204 C102 218 104 236 100 254 Z" />
-        <path d="M114 300 C108 284 118 276 114 262 C128 274 128 290 124 304 Z" />
-      </g>
-    </svg>
-  );
-}

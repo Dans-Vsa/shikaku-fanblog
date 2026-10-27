@@ -7,6 +7,8 @@ import { ArrowIcon } from '@/components/ui/icons';
 import { Paragraphs } from '@/components/ui/RichText';
 import en from '@/content/en/landing.json';
 import id from '@/content/id/landing.json';
+import { covers, images, RIGHTS } from '@/config/images';
+import { OfficialFigure } from '@/components/ui/OfficialFigure';
 import { ExecutionSim } from '@/features/execution-sim/ExecutionSim';
 import { TransitionLink } from '@/features/page-transition/TransitionLink';
 import { transitionStore } from '@/features/page-transition/transition-store';
@@ -129,9 +131,18 @@ export default function Landing() {
         </div>
       </section>
 
-      <section className="container-ink grid gap-10 py-16 lg:grid-cols-[1fr_1.2fr]">
-        <h2 className="text-[clamp(2rem,4vw,3.4rem)]">{c.whyTitle}</h2>
-        <Paragraphs items={c.why} className="max-w-prose text-xl" />
+      <section className="container-ink grid items-center gap-10 py-16 lg:grid-cols-[1.2fr_1fr]">
+        <div className="flex flex-col gap-8">
+          <h2 className="text-[clamp(2rem,4vw,3.4rem)]">{c.whyTitle}</h2>
+          <Paragraphs items={c.why} className="max-w-prose text-xl" />
+        </div>
+        <OfficialFigure
+          image={images.mangaTitle}
+          className="mx-auto w-full max-w-sm rotate-[1.5deg]"
+          imgClassName="border-[3px] border-ink shadow-[8px_8px_0_var(--ink)]"
+          caption="シカク · Jump SQ.19 · 2014"
+          sizes="(min-width: 1024px) 380px, 90vw"
+        />
       </section>
 
       <section className="container-ink grid gap-6 md:grid-cols-3">
@@ -142,6 +153,15 @@ export default function Landing() {
               data-cursor="card"
               className="group flex h-full flex-col gap-3 p-6"
             >
+              <img
+                src={[images.animeKv.small, images.animePv.small, covers['17-21']][i]}
+                alt=""
+                width={640}
+                height={360}
+                loading="lazy"
+                decoding="async"
+                className="aspect-[16/10] w-full border-2 border-ink object-cover object-top transition-transform duration-500 ease-out group-hover:scale-[1.02]"
+              />
               <span
                 lang="ja"
                 className="jp text-7xl leading-none transition-transform duration-500 ease-snap group-hover:-rotate-6 group-hover:scale-110"
@@ -156,6 +176,10 @@ export default function Landing() {
           </PanelFrame>
         ))}
       </section>
+
+      <p className="container-ink t-label mt-3 text-[0.6rem] text-ink-soft">
+        {RIGHTS.manga} · {RIGHTS.anime}
+      </p>
 
       <section className="container-ink mt-16 flex flex-col items-start gap-4 border-t-[3px] border-ink pt-10 md:flex-row md:items-center md:justify-between">
         <p className="max-w-xl text-lg">{c.legal}</p>

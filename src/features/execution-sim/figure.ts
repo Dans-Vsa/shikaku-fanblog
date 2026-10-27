@@ -29,6 +29,39 @@ export interface FigureSprite {
   h: number;
 }
 
+/**
+ * Sprite dari desain karakter resmi Yugeru (PNG transparan 3:4). Dipotong ke kotak 1:2
+ * di tengah (sosok berada di ~30-70% lebar), lalu dibuat grayscale agar menyatu dengan
+ * estetika tinta. Pemotongan tubuh (tebas/ledak) bekerja sama seperti sprite gambar.
+ */
+export function renderYugeruFromImage(
+  img: HTMLImageElement,
+  heightPx: number,
+  dpr: number,
+): FigureSprite {
+  const h = heightPx;
+  const w = h / 2;
+  const c = document.createElement('canvas');
+  c.width = Math.max(1, Math.round(w * dpr));
+  c.height = Math.max(1, Math.round(h * dpr));
+  const ctx = c.getContext('2d')!;
+  const srcH = img.height * 0.97;
+  const srcW = srcH / 2;
+  ctx.filter = 'grayscale(1) contrast(1.15)';
+  ctx.drawImage(
+    img,
+    (img.width - srcW) / 2,
+    img.height * 0.02,
+    srcW,
+    srcH,
+    0,
+    0,
+    c.width,
+    c.height,
+  );
+  return { canvas: c, w, h };
+}
+
 export function renderYugeru(
   heightPx: number,
   dpr: number,

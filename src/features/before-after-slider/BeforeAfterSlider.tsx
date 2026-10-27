@@ -9,6 +9,8 @@ interface BeforeAfterSliderProps {
   label: string;
   initial?: number;
   className?: string;
+  /** atribusi hak cipta untuk gambar resmi */
+  credit?: string;
 }
 
 /**
@@ -23,6 +25,7 @@ export function BeforeAfterSlider({
   label,
   initial = 0.5,
   className = '',
+  credit,
 }: BeforeAfterSliderProps) {
   const [v, setV] = useState(initial);
   const box = useRef<HTMLDivElement>(null);
@@ -43,7 +46,7 @@ export function BeforeAfterSlider({
     e.preventDefault();
   };
 
-  return (
+  const slider = (
     <div
       ref={box}
       className={`relative select-none overflow-hidden border-[3px] border-ink touch-none ${className}`}
@@ -91,5 +94,12 @@ export function BeforeAfterSlider({
         </div>
       </div>
     </div>
+  );
+  if (!credit) return slider;
+  return (
+    <figure className="flex flex-col gap-2">
+      {slider}
+      <figcaption className="t-label text-[0.6rem] text-ink-soft">{credit}</figcaption>
+    </figure>
   );
 }

@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { ShikakuFigure } from '@/assets/Silhouettes';
+import { images } from '@/config/images';
 import { PlayIcon } from '@/components/ui/icons';
 import { media } from '@/config/media';
 
@@ -10,8 +10,8 @@ interface TrailerEmbedProps {
 }
 
 /**
- * Embed trailer resmi dengan facade. Sebelum diklik: poster TV buatan sendiri
- * (tanpa thumbnail resmi, tanpa request ke YouTube). Setelah diklik: iframe
+ * Embed trailer resmi dengan facade. Sebelum diklik: frame resmi PV (di-host sendiri,
+ * tanpa request ke YouTube). Setelah diklik: iframe
  * youtube-nocookie dengan autoplay. Nol biaya performa sampai pengguna memilih.
  */
 export function TrailerEmbed({ playLabel, facadeLabel, title }: TrailerEmbedProps) {
@@ -41,24 +41,22 @@ export function TrailerEmbed({ playLabel, facadeLabel, title }: TrailerEmbedProp
       data-cursor="link"
       className="group relative block aspect-video w-full overflow-hidden border-[3px] border-ink bg-ink text-paper"
     >
-      {/* poster TV buatan sendiri */}
-      <span
-        className="absolute inset-0 opacity-30 [background:repeating-linear-gradient(0deg,rgb(255_255_255/0.12)_0_1px,transparent_1px_4px)]"
-        aria-hidden="true"
+      {/* poster = frame resmi Special PV (thumbnail YouTube avex pictures) */}
+      <img
+        src={images.animePv.src}
+        srcSet={`${images.animePv.small} 640w, ${images.animePv.src} 1280w`}
+        sizes="(min-width: 1024px) 60vw, 95vw"
+        width={1280}
+        height={720}
+        alt=""
+        loading="lazy"
+        decoding="async"
+        className="absolute inset-0 h-full w-full object-cover opacity-90 transition-transform duration-700 ease-out group-hover:scale-[1.03]"
       />
       <span
-        className="absolute bottom-0 right-[8%] h-[92%] w-auto opacity-90 transition-transform duration-700 ease-out group-hover:scale-105"
+        className="absolute inset-0 opacity-30 [background:repeating-linear-gradient(0deg,rgb(0_0_0/0.25)_0_1px,transparent_1px_4px)]"
         aria-hidden="true"
-      >
-        <ShikakuFigure figureStyle="ink" className="h-full w-auto [filter:invert(1)]" />
-      </span>
-      <span
-        lang="ja"
-        className="jp absolute left-[6%] top-[10%] text-[clamp(3rem,10vw,7rem)] leading-none"
-        aria-hidden="true"
-      >
-        シカク
-      </span>
+      />
       <span className="t-label absolute bottom-[10%] left-[6%] border-2 border-paper px-2 py-1">
         {facadeLabel}
       </span>

@@ -9,6 +9,7 @@ import id from '@/content/id/production.json';
 import { useDocumentTitle } from '@/hooks/useDocumentTitle';
 import { useLocalized } from '@/hooks/useLocalized';
 import { useScrollChaos } from '@/hooks/useScrollChaos';
+import { covers, images, RIGHTS } from '@/config/images';
 import { WikiNav } from './WikiNav';
 
 export default function Production() {
@@ -25,6 +26,29 @@ export default function Production() {
           <div className="mb-4 flex items-center justify-between">
             <h2 className="text-3xl">{c.factsTitle}</h2>
             <Tag kind="fact" />
+          </div>
+          <div className="mb-5 grid grid-cols-2 gap-3">
+            <img
+              src={covers['17-21']}
+              width={360}
+              height={565}
+              alt="Tatsuki Fujimoto Before Chainsaw Man 17-21"
+              loading="lazy"
+              decoding="async"
+              className="h-auto w-full border-2 border-ink"
+            />
+            <img
+              src={images.animeKv.small}
+              width={600}
+              height={844}
+              alt={images.animeKv.alt.en}
+              loading="lazy"
+              decoding="async"
+              className="h-full w-full border-2 border-ink object-cover"
+            />
+            <p className="t-label col-span-2 text-[0.6rem] text-ink-soft">
+              {RIGHTS.manga} · {RIGHTS.anime}
+            </p>
           </div>
           <dl className="grid gap-3">
             {c.facts.map((f) => (

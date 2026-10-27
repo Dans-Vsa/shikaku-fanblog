@@ -47,6 +47,8 @@ export class BroadcastCanvas {
     text: BroadcastText,
     censored: boolean,
     morph: KanjiParticles | null,
+    /** close-up resmi Shikaku dari Special PV; null = gambar wajah cadangan */
+    faceImg: HTMLImageElement | null = null,
   ) {
     const { ctx, W, H } = this;
     // unit relatif; layar potret (HP) diberi skala lebih besar agar teks tetap terbaca
@@ -72,7 +74,9 @@ export class BroadcastCanvas {
     }
 
     // Wajah Shikaku + pengakuan
-    if (s.face > 0.001) {
+    if (s.face > 0.001 && faceImg) {
+      this.faceImage(faceImg, s.face, time, s.confession);
+    } else if (s.face > 0.001) {
       this.face(W / 2, H * 0.33, Math.min(u * 12, W * 0.32, H * 0.17), s.face, time, s.confession);
     }
     if (s.confession > 0 && s.face > 0.05) {
@@ -158,6 +162,41 @@ export class BroadcastCanvas {
       ctx.fillText(text.channel, W - u * 5, u * 6);
       ctx.textAlign = 'center';
     }
+  }
+
+  /** Frame PV resmi sebagai siaran: cover-fit di bagian atas layar, getar kecil saat terisak. */
+  private faceImage(img: HTMLImageElement, alpha: number, time: number, sob: number) {
+    const { ctx, W, H } = this;
+    const boxH = H * 0.62;
+    const boxW = Math.min(W * 0.92, boxH * (img.width / img.height));
+    const scale = Math.max(boxW / img.width, boxH / img.height);
+    const sw = boxW / scale;
+    const sh = boxH / scale;
+    const shake = Math.sin(time * 9) * H * 0.002 * (0.4 + sob);
+    ctx.save();
+    // sedikit diredam agar bloom shader tidak membuat wajah terlalu terang
+    ctx.globalAlpha = alpha * 0.85;
+    ctx.filter = 'brightness(0.82) contrast(1.1)';
+    ctx.drawImage(
+      img,
+      (img.width - sw) / 2,
+      (img.height - sh) / 2,
+      sw,
+      sh,
+      (W - boxW) / 2 + shake,
+      H * 0.04,
+      boxW,
+      boxH,
+    );
+    // tepi memudar ke latar agar menyatu dengan siaran
+    const g = ctx.createLinearGradient(0, H * 0.04 + boxH * 0.7, 0, H * 0.04 + boxH);
+    g.addColorStop(0, 'rgba(5,10,8,0)');
+    g.addColorStop(1, 'rgba(5,10,8,1)');
+    ctx.filter = 'none';
+    ctx.globalAlpha = alpha;
+    ctx.fillStyle = g;
+    ctx.fillRect((W - boxW) / 2 - 2, H * 0.04 + boxH * 0.7, boxW + 4, boxH * 0.3 + 1);
+    ctx.restore();
   }
 
   private label(
